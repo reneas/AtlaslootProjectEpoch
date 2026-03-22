@@ -80,283 +80,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 ---- Dragons of Nightmare
 ---- Azuregos
 
-	------------------------
-	--- Dungeons & Raids ---
-	------------------------
-
-		---------------------
-		--- Onyxia's Lair ---
-		---------------------
-
-	AtlasLoot_Data["Onyxia_1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
-		{ 2, 61794, "", "=q4=Ashen Belt of Might", "=ds=#s10#, #a4#", "", ""};
-		{ 3, 61657, "", "=q4=Ashen Bracers of Might", "=ds=#s8#, #a4#", "", ""};
-		{ 5, 61796, "", "=q4=Ashen Giantstalker's Belt", "=ds=#s10#, #a3#", "", ""};
-		{ 6, 61659, "", "=q4=Ashen Giantstalker's Bracers", "=ds=#s8#, #a3#", "", ""};
-		{ 8, 61795, "", "=q4=Ashen Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
-		{ 9, 61658, "", "=q4=Ashen Earthfury Bracers", "=ds=#s8#, #a3#", "", ""};
-		{ 11, 61797, "", "=q4=Ashen Nightslayer Belt", "=ds=#s10#, #a2#", "", ""};
-		{ 12, 61660, "", "=q4=Ashen Nightslayer Bracelets", "=ds=#s8#, #a2#", "", ""};
-		{ 17, 61802, "", "=q4=Cuffs of Malevolence", "=ds=#s8#, #a1#", "", ""};
-		{ 18, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
-		{ 19, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
-		{ 20, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
-		{ 21, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
-		{ 22, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
-		{ 23, 61806, "", "=q4=Dragon Slayer's Sword", "=ds=#h2# #w10#", "", "" };
-		Next = "Onyxia_2";
-	};
-
-	AtlasLoot_Data["Onyxia_2"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
-		{ 2, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
-		{ 3, 61746, "", "=q4=Scorched Earthfury Bracers", "=ds=#s8#, #a3#", "", ""};
-		{ 5, 61832, "", "=q4=Scorched Cenarion Belt", "=ds=#s10#, #a2#", "", ""};
-		{ 6, 61745, "", "=q4=Scorched Cenarion Bracers", "=ds=#s8#, #a2#", "", ""};
-		{ 8, 61831, "", "=q4=Scorched Arcanist Belt", "=ds=#s10#, #a1#", "", ""};
-		{ 9, 61744, "", "=q4=Scorched Arcanist Bindings", "=ds=#s8#, #a1#", "", ""};
-		{ 11, 61834, "", "=q4=Scorched Felheart Belt", "=ds=#s10#, #a1#", "", ""};
-		{ 12, 61747, "", "=q4=Scorched Felheart Bracers", "=ds=#s8#, #a1#", "", ""};
-		{ 17, 61830, "", "=q4=Sapphiron Drape", "=ds=#s4#", "", ""};
-		{ 18, 61838, "", "=q4=Woven Shadowthread Chemise", "=ds=#s5#, #a1#", "", ""};
-		{ 19, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
-		{ 20, 61798, "", "=q4=Boots of Contempt", "=ds=#s12#, #a1#", "", ""};
-		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "=ds=#s14#", "" };
-		{ 22, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
-		{ 23, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
-		Prev = "Onyxia_1";
-		Next = "Onyxia_3";
-	};
-
-	AtlasLoot_Data["Onyxia_3"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Onyxia"], ""};
-		{ 2, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#", "", "" };
-		{ 3, 61807, "", "=q4=Dragon's Blood Cape", "=ds=#s4#", "", ""};
-		{ 4, 61835, "", "=q4=Shroud of the Cloaked Mists", "=ds=#s4#", "", ""};
-		{ 5, 61810, "", "=q4=Fury of the Black Flight", "=ds=#s14#", "", ""};
-		{ 6, 61805, "", "=q4=Draconic Focusing Leystone", "=ds=#s14#", "", ""};
-		{ 7, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "" };
-		{ 8, 90505, "", "=q4=Broodmother's Eye", "=ds=#s14#", "" };
-		{ 9, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{ 10, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
-		{ 11, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
-		{ 13, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
-		{ 14, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
-		{ 17, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
-		{ 18, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
-		{ 20, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
-		{ 21, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
-		{ 22, 61786, "", "=q4=Helm of the Glorious Hero", "=ds=#c5#,=ds=#c7#,=ds=#c3#", "", ""};
-		{ 24, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#e1#", "" };
-		{ 26, 17969, "", "=q2=Red Sack of Gems", "", "" };
-		{ 27, 17964, "", "=q2=Gray Sack of Gems", "", "" };
-		{ 28, 17962, "", "=q2=Blue Sack of Gems", "", "" };
-		{ 29, 17963, "", "=q2=Green Sack of Gems", "", "" };
-		{ 30, 17965, "", "=q2=Yellow Sack of Gems", "", "" };
-		Prev = "Onyxia_2";
-	};
-
-		----------------------
-		--- Abandoned Loot ---
-		----------------------
-
-	AtlasLoot_Data["Abandoned1"] = {
-		{ 1, 61646, "", "=q4=Amberseal Keeper", "", "", ""};
-		{ 2, 61647, "", "=q4=Blacklight Bracer", "", "", ""};
-		{ 3, 61648, "", "=q4=Blazefury Medallion", "", "", ""};
-		{ 4, 61649, "", "=q4=Doomhide Gauntlets", "", "", ""};
-		{ 5, 61650, "", "=q4=Empyrean Demolisher", "", "", ""};
-		{ 6, 61651, "", "=q4=Fel Infused Leggings", "", "", ""};
-		{ 7, 61652, "", "=q4=Flayed Doomguard Belt", "", "", ""};
-		{ 8, 61653, "", "=q4=Infernal Headcage", "", "", ""};
-		{ 9, 61654, "", "=q4=Ring of Entropy", "", "", ""};
-		{ 10, 61656, "", "=q4=Anti-Thermolytic Carcanet", "", "", ""};
-		{ 11, 61665, "", "=q4=Basalt-Etched Blade", "", "", ""};
-		{ 12, 61667, "", "=q4=Bluntmaster's Handguards", "", "", ""};
-		{ 13, 61670, "", "=q4=Campfire Roaster", "", "", ""};
-		{ 14, 61671, "", "=q4=Carapace of the Bonfire Elemental", "", "", ""};
-		{ 15, 61673, "", "=q4=Charcoal Velvet Choker", "", "", ""};
-		{ 16, 61680, "", "=q4=Chitinous Wurmskin Gloves", "", "", ""};
-		{ 17, 61693, "", "=q4=Exoskeletal Wurmskin Gloves", "", "", ""};
-		{ 18, 61697, "", "=q4=Flame-Tempered Throwing Stars", "", "", ""};
-		{ 19, 61698, "", "=q4=Flame-Threaded Cloak", "", "", ""};
-		{ 20, 61702, "", "=q4=Glowing Feldspar Band", "", "", ""};
-		{ 21, 61707, "", "=q4=Incantation of the Twilight Gods", "", "", ""};
-		{ 22, 61708, "", "=q4=Jar of Engergetic Magma", "", "", ""};
-		{ 23, 61709, "", "=q4=Kilt of Continuous Growth", "", "", ""};
-		{ 24, 61710, "", "=q4=Lothos's Lost Glovelettes", "", "", ""};
-		{ 25, 61711, "", "=q4=Lothos's Lost Pendant", "", "", ""};
-		{ 26, 61712, "", "=q4=Magma-Proof Mittens", "", "", ""};
-		{ 27, 61714, "", "=q4=Magmaw's Spine", "", "", ""};
-		{ 28, 61715, "", "=q4=Makeshift Gastrolith Pendant", "", "", ""};
-		{ 29, 61716, "", "=q4=Malistar's Defender", "", "", ""};
-		{ 30, 61717, "", "=q4=Malistar's Mallet", "", "", ""};
-		Next = "Abandoned2";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned2"] = {
-		{ 1, 61718, "", "=q4=Mana-Erupting Gloves", "", "", ""};
-		{ 2, 61721, "", "=q4=Marshmallow Scepter", "", "", ""};
-		{ 3, 61726, "", "=q4=Pet Rock", "", "", ""};
-		{ 4, 61727, "", "=q4=Plasma Infused Handgrips", "", "", ""};
-		{ 5, 61728, "", "=q4=Pyroclastic Crown", "", "", ""};
-		{ 6, 61730, "", "=q4=Radiant Wurmskin Gloves", "", "", ""};
-		{ 7, 61731, "", "=q4=Ramsay's Portable Grill", "", "", ""};
-		{ 8, 61736, "", "=q4=Recipe: Malistar's Revenge", "", "", ""};
-		{ 9, 61738, "", "=q4=Risen Phoenix", "", "", ""};
-		{ 10, 61743, "", "=q3=Shematic: Purple Smoke Flare", "", "", ""};
-		{ 11, 61749, "", "=q4=Sigil of the Ash Zealot", "", "", ""};
-		{ 12, 61758, "", "=q4=Smoldering Spadroon", "", "", ""};
-		{ 13, 61763, "", "=q4=Supple Wurmskin Gloves", "", "", ""};
-		{ 14, 61764, "", "=q4=Symbiotic Worm", "", "", ""};
-		{ 15, 61766, "", "=q4=Thaurissans's Woe", "", "", ""};
-		{ 16, 61767, "", "=q4=The Ring of Fire", "", "", ""};
-		{ 17, 61768, "", "=q4=Twilight Occultist's Pike", "", "", ""};
-		{ 18, 61769, "", "=q4=Vestments of the Holy Flame", "", "", ""};
-		{ 19, 61773, "", "=q4=Wurmtooth Halberd", "", "", ""};
-		{ 21, 61775, "", "=q4=Pauldrons of the Glorious Champion", "", "", ""};
-		{ 22, 61776, "", "=q4=Chestguard of the Glorious Champion", "", "", ""};
-		{ 23, 61777, "", "=q4=Leggings of the Glorious Champion", "", "", ""};
-		{ 24, 61778, "", "=q4=Gloves of the Glorious Champion", "", "", ""};
-		{ 25, 61779, "", "=q4=Sabatons of the Glorious Champion", "", "", ""};
-		{ 27, 61781, "", "=q4=Pauldrons of the Glorious Defender", "", "", ""};
-		{ 28, 61782, "", "=q4=Chestguard of the Glorious Defender", "", "", ""};
-		{ 29, 61783, "", "=q4=Leggings of the Glorious Defender", "", "", ""};
-		{ 30, 61784, "", "=q4=Gloves of the Glorious Defender", "", "", ""};
-		Next = "Abandoned3";
-		Prev = "Abandoned1";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned3"] = {
-		{ 1, 61785, "", "=q4=Sabatons of the Glorious Defender", "", "", ""};
-		{ 3, 61787, "", "=q4=Pauldrons of the Glorious Hero", "", "", ""};
-		{ 4, 61788, "", "=q4=Chestguard of the Glorious Hero", "", "", ""};
-		{ 5, 61789, "", "=q4=Leggings of the Glorious Hero", "", "", ""};
-		{ 6, 61790, "", "=q4=Gloves of the Glorious Hero", "", "", ""};
-		{ 7, 61791, "", "=q4=Sabatons of the Glorious Hero", "", "", ""};
-		{ 8, 61792, "", "=q4=Adopted Whelp", "", "", ""};
-		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
-		{ 24, 61812, "", "=q4=Idol of Starlight", "", "", ""};
-		{ 25, 61813, "", "=q4=Libram of Consecrated Ground", "", "", ""};
-		{ 26, 61815, "", "=q3=Pattern: Onyxia Scale Breastplate", "", "", ""};
-		{ 27, 61814, "", "=q4=Onyxia Scale Breastplate", "", "", ""};
-		{ 28, 61817, "", "=q3=Pattern: Onyxia Scale Hood", "", "", ""};
-		{ 29, 61816, "", "=q4=Onyxia Scale Hood", "", "", ""};
-		{ 30, 61819, "", "=q3=Pattern: Onyxia Scale Leggings", "", "", ""};
-		Next = "Abandoned4";
-		Prev = "Abandoned2";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned4"] = {
-		{ 1, 61818, "", "=q4=Onyxia Scale Leggings", "", "", ""};
-		{ 2, 61821, "", "=q3=Pattern: Onyxia Scale Shield", "", "", ""};
-		{ 3, 61820, "", "=q4=Onyxia Scale Shield", "", "", ""};
-		{ 4, 61823, "", "=q3=Pattern: Red Dragooonscale Shoulders", "", "", ""};
-		{ 5, 61822, "", "=q3=Red Dragooonscale Shoulders", "", "", ""};
-		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
-		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
-		{ 11, 61829, "", "=q4=Ring of Binding", "", "", ""};
-		{ 14, 61836, "", "=q4=Totem of Draconic Might", "", "", ""};
-		{ 17, 61839, "", "=q1=Black Dragonscale Protector", "", "", ""};
-		{ 18, 61840, "", "=q1=Blue Dragonscale Protector", "", "", ""};
-		{ 19, 61841, "", "=q1=Bronze Dragonscale Protector", "", "", ""};
-		{ 20, 61842, "", "=q1=Green Dragonscale Protector", "", "", ""};
-		{ 21, 61843, "", "=q1=Lordaeron Blue Shield", "", "", ""};
-		{ 22, 61844, "", "=q1=Lordaeron Blue-Gold Shield", "", "", ""};
-		{ 23, 61845, "", "=q1=Lordaeron Gold Shield", "", "", ""};
-		{ 24, 61846, "", "=q1=Lordaeron  Stormy Shield", "", "", ""};
-		Next = "Abandoned5";
-		Prev = "Abandoned3";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned5"] = {
-		{ 1, 61720, "", "=q4=Manastorm Leggings", "=ds=#s11#, #a1#", "", "1.93%"};
-		{ 2, 61739, "", "=q4=Robe of Volatile Power", "=ds=#s5#, #a1#", "", "1.84%"};
-		{ 3, 61771, "", "=q4=Wristguards of Stability", "=ds=#s8#, #a2#", "", "1.95%"};
-		{ 4, 61681, "", "=q4=Choker of Enlightenment", "=ds=#s2#", "", "12.61%"};
-		{ 5, 61704, "", "=q4=Heavy Dark Iron Ring", "=ds=#s13#", "", "2.04%"};
-		{ 6, 61686, "", "=q4=Crimson Shocker", "=ds=#w12#", "", "1.60%"};
-		{ 7, 61655, "", "=q4=Aged Core Leather Gloves", "=ds=#s9#, #a2#", "", "6.18%"};
-		{ 8, 61722, "", "=q4=Medallion of Steadfast Might", "=ds=#s2#", "", "14.05%"};
-		{ 9, 61723, "", "=q4=Obsidian Edged Blade", "=ds=#h2#, #w10#", "", "5.68%"};
-		{ 10, 61691, "", "=q4=Earthshaker", "=ds=#h2#, #w6#", "", "16.75%"};
-		{ 11, 61762, "", "=q4=Striker's Mark", "=ds=#w2#", "", "16.37%"};
-		{ 12, 61741, "", "=q4=Salamander Scale Pants", "=ds=#s11#, #a2#", "", "3.57%"};
-		{ 13, 61737, "", "=q4=Ring of Spell Power", "=ds=#s13#", "", "3.78%"};
-		{ 14, 61699, "", "=q4=Flameguard Gauntlets", "=ds=#s9#, #a4#", "", "3.84%"};
-		{ 15, 61694, "", "=q4=Fire Runed Grimoire", "=ds=#s15#", "", "3.69%"};
-		{ 16, 61703, "", "=q4=Gutgore Ripper", "=ds=#h1#, #w4#", "", "11.21%"};
-		{ 17, 61669, "", "=q4=Brutality Blade", "=ds=#h1#, #w10#", "", "13.27%"};
-		{ 18, 61661, "", "=q4=Aurastone Hammer", "=ds=#h3#, #w6#", "", "12.67%"};
-		{ 19, 61690, "", "=q4=Drillborer Disk", "=ds=#w8#", "", "11.85%"};
-		{ 20, 61700, "", "=q4=Flamewaker Legplates", "=ds=#s11#, #a4#", "", "2.22%"};
-		{ 21, 61740, "", "=q4=Sabatons of the Flamewalker", "=ds=#s12#, #a3#", "", "1.00%"};
-		{ 22, 61748, "", "=q4=Seal of the Archmagus", "=ds=#s13#", "", "21.93%"};
-		{ 23, 61719, "", "=q4=Mana Igniting Cord", "=ds=#s10#, #a1#", "", "2.18%"};
-		{ 24, 61689, "", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a3#", "", "1.20%"};
-		{ 25, 61713, "", "=q4=Magma Tempered Boots", "=ds=#s12#, #a4#", "", "1.69%"};
-		{ 26, 61729, "", "=q4=Quick Strike Ring", "=ds=#s13#", "", "2.26%"};
-		{ 27, 61765, "", "=q4=Talisman of Ephemeral Power", "=ds=#s14#", "", "2.91%"};
-		{ 28, 61662, "", "=q4=Azuresong Mageblade", "=ds=#h3#, #w10#", "", "17.59%"};
-		{ 29, 61761, "", "=q4=Staff of Dominance", "=ds=#w9#", "", "18.95%"};
-		{ 30, 61666, "", "=q4=Blastershot Launcher", "=ds=#w5#", "", "17.83%"};
-		Next = "Abandoned6";
-		Prev = "Abandoned4";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned6"] = {
-		{ 1, 61705, "", "=q4=Helm of the Lifegiver", "=ds=#s1#, #a3#", "", "1.26%"};
-		{ 2, 61759, "", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "", "2.53%"};
-		{ 3, 61696, "", "=q4=Fireproof Cloak", "=ds=#s4#", "", "15.12%"};
-		{ 4, 61701, "", "=q4=Gloves of the Hypnotic Flame", "=ds=#s9#, #a1#", "", "15.36%"};
-		{ 5, 61742, "", "=q4=Sash of Whispered Secrets", "=ds=#s10#, #a1#", "", "15.93%"};
-		{ 6, 61695, "", "=q4=Fireguard Shoulders", "=ds=#s3#, #a2#", "", "15.87%"};
-		{ 7, 61770, "", "=q4=Wild Growth Spaulders", "=ds=#s3#, #a2#", "", "16.91%"};
-		{ 8, 61772, "", "=q4=Wristguards of True Flight", "=ds=#s8#, #a3#", "", "18.04%"};
-		{ 9, 61684, "", "=q4=Core Forged Greaves", "=ds=#s12#, #a4#", "", "16.53%"};
-		{ 10, 61672, "", "=q4=Cauterizing Band", "=ds=#s13#", "", "15.10%"};
-		{ 11, 61685, "", "=q4=Core Hound Tooth", "=ds=#h1#, #w4#", "", "16.06%"};
-		{ 12, 61706, "", "=q4=Hyperthermically Insulated Lava Dredger", "=ds=#h2#, #w6#", "", "12.43%"};
-		{ 13, 61683, "", "=q4=Cloak of the Shrouded Mists", "=ds=#s4#", "", "14.31%"};
-		{ 14, 61687, "", "=q4=Crown of Destruction", "=ds=#s1#, #a3#", "", "16.75%"};
-		{ 15, 61724, "", "=q4=Onslaught Girdle", "=ds=#s10#, #a4#", "", "13.18%"};
-		{ 16, 61682, "", "=q4=Choker of the Fire Lord", "=ds=#s2#", "", "16.08%"};
-		{ 17, 61664, "", "=q4=Band of Sulfuras", "=ds=#s13#", "", "15.64%"};
-		{ 18, 61663, "", "=q4=Band of Accuria", "=ds=#s13#", "", "14.81%"};
-		{ 19, 61692, "", "=q4=Essence of the Pure Flame", "=ds=#s14#", "", "17.80%"};
-		{ 20, 61725, "", "=q4=Perdition's Blade", "=ds=#h1#, #w4#", "", "15.90%"};
-		{ 21, 61668, "", "=q4=Bonereaver's Edge", "=ds=#h2#, #w10#", "", "5.12%"};
-		{ 22, 61760, "", "=q4=Spinal Reaper", "=ds=#h2#, #w1#", "", " 4.63%"};
-		Next = "Abandoned7";
-		Prev = "Abandoned5";
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["Abandoned7"] = {
-		{ 1, 61676, "", "=q4=Charred Cenarion Belt", "=q1=#m1# =ds=#c1#", "", "0.16%"};
-		{ 2, 61674, "", "=q4=Charred Belt of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
-		{ 3, 61678, "", "=q4=Charred Lawbringer Belt", "=q1=#m1# =ds=#c4#", "", "0.10%"};
-		{ 4, 61677, "", "=q4=Charred Cenarion Bracers", "=q1=#m1# =ds=#c1#", "", "0.17%"};
-		{ 5, 61675, "", "=q4=Charred Bracers of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
-		{ 6, 61679, "", "=q4=Charred Lawbringer Bracers", "=q1=#m1# =ds=#c4#", "", "0.11%"};
-		{ 7, 61750, "", "=q4=Smoky Cenarion Belt", "=q1=#m1# =ds=#c1#", "", "0.16%"};
-		{ 8, 61751, "", "=q4=Smoky Cenarion Bracers", "=q1=#m1# =ds=#c1#", "", "0.17%"};
-		{ 9, 61752, "", "=q4=Smoky Earthfury Belt", "=q1=#m1# =ds=#c7#", "", "0.07%"};
-		{ 10, 61753, "", "=q4=Smoky Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
-		{ 11, 61754, "", "=q4=Smoky Girdle of Prophecy", "=q1=#m1# =ds=#c5#", "", "0.18%"};
-		{ 12, 61755, "", "=q4=Smoky Lawbringer Belt", "=q1=#m1# =ds=#c4#", "", "0.10%"};
-		{ 13, 61756, "", "=q4=Smoky Lawbringer Bracers", "=q1=#m1# =ds=#c4#", "", "0.11%"};
-		{ 14, 61757, "", "=q4=Smoky Vambraces of Prophecy", "=q1=#m1# =ds=#c5#", "", "0.16%"};
-		Prev = "Abandoned6";
-		Back = "SETMENU";
-	};
-
 		------------
 		--- Keys ---
 		------------
@@ -379,6 +102,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["BRDPyron"] = {
 		{ 1, 14486, "", "=q3=Pattern: Cloak of Fire", "=ds=#p8# (275)", "", ""};
 	};
+
+
+	------------------------
+	--- 	Dungeons 	 ---
+	------------------------
 
 		-------------------------
 		--- Blackfathom Deeps ---
@@ -3501,6 +3229,148 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		Back = "T0SET";
 	};
 
+
+	---------------------------
+	--- 	Tier 1 Sets		---
+	---------------------------
+
+	AtlasLoot_Data["Cenarionraep1"] = {
+		{ 1, 61544, "", "=q4=Antlers of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 2, 61545, "", "=q4=Pauldrons of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 3, 61546, "", "=q4=Chestpiece of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 4, 61547, "", "=q4=Britches of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 5, 61548, "", "=q4=Gloves of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 6, 61549, "", "=q4=Striders of Cenarius", "=ds=#s12#, #a2#", "", ""};
+		{ 8, 61550, "", "=q4=Stag-Helm of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 9, 61551, "", "=q4=Mantle of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 10, 61552, "", "=q4=Breastplate of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 11, 61553, "", "=q4=Greaves of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 12, 61554, "", "=q4=Gauntlets of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 13, 61555, "", "=q4=Boots of Cenarius", "=ds=#s12#, #a2#", "", ""};
+		{ 16, 61556, "", "=q4=Crown of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 17, 61557, "", "=q4=Shoulderguards of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 18, 61558, "", "=q4=Chestguard of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 19, 61559, "", "=q4=Legguards of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 20, 61560, "", "=q4=Handguards of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 21, 61561, "", "=q4=Treads of Cenarius", "=ds=#s12#, #a2#", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Giantstep1"] = {
+		{ 1, 61563, "", "=q4=Giantstalker's Helmet", "", "", ""};
+		{ 2, 61566, "", "=q4=Giantstalker's Epaulets", "", "", ""};
+		{ 3, 61565, "", "=q4=Giantstalker's Breastplate", "", "", ""};
+		{ 4, 61564, "", "=q4=Giantstalker's Leggings", "", "", ""};
+		{ 5, 61562, "", "=q4=Giantstalker's Gloves", "", "", ""};
+		{ 6, 61567, "", "=q4=Giantstalker's Boots", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Arcanistsep1"] = {
+		{ 1, 61569, "", "=q4=Arcanist Crown", "", "", ""};
+		{ 2, 61572, "", "=q4=Arcanist Mantle", "", "", ""};
+		{ 3, 61571, "", "=q4=Arcanist Robes", "", "", ""};
+		{ 4, 61570, "", "=q4=Arcanist Leggings", "", "", ""};
+		{ 5, 61568, "", "=q4=Arcanist Gloves", "", "", ""};
+		{ 6, 61573, "", "=q4=Arcanist Boots", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Lawbringep1"] = {
+		{ 1, 61574, "", "=q4=Lawbringer Diadem", "", "", ""};
+		{ 2, 61575, "", "=q4=Lawbringer Pauldrons", "", "", ""};
+		{ 3, 61576, "", "=q4=Lawbringer Chestpiece", "", "", ""};
+		{ 4, 61577, "", "=q4=Lawbringer Leggings", "", "", ""};
+		{ 5, 61578, "", "=q4=Lawbringer Gloves", "", "", ""};
+		{ 6, 61579, "", "=q4=Lawbringer Boots", "", "", ""};
+		{ 8, 61580, "", "=q4=Lawbringer Faceguard", "", "", ""};
+		{ 9, 61581, "", "=q4=Lawbringer Shoulderguards", "", "", ""};
+		{ 10, 61582, "", "=q4=Lawbringer Chestguard", "", "", ""};
+		{ 11, 61583, "", "=q4=Lawbringer Legguards", "", "", ""};
+		{ 12, 61584, "", "=q4=Lawbringer Handguards", "", "", ""};
+		{ 13, 61585, "", "=q4=Lawbringer Sabatons", "", "", ""};
+		{ 16, 61586, "", "=q4=Lawbringer Crown", "", "", ""};
+		{ 17, 61587, "", "=q4=Lawbringer Shoulderplates", "", "", ""};
+		{ 18, 61588, "", "=q4=Lawbringer Breastplate", "", "", ""};
+		{ 19, 61589, "", "=q4=Lawbringer Greaves", "", "", ""};
+		{ 20, 61590, "", "=q4=Lawbringer Gauntlets", "", "", ""};
+		{ 21, 61591, "", "=q4=Lawbringer Pads", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Prophep1"] = {
+		{ 1, 61592, "", "=q4=Circlet of Prophecy", "", "", ""};
+		{ 2, 61593, "", "=q4=Light-Mantle of Prophecy", "", "", ""};
+		{ 3, 61594, "", "=q4=Robes of Prophecy", "", "", ""};
+		{ 4, 61595, "", "=q4=Trousers of Prophecy", "", "", ""};
+		{ 5, 61596, "", "=q4=Handwraps of Prophecy", "", "", ""};
+		{ 6, 61597, "", "=q4=Boots of Prophecy", "", "", ""};
+		{ 16, 61598, "", "=q4=Wreath of Prophecy", "", "", ""};
+		{ 17, 61599, "", "=q4=Soul-Mantle of Prophecy", "", "", ""};
+		{ 18, 61600, "", "=q4=Shroud of Prophecy", "", "", ""};
+		{ 19, 61601, "", "=q4=Leggings of Prophecy", "", "", ""};
+		{ 20, 61602, "", "=q4=Gloves of Prophecy", "", "", ""};
+		{ 21, 61603, "", "=q4=Galoshes of Prophecy", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Nightslep1"] = {
+		{ 1, 61604, "", "=q4=Nightslayer Cover", "", "", ""};
+		{ 2, 61605, "", "=q4=Nightslayer Shoulder Pads", "", "", ""};
+		{ 3, 61606, "", "=q4=Nightslayer Chestpiece", "", "", ""};
+		{ 4, 61607, "", "=q4=Nightslayer Pants", "", "", ""};
+		{ 5, 61608, "", "=q4=Nightslayer Gloves", "", "", ""};
+		{ 6, 61609, "", "=q4=Nightslayer Boots", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Earthfep1"] = {
+		{ 1, 61610, "", "=q4=Earthfury Faceguard", "", "", ""};
+		{ 2, 61611, "", "=q4=Earthfury Shoulderguards", "", "", ""};
+		{ 3, 61612, "", "=q4=Earthfury Chestguard", "", "", ""};
+		{ 4, 61613, "", "=q4=Earthfury Legguards", "", "", ""};
+		{ 5, 61614, "", "=q4=Earthfury Handguards", "", "", ""};
+		{ 6, 61615, "", "=q4=Earthfury Boots", "", "", ""};
+		{ 8, 61616, "", "=q4=Earthfury Helm", "", "", ""};
+		{ 9, 61617, "", "=q4=Earthfury Shoulderplates", "", "", ""};
+		{ 10, 61618, "", "=q4=Earthfury Breastplate", "", "", ""};
+		{ 11, 61619, "", "=q4=Earthfury War-Kilt", "", "", ""};
+		{ 12, 61620, "", "=q4=Earthfury Gauntlets", "", "", ""};
+		{ 13, 61621, "", "=q4=Earthfury Sabatons", "", "", ""};
+		{ 16, 61622, "", "=q4=Earthfury Headdress", "", "", ""};
+		{ 17, 61623, "", "=q4=Earthfury Shoulderpads", "", "", ""};
+		{ 18, 61624, "", "=q4=Earthfury Hauberk", "", "", ""};
+		{ 19, 61625, "", "=q4=Earthfury Kilt", "", "", ""};
+		{ 20, 61626, "", "=q4=Earthfury Gloves", "", "", ""};
+		{ 21, 61627, "", "=q4=Earthfury Pads", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Felhearep1"] = {
+		{ 1, 61629, "", "=q4=Felheart Horns", "", "", ""};
+		{ 2, 61632, "", "=q4=Felheart Shoulder Pads", "", "", ""};
+		{ 3, 61631, "", "=q4=Felheart Robes", "", "", ""};
+		{ 4, 61630, "", "=q4=Felheart Pants", "", "", ""};
+		{ 5, 61628, "", "=q4=Felheart Gloves", "", "", ""};
+		{ 6, 61633, "", "=q4=Felheart Slippers", "", "", ""};
+		Back = "T1T2T3SET";
+	};
+
+	AtlasLoot_Data["Battlegeep1"] = {
+		{ 1, 61634, "", "=q4=Battle-Helm of Might", "", "", ""};
+		{ 2, 61635, "", "=q4=Shoulderplates of Might", "", "", ""};
+		{ 3, 61636, "", "=q4=Breastplate of Might", "", "", ""};
+		{ 4, 61637, "", "=q4=Greaves of Might", "", "", ""};
+		{ 5, 61638, "", "=q4=Gauntlets of Might", "", "", ""};
+		{ 6, 61639, "", "=q4=Sabatons of Might", "", "", ""};
+		{ 16, 61640, "", "=q4=Greathelm of Might", "", "", ""};
+		{ 17, 61641, "", "=q4=Shoulderguards of Might", "", "", ""};
+		{ 18, 61642, "", "=q4=Chestguard of Might", "", "", ""};
+		{ 19, 61643, "", "=q4=Legguards of Might", "", "", ""};
+		{ 20, 61644, "", "=q4=Handguards of Might", "", "", ""};
+		{ 21, 61645, "", "=q4=Sollerets of Might", "", "", ""};
+		Back = "T1T2T3SET";
+	};
 		------------------------
 		--- Vanilla WoW Sets ---
 		------------------------
@@ -3695,917 +3565,35 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 10, 60679, "", "=q3=Abominable Claw of Striking", ""};
 		{ 11, 60680, "", "=q3=Abominable Claw of Gashing", ""};
 		{ 24, 0, "INV_Box_01", "=q6="..BabbleEpoch["Devilsaur Claws"], ""};
-		{ 25, 20003, "", "=q3=Devilsaur´s Right Claws", ""};
-		{ 26, 20005, "", "=q3=Devilsaur´s Left Claws", ""};
+		{ 25, 20003, "", "=q3=Devilsaur's Right Claws", ""};
+		{ 26, 20005, "", "=q3=Devilsaur's Left Claws", ""};
 		Prev = "VWOWScholo";
 		Back = "SETSCLASSIC";
 	};
 
-		----------------------
-		--- Epoch PVP Sets ---
-		----------------------
-
-	AtlasLoot_Data["Rookiesep1"] = {
-		{ 1, 60851, "", "=q2=Rookie´s Hood", "=ds=#a1#", "15 #wsg#", ""};
-		{ 2, 60852, "", "=q2=Rookie´s Mantle", "=ds=#a1#", "10 #wsg#", ""};
-		{ 3, 60853, "", "=q2=Rookie´s Robe", "=ds=#a1#", "15 #wsg#", ""};
-		{ 4, 60854, "", "=q2=Rookie´s Handcloth", "=ds=#a1#", "10 #wsg#", ""};
-		{ 5, 60855, "", "=q2=Rookie´s Leggings", "=ds=#a1#", "15 #wsg#", ""};
-		{ 6, 60856, "", "=q2=Rookie´s Slippers", "=ds=#a1#", "5 #wsg#", ""};
-		{ 7, 60857, "", "=q2=Rookie's Wristwraps", "=ds=#a1#", "5 #wsg#", ""};
-		{ 8, 60858, "", "=q2=Rookie's Waistband", "=ds=#a1#", "10 #wsg#", ""};
-		{ 12, 60859, "", "=q2=Rookie´s Cloche", "=ds=#a2#", "15 #wsg#", ""};
-		{ 13, 60860, "", "=q2=Rookie´s Pads", "=ds=#a2#", "10 #wsg#", ""};
-		{ 14, 60861, "", "=q2=Rookie´s Leather", "=ds=#a2#", "15 #wsg#", ""};
-		{ 15, 60862, "", "=q2=Rookie´s Mitts", "=ds=#a2#", "10 #wsg#", ""};
-		{ 27, 60863, "", "=q2=Rookie´s Pantaloons", "=ds=#a2#", "15 #wsg#", ""};
-		{ 28, 60864, "", "=q2=Rookie´s Bootlets", "=ds=#a2#", "5 #wsg#", ""};
-		{ 29, 60865, "", "=q2=Rookie´s Armguards", "=ds=#a2#", "5 #wsg#", ""};
-		{ 30, 60866, "", "=q2=Rookie´s Strap", "=ds=#a2#", "10 #wsg#", ""};
-		{ 16, 60875, "", "=q2=Rookie´s Coif", "=ds=#a3#", "15 #wsg#", ""};
-		{ 17, 60876, "", "=q2=Rookie´s Chaindrapes", "=ds=#a3#", "10 #wsg#", ""};
-		{ 18, 60877, "", "=q2=Rookie´s Links", "=ds=#a3#", "15 #wsg#", ""};
-		{ 19, 60878, "", "=q2=Rookie´s Demi-gaunts", "=ds=#a3#", "10 #wsg#", ""};
-		{ 20, 60879, "", "=q2=Rookie´s Leglinks", "=ds=#a3#", "15 #wsg#", ""};
-		{ 21, 60880, "", "=q2=Rookie´s Bootlinks", "=ds=#a3#", "5 #wsg#", ""};
-		{ 22, 60881, "", "=q2=Rookie´s Wrists", "=ds=#a3#", "5 #wsg#", ""};
-		{ 23, 60882, "", "=q2=Rookie´s Buckle", "=ds=#a3#", "10 #wsg#", ""};
-		Back = "Epochpvp15";
-	};
-
-	AtlasLoot_Data["Rookieaep1"] = {
-		{ 1, 60867, "", "=q2=Rookie´s Cap", "=ds=#a2#", "15 #wsg#", ""};
-		{ 2, 60868, "", "=q2=Rookie´s Shoulders", "=ds=#a2#", "10 #wsg#", ""};
-		{ 3, 60869, "", "=q2=Rookie´s Tunic", "=ds=#a2#", "15 #wsg#", ""};
-		{ 4, 60870, "", "=q2=Rookie´s Gloves", "=ds=#a2#", "10 #wsg#", ""};
-		{ 5, 60871, "", "=q2=Rookie´s Pants", "=ds=#a2#", "15 #wsg#", ""};
-		{ 6, 60872, "", "=q2=Rookie´s Boots", "=ds=#a2#", "5 #wsg#", ""};
-		{ 7, 60873, "", "=q2=Rookie´s Cuffs", "=ds=#a2#", "5 #wsg#", ""};
-		{ 8, 60874, "", "=q2=Rookie´s Belt", "=ds=#a2#", "10 #wsg#", ""};
-		Back = "Epochpvp15";
-	};
-
-	AtlasLoot_Data["Rookiestep1"] = {
-		{ 1, 60883, "", "=q2=Rookie´s Helm", "=ds=#a3#", "15 #wsg#", ""};
-		{ 2, 60884, "", "=q2=Rookie´s Shoulderguards", "=ds=#a3#", "10 #wsg#", ""};
-		{ 3, 60885, "", "=q2=Rookie´s Chainmail", "=ds=#a3#", "15 #wsg#", ""};
-		{ 4, 60886, "", "=q2=Rookie´s Handguards", "=ds=#a3#", "10 #wsg#", ""};
-		{ 5, 60887, "", "=q2=Rookie´s Legguards", "=ds=#a3#", "15 #wsg#", ""};
-		{ 6, 60888, "", "=q2=Rookie´s Treads", "=ds=#a3#", "5 #wsg#", ""};
-		{ 7, 60889, "", "=q2=Rookie´s Bracers", "=ds=#a3#", "5 #wsg#", ""};
-		{ 8, 60890, "", "=q2=Rookie´s Cinch", "=ds=#a3#", "10 #wsg#", ""};
-		Back = "Epochpvp15";
-	};
-
-	AtlasLoot_Data["Skirmishsep1"] = {
-		{ 1, 60940, "", "=q2=Skirmisher´s Hood", "=ds=#a1#", "16 #wsg#", ""};
-		{ 2, 60941, "", "=q2=Skirmisher´s Mantle", "=ds=#a1#", "11 #wsg#", ""};
-		{ 3, 60942, "", "=q2=Skirmisher´s Robe", "=ds=#a1#", "16 #wsg#", ""};
-		{ 4, 60943, "", "=q2=Skirmisher´s Handcloth", "=ds=#a1#", "11 #wsg#", ""};
-		{ 5, 60944, "", "=q2=Skirmisher´s Leggings", "=ds=#a1#", "16 #wsg#", ""};
-		{ 6, 60945, "", "=q2=Skirmisher´s Slippers", "=ds=#a1#", "6 #wsg#", ""};
-		{ 7, 60946, "", "=q2=Skirmisher´s Wristwraps", "=ds=#a1#", "6 #wsg#", ""};
-		{ 8, 60947, "", "=q2=Skirmisher´s Waistband", "=ds=#a1#", "11 #wsg#", ""};
-		{ 16, 60956, "", "=q2=Skirmisher´s Cloche", "=ds=#a2#", "16 #wsg#", ""};
-		{ 17, 60957, "", "=q2=Skirmisher´s Pads", "=ds=#a2#", "11 #wsg#", ""};
-		{ 18, 60958, "", "=q2=Skirmisher´s Leather", "=ds=#a2#", "16 #wsg#", ""};
-		{ 19, 60959, "", "=q2=Skirmisher´s Mitts", "=ds=#a2#", "11 #wsg#", ""};
-		{ 20, 60960, "", "=q2=Skirmisher´s Pantaloons", "=ds=#a2#", "16 #wsg#", ""};
-		{ 21, 60961, "", "=q2=Skirmisher´s Riders", "=ds=#a2#", "6 #wsg#", ""};
-		{ 22, 60962, "", "=q2=Skirmisher´s Armguards", "=ds=#a2#", "6 #wsg#", ""};
-		{ 23, 60963, "", "=q2=Skirmisher´s Strap", "=ds=#a2#", "11 #wsg#", ""};
-		{ 12, 60980, "", "=q2=Skirmisher´s Coif", "=ds=#a3#", "16 #wsg#", ""};
-		{ 13, 60981, "", "=q2=Skirmisher´s Chaindrapes", "=ds=#a3#", "11 #wsg#", ""};
-		{ 14, 60982, "", "=q2=Skirmisher´s Links", "=ds=#a3#", "16 #wsg#", ""};
-		{ 15, 60983, "", "=q2=Skirmisher´s Demi-gaunts", "=ds=#a3#", "11 #wsg#", ""};
-		{ 27, 60984, "", "=q2=Skirmisher´s Leglinks", "=ds=#a3#", "16 #wsg#", ""};
-		{ 28, 60985, "", "=q2=Skirmisher´s Bootlinks", "=ds=#a3#", "6 #wsg#", ""};
-		{ 29, 60986, "", "=q2=Skirmisher´s Wrists", "=ds=#a3#", "6 #wsg#", ""};
-		{ 30, 60987, "", "=q2=Skirmisher´s Buckle", "=ds=#a3#", "11 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Skirmishhep1"] = {
-		{ 1, 60948, "", "=q2=Skirmisher´s Cowl", "=ds=#a1#", "16 #wsg#", ""};
-		{ 2, 60949, "", "=q2=Skirmisher´s Stole", "=ds=#a1#", "11 #wsg#", ""};
-		{ 3, 60950, "", "=q2=Skirmisher´s Raiment", "=ds=#a1#", "16 #wsg#", ""};
-		{ 4, 60951, "", "=q2=Skirmisher´s Hands", "=ds=#a1#", "11 #wsg#", ""};
-		{ 5, 60952, "", "=q2=Skirmisher´s Legwarmers", "=ds=#a1#", "16 #wsg#", ""};
-		{ 6, 60953, "", "=q2=Skirmisher´s Bootlets", "=ds=#a1#", "6 #wsg#", ""};
-		{ 7, 60954, "", "=q2=Skirmisher´s Braceletts", "=ds=#a1#", "6 #wsg#", ""};
-		{ 8, 60955, "", "=q2=Skirmisher´s Sash", "=ds=#a1#", "11 #wsg#", ""};
-		{ 16, 60964, "", "=q2=Skirmisher´s Casque", "=ds=#a2#", "16 #wsg#", ""};
-		{ 17, 60965, "", "=q2=Skirmisher´s Rerebrace", "=ds=#a2#", "11 #wsg#", ""};
-		{ 18, 60966, "", "=q2=Skirmisher´s Cuirass", "=ds=#a2#", "16 #wsg#", ""};
-		{ 19, 60967, "", "=q2=Skirmisher´s Palms", "=ds=#a2#", "11 #wsg#", ""};
-		{ 20, 60968, "", "=q2=Skirmisher´s Breeches", "=ds=#a2#", "16 #wsg#", ""};
-		{ 21, 60969, "", "=q2=Skirmisher´s Soles", "=ds=#a2#", "6 #wsg#", ""};
-		{ 22, 60970, "", "=q2=Skirmisher´s Leather Cuffs", "=ds=#a2#", "6 #wsg#", ""};
-		{ 23, 60971, "", "=q2=Skirmisher´s Leather Belt", "=ds=#a2#", "11 #wsg#", ""};
-		{ 12, 60988, "", "=q2=Skirmisher´s Chain Cloche", "=ds=#a3#", "16 #wsg#", ""};
-		{ 13, 60989, "", "=q2=Skirmisher´s Light Pauldrons", "=ds=#a3#", "11 #wsg#", ""};
-		{ 14, 60990, "", "=q2=Skirmisher´s Hauberk", "=ds=#a3#", "16 #wsg#", ""};
-		{ 15, 60991, "", "=q2=Skirmisher´s Grips", "=ds=#a3#", "11 #wsg#", ""};
-		{ 27, 60992, "", "=q2=Skirmisher´s Kilt", "=ds=#a3#", "16 #wsg#", ""};
-		{ 28, 60993, "", "=q2=Skirmisher´s Stompers", "=ds=#a3#", "6 #wsg#", ""};
-		{ 29, 60994, "", "=q2=Skirmisher´s Manacles", "=ds=#a3#", "6 #wsg#", ""};
-		{ 30, 60995, "", "=q2=Skirmisher´s Chain", "=ds=#a3#", "11 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Skirmishaep1"] = {
-		{ 1, 60972, "", "=q2=Skirmisher´s Cap", "=ds=#a2#", "16 #wsg#", ""};
-		{ 2, 60973, "", "=q2=Skirmisher´s Shoulders", "=ds=#a2#", "11 #wsg#", ""};
-		{ 3, 60974, "", "=q2=Skirmisher´s Tunic", "=ds=#a2#", "16 #wsg#", ""};
-		{ 4, 60975, "", "=q2=Skirmisher´s Gloves", "=ds=#a2#", "11 #wsg#", ""};
-		{ 5, 60976, "", "=q2=Skirmisher´s Pants", "=ds=#a2#", "16 #wsg#", ""};
-		{ 6, 60977, "", "=q2=Skirmisher´s Boots", "=ds=#a2#", "6 #wsg#", ""};
-		{ 7, 60978, "", "=q2=Skirmisher´s Cuffs", "=ds=#a2#", "6 #wsg#", ""};
-		{ 8, 60979, "", "=q2=Skirmisher´s Belt", "=ds=#a2#", "11 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Skirmishstep1"] = {
-		{ 1, 60996, "", "=q2=Skirmisher´s Helm", "=ds=#a3#", "16 #wsg#", ""};
-		{ 2, 60997, "", "=q2=Skirmisher´s Shoulderguards", "=ds=#a3#", "11 #wsg#", ""};
-		{ 3, 60998, "", "=q2=Skirmisher´s Chainmail", "=ds=#a3#", "16 #wsg#", ""};
-		{ 4, 60999, "", "=q2=Skirmisher´s Handguards", "=ds=#a3#", "11 #wsg#", ""};
-		{ 5, 61000, "", "=q2=Skirmisher´s Legguards", "=ds=#a3#", "16 #wsg#", ""};
-		{ 6, 61001, "", "=q2=Skirmisher´s Treads", "=ds=#a3#", "6 #wsg#", ""};
-		{ 7, 61002, "", "=q2=Skirmisher´s Bracers", "=ds=#a3#", "6 #wsg#", ""};
-		{ 8, 61003, "", "=q2=Skirmisher´s Cinch", "=ds=#a3#", "11 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Combatantsep1"] = {
-		{ 1, 61053, "", "=q2=Combatant´s Hood", "=ds=#a1#", "17 #wsg#", ""};
-		{ 2, 61054, "", "=q2=Combatant´s Mantle", "=ds=#a1#", "12 #wsg#", ""};
-		{ 3, 61055, "", "=q2=Combatant´s Robe", "=ds=#a1#", "17 #wsg#", ""};
-		{ 4, 61056, "", "=q2=Combatant´s Handcloth", "=ds=#a1#", "12 #wsg#", ""};
-		{ 5, 61057, "", "=q2=Combatant´s Leggings", "=ds=#a1#", "17 #wsg#", ""};
-		{ 6, 61058, "", "=q2=Combatant´s Slippers", "=ds=#a1#", "7 #wsg#", ""};
-		{ 7, 61059, "", "=q2=Combatant´s Wristwraps", "=ds=#a1#", "7 #wsg#", ""};
-		{ 8, 61060, "", "=q2=Combatant´s Waistband", "=ds=#a1#", "12 #wsg#", ""};
-		{ 16, 61069, "", "=q2=Combatant´s Cloche", "=ds=#a2#", "17 #wsg#", ""};
-		{ 17, 61070, "", "=q2=Combatant´s Pads", "=ds=#a2#", "12 #wsg#", ""};
-		{ 18, 61071, "", "=q2=Combatant´s Leather", "=ds=#a2#", "17 #wsg#", ""};
-		{ 19, 61072, "", "=q2=Combatant´s Mitts", "=ds=#a2#", "12 #wsg#", ""};
-		{ 20, 61073, "", "=q2=Combatant´s Pantaloons", "=ds=#a2#", "17 #wsg#", ""};
-		{ 21, 61074, "", "=q2=Combatant´s Riders", "=ds=#a2#", "7 #wsg#", ""};
-		{ 22, 61075, "", "=q2=Combatant´s Armguards", "=ds=#a2#", "7 #wsg#", ""};
-		{ 23, 61076, "", "=q2=Combatant´s Strap", "=ds=#a2#", "12 #wsg#", ""};
-		{ 12, 61093, "", "=q2=Combatant´s Coif", "=ds=#a3#", "17 #wsg#", ""};
-		{ 13, 61094, "", "=q2=Combatant´s Chaindrapes", "=ds=#a3#", "12 #wsg#", ""};
-		{ 14, 61095, "", "=q2=Combatant´s Links", "=ds=#a3#", "17 #wsg#", ""};
-		{ 15, 61096, "", "=q2=Combatant´s Demi-gaunts", "=ds=#a3#", "12 #wsg#", ""};
-		{ 27, 61097, "", "=q2=Combatant´s Leglinks", "=ds=#a3#", "17 #wsg#", ""};
-		{ 28, 61098, "", "=q2=Combatant´s Bootlinks", "=ds=#a3#", "7 #wsg#", ""};
-		{ 29, 61099, "", "=q2=Combatant´s Wrists", "=ds=#a3#", "7 #wsg#", ""};
-		{ 30, 61100, "", "=q2=Combatant´s Buckle", "=ds=#a3#", "12 #wsg#", ""};
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Combatanthep1"] = {
-		{ 1, 61061, "", "=q2=Combatant´s Cowl", "=ds=#a1#", "17 #wsg#", ""};
-		{ 2, 61062, "", "=q2=Combatant´s Stole", "=ds=#a1#", "12 #wsg#", ""};
-		{ 3, 61063, "", "=q2=Combatant´s Raiment", "=ds=#a1#", "17 #wsg#", ""};
-		{ 4, 61064, "", "=q2=Combatant´s Hands", "=ds=#a1#", "12 #wsg#", ""};
-		{ 5, 61065, "", "=q2=Combatant´s Legwarmers", "=ds=#a1#", "17 #wsg#", ""};
-		{ 6, 61066, "", "=q2=Combatant´s Bootlets", "=ds=#a1#", "7 #wsg#", ""};
-		{ 7, 61067, "", "=q2=Combatant´s Braceletts", "=ds=#a1#", "7 #wsg#", ""};
-		{ 8, 61068, "", "=q2=Combatant´s Sash", "=ds=#a1#", "12 #wsg#", ""};
-		{ 16, 61078, "", "=q2=Combatant´s Casque", "=ds=#a2#", "17 #wsg#", ""};
-		{ 17, 61079, "", "=q2=Combatant´s Rerebrace", "=ds=#a2#", "12 #wsg#", ""};
-		{ 18, 61080, "", "=q2=Combatant´s Cuirass", "=ds=#a2#", "17 #wsg#", ""};
-		{ 19, 61081, "", "=q2=Combatant´s Palms", "=ds=#a2#", "12 #wsg#", ""};
-		{ 20, 61082, "", "=q2=Combatant´s Breeches", "=ds=#a2#", "17 #wsg#", ""};
-		{ 21, 61083, "", "=q2=Combatant´s Soles", "=ds=#a2#", "7 #wsg#", ""};
-		{ 22, 61084, "", "=q2=Combatant´s Leather Cuffs", "=ds=#a2#", "7 #wsg#", ""};
-		{ 23, 61085, "", "=q2=Combatant´s Leather Belt", "=ds=#a2#", "12 #wsg#", ""};
-		{ 12, 61101, "", "=q2=Combatant´s Chain Cloche", "=ds=#a3#", "17 #wsg#", ""};
-		{ 13, 61102, "", "=q2=Combatant´s Light Pauldrons", "=ds=#a3#", "12 #wsg#", ""};
-		{ 14, 61103, "", "=q2=Combatant´s Hauberk", "=ds=#a3#", "17 #wsg#", ""};
-		{ 15, 61104, "", "=q2=Combatant´s Grips", "=ds=#a3#", "12 #wsg#", ""};
-		{ 27, 61105, "", "=q2=Combatant´s Kilt", "=ds=#a3#", "17 #wsg#", ""};
-		{ 28, 61106, "", "=q2=Combatant´s Stompers", "=ds=#a3#", "7 #wsg#", ""};
-		{ 29, 61107, "", "=q2=Combatant´s Manacles", "=ds=#a3#", "7 #wsg#", ""};
-		{ 30, 61108, "", "=q2=Combatant´s Chain", "=ds=#a3#", "12 #wsg#", ""};
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Combatantaep1"] = {
-		{ 1, 61085, "", "=q2=Combatant´s Cap", "=ds=#a2#", "17 #wsg#", ""};
-		{ 2, 61086, "", "=q2=Combatant´s Shoulders", "=ds=#a2#", "12 #wsg#", ""};
-		{ 3, 61087, "", "=q2=Combatant´s Tunic", "=ds=#a2#", "17 #wsg#", ""};
-		{ 4, 61088, "", "=q2=Combatant´s Gloves", "=ds=#a2#", "12 #wsg#", ""};
-		{ 5, 61089, "", "=q2=Combatant´s Pants", "=ds=#a2#", "17 #wsg#", ""};
-		{ 6, 61090, "", "=q2=Combatant´s Boots", "=ds=#a2#", "7 #wsg#", ""};
-		{ 7, 61091, "", "=q2=Combatant´s Cuffs", "=ds=#a2#", "7 #wsg#", ""};
-		{ 8, 61092, "", "=q2=Combatant´s Belt", "=ds=#a2#", "12 #wsg#", ""};
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Combatantstep1"] = {
-		{ 1, 61109, "", "=q2=Combatant´s Helm", "=ds=#a3#", "17 #wsg#", ""};
-		{ 2, 61110, "", "=q2=Combatant´s Shoulderguards", "=ds=#a3#", "12 #wsg#", ""};
-		{ 3, 61111, "", "=q2=Combatant´s Chainmail", "=ds=#a3#", "17 #wsg#", ""};
-		{ 4, 61112, "", "=q2=Combatant´s Handguards", "=ds=#a3#", "12 #wsg#", ""};
-		{ 5, 61113, "", "=q2=Combatant´s Legguards", "=ds=#a3#", "17 #wsg#", ""};
-		{ 6, 61114, "", "=q2=Combatant´s Treads", "=ds=#a3#", "7 #wsg#", ""};
-		{ 7, 61115, "", "=q2=Combatant´s Bracers", "=ds=#a3#", "7 #wsg#", ""};
-		{ 8, 61116, "", "=q2=Combatant´s Cinch", "=ds=#a3#", "12 #wsg#", ""};
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Aspirantsep1"] = {
-		{ 1, 61182, "", "=q2=Aspirant´s Hood", "=ds=#a1#", "18 #wsg#", ""};
-		{ 2, 61183, "", "=q2=Aspirant´s Mantle", "=ds=#a1#", "13 #wsg#", ""};
-		{ 3, 61184, "", "=q2=Aspirant´s Robe", "=ds=#a1#", "18 #wsg#", ""};
-		{ 4, 61185, "", "=q2=Aspirant´s Handcloth", "=ds=#a1#", "13 #wsg#", ""};
-		{ 5, 61186, "", "=q2=Aspirant´s Leggings", "=ds=#a1#", "18 #wsg#", ""};
-		{ 6, 61187, "", "=q2=Aspirant´s Slippers", "=ds=#a1#", "8 #wsg#", ""};
-		{ 7, 61188, "", "=q2=Aspirant´s Wristwraps", "=ds=#a1#", "8 #wsg#", ""};
-		{ 8, 61189, "", "=q2=Aspirant´s Waistband", "=ds=#a1#", "13 #wsg#", ""};
-		{ 12, 61230, "", "=q2=Aspirant´s Coif", "=ds=#a3#", "18 #wsg#", ""};
-		{ 13, 61231, "", "=q2=Aspirant´s Chaindrapes", "=ds=#a3#", "13 #wsg#", ""};
-		{ 14, 61232, "", "=q2=Aspirant´s Links", "=ds=#a3#", "18 #wsg#", ""};
-		{ 15, 61233, "", "=q2=Aspirant´s Demi-gaunts", "=ds=#a3#", "13 #wsg#", ""};
-		{ 27, 61234, "", "=q2=Aspirant´s Leglinks", "=ds=#a3#", "18 #wsg#", ""};
-		{ 28, 61235, "", "=q2=Aspirant´s Bootlinks", "=ds=#a3#", "8 #wsg#", ""};
-		{ 29, 61236, "", "=q2=Aspirant´s Wrists", "=ds=#a3#", "8 #wsg#", ""};
-		{ 30, 61237, "", "=q2=Aspirant´s Buckle", "=ds=#a3#", "13 #wsg#", ""};
-		{ 16, 61198, "", "=q2=Aspirant´s Cloche", "=ds=#a2#", "18 #wsg#", ""};
-		{ 17, 61199, "", "=q2=Aspirant´s Pads", "=ds=#a2#", "13 #wsg#", ""};
-		{ 18, 61200, "", "=q2=Aspirant´s Leather", "=ds=#a2#", "18 #wsg#", ""};
-		{ 19, 61201, "", "=q2=Aspirant´s Mitts", "=ds=#a2#", "13 #wsg#", ""};
-		{ 20, 61202, "", "=q2=Aspirant´s Pantaloons", "=ds=#a2#", "18 #wsg#", ""};
-		{ 21, 61203, "", "=q2=Aspirant´s Riders", "=ds=#a2#", "8 #wsg#", ""};
-		{ 22, 61204, "", "=q2=Aspirant´s Armguards", "=ds=#a2#", "8 #wsg#", ""};
-		{ 23, 61205, "", "=q2=Aspirant´s Strap", "=ds=#a2#", "13 #wsg#", ""};
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Aspiranthep1"] = {
-		{ 1, 61190, "", "=q2=Aspirant´s Cowl", "=ds=#a1#", "18 #wsg#", ""};
-		{ 2, 61191, "", "=q2=Aspirant´s Stole", "=ds=#a1#", "13 #wsg#", ""};
-		{ 3, 61192, "", "=q2=Aspirant´s Raiment", "=ds=#a1#", "18 #wsg#", ""};
-		{ 4, 61193, "", "=q2=Aspirant´s Hands", "=ds=#a1#", "13 #wsg#", ""};
-		{ 5, 61194, "", "=q2=Aspirant´s Legwarmers", "=ds=#a1#", "18 #wsg#", ""};
-		{ 6, 61195, "", "=q2=Aspirant´s Bootlets", "=ds=#a1#", "8 #wsg#", ""};
-		{ 7, 61196, "", "=q2=Aspirant´s Braceletts", "=ds=#a1#", "8 #wsg#", ""};
-		{ 8, 61197, "", "=q2=Aspirant´s Sash", "=ds=#a1#", "13 #wsg#", ""};
-		{ 16, 61206, "", "=q2=Aspirant´s Casque", "=ds=#a2#", "18 #wsg#", ""};
-		{ 17, 61207, "", "=q2=Aspirant´s Rerebrace", "=ds=#a2#", "13 #wsg#", ""};
-		{ 18, 61208, "", "=q2=Aspirant´s Cuirass", "=ds=#a2#", "18 #wsg#", ""};
-		{ 19, 61209, "", "=q2=Aspirant´s Palms", "=ds=#a2#", "13 #wsg#", ""};
-		{ 20, 61210, "", "=q2=Aspirant´s Breeches", "=ds=#a2#", "18 #wsg#", ""};
-		{ 21, 61211, "", "=q2=Aspirant´s Soles", "=ds=#a2#", "8 #wsg#", ""};
-		{ 22, 61212, "", "=q2=Aspirant´s Leather Cuffs", "=ds=#a2#", "8 #wsg#", ""};
-		{ 23, 61213, "", "=q2=Aspirant´s Leather Belt", "=ds=#a2#", "13 #wsg#", ""};
-		Next = "Aspiranthep2";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Aspiranthep2"] = {
-		{ 1, 61238, "", "=q2=Aspirant´s Chain Cloche", "=ds=#a3#", "18 #wsg#", ""};
-		{ 2, 61239, "", "=q2=Aspirant´s Light Pauldrons", "=ds=#a3#", "13 #wsg#", ""};
-		{ 3, 61240, "", "=q2=Aspirant´s Hauberk", "=ds=#a3#", "18 #wsg#", ""};
-		{ 4, 61241, "", "=q2=Aspirant´s Grips", "=ds=#a3#", "13 #wsg#", ""};
-		{ 5, 61242, "", "=q2=Aspirant´s Kilt", "=ds=#a3#", "18 #wsg#", ""};
-		{ 6, 61243, "", "=q2=Aspirant´s Stompers", "=ds=#a3#", "8 #wsg#", ""};
-		{ 7, 61244, "", "=q2=Aspirant´s Manacles", "=ds=#a3#", "8 #wsg#", ""};
-		{ 8, 61245, "", "=q2=Aspirant´s Chain", "=ds=#a3#", "13 #wsg#", ""};
-		{ 16, 61274, "", "=q2=Aspirant´s Dome", "=ds=#a4#", "18 #wsg#", ""};
-		{ 17, 61275, "", "=q2=Aspirant´s Platepads", "=ds=#a4#", "13 #wsg#", ""};
-		{ 18, 61276, "", "=q2=Aspirant´s Breastplate", "=ds=#a4#", "18 #wsg#", ""};
-		{ 19, 61277, "", "=q2=Aspirant´s Plated Fists", "=ds=#a4#", "13 #wsg#", ""};
-		{ 20, 61278, "", "=q2=Aspirant´s Plate Pants", "=ds=#a4#", "18 #wsg#", ""};
-		{ 21, 61279, "", "=q2=Aspirant´s Sabatons", "=ds=#a4#", "8 #wsg#", ""};
-		{ 22, 61280, "", "=q2=Aspirant´s Wristguards", "=ds=#a4#", "8 #wsg#", ""};
-		{ 23, 61281, "", "=q2=Aspirant´s Girdle", "=ds=#a4#", "13 #wsg#", ""};
-		Prev = "Aspiranthep1";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Aspirantaep1"] = {
-		{ 1, 61214, "", "=q2=Aspirant´s Cap", "=ds=#a2#", "18 #wsg#", ""};
-		{ 2, 61215, "", "=q2=Aspirant´s Shoulders", "=ds=#a2#", "13 #wsg#", ""};
-		{ 3, 61216, "", "=q2=Aspirant´s Tunic", "=ds=#a2#", "18 #wsg#", ""};
-		{ 4, 61217, "", "=q2=Aspirant´s Gloves", "=ds=#a2#", "13 #wsg#", ""};
-		{ 5, 61218, "", "=q2=Aspirant´s Pants", "=ds=#a2#", "18 #wsg#", ""};
-		{ 6, 61219, "", "=q2=Aspirant´s Boots", "=ds=#a2#", "8 #wsg#", ""};
-		{ 7, 61220, "", "=q2=Aspirant´s Cuffs", "=ds=#a2#", "8 #wsg#", ""};
-		{ 8, 61221, "", "=q2=Aspirant´s Belt", "=ds=#a2#", "13 #wsg#", ""};
-		{ 16, 61222, "", "=q2=Aspirant´s Skullcap", "=ds=#a3#", "18 #wsg#", ""};
-		{ 17, 61223, "", "=q2=Aspirant´s Shoulderlinks", "=ds=#a3#", "13 #wsg#", ""};
-		{ 18, 61224, "", "=q2=Aspirant´s Haubergeon", "=ds=#a3#", "18 #wsg#", ""};
-		{ 19, 61225, "", "=q2=Aspirant´s Chain Gloves", "=ds=#a3#", "13 #wsg#", ""};
-		{ 20, 61226, "", "=q2=Aspirant´s Chausses", "=ds=#a3#", "18 #wsg#", ""};
-		{ 21, 61227, "", "=q2=Aspirant´s Waders", "=ds=#a3#", "8 #wsg#", ""};
-		{ 22, 61228, "", "=q2=Aspirant´s Ringed Armguards", "=ds=#a3#", "8 #wsg#", ""};
-		{ 23, 61229, "", "=q2=Aspirant´s Mail Belt", "=ds=#a3#", "13 #wsg#", ""};
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Aspirantstep1"] = {
-		{ 1, 61246, "", "=q2=Aspirant´s Helm", "=ds=#a3#", "18 #wsg#", ""};
-		{ 2, 61247, "", "=q2=Aspirant´s Shoulderguards", "=ds=#a3#", "13 #wsg#", ""};
-		{ 3, 61248, "", "=q2=Aspirant´s Chainmail", "=ds=#a3#", "18 #wsg#", ""};
-		{ 4, 61249, "", "=q2=Aspirant´s Handguards", "=ds=#a3#", "13 #wsg#", ""};
-		{ 5, 61250, "", "=q2=Aspirant´s Legguards", "=ds=#a3#", "18 #wsg#", ""};
-		{ 6, 61251, "", "=q2=Aspirant´s Treads", "=ds=#a3#", "8 #wsg#", ""};
-		{ 7, 61252, "", "=q2=Aspirant´s Bracers", "=ds=#a3#", "8 #wsg#", ""};
-		{ 8, 61253, "", "=q2=Aspirant´s Cinch", "=ds=#a3#", "13 #wsg#", ""};
-		{ 16, 61282, "", "=q2=Aspirant´s Helmet", "=ds=#a4#", "18 #wsg#", ""};
-		{ 17, 61283, "", "=q2=Aspirant´s Shoulderplates", "=ds=#a4#", "13 #wsg#", ""};
-		{ 18, 61284, "", "=q2=Aspirant´s Chestplate", "=ds=#a4#", "18 #wsg#", ""};
-		{ 19, 61285, "", "=q2=Aspirant´s Gauntlets", "=ds=#a4#", "13 #wsg#", ""};
-		{ 20, 61286, "", "=q2=Aspirant´s Legplates", "=ds=#a4#", "18 #wsg#", ""};
-		{ 21, 61287, "", "=q2=Aspirant´s Greaves", "=ds=#a4#", "8 #wsg#", ""};
-		{ 22, 61288, "", "=q2=Aspirant´s Armplates", "=ds=#a4#", "8 #wsg#", ""};
-		{ 23, 61289, "", "=q2=Aspirant´s Waistguard", "=ds=#a4#", "13 #wsg#", ""};
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Battlemageep1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Battlemage's Regalia"], ""};
-		{ 2, 61349, "", "=q3=Battlemage Crown", "=ds=#a1#, =q3=#c3#", "20 #wsg#", ""};
-		{ 3, 61350, "", "=q3=Battlemage Mantle", "=ds=#a1#, =q3=#c3#", "15 #wsg#", ""};
-		{ 4, 61351, "", "=q3=Battlemage Robe", "=ds=#a1#, =q3=#c3#", "20 #wsg#", ""};
-		{ 5, 61352, "", "=q3=Battlemage Gloves", "=ds=#a1#, =q3=#c3#", "15 #wsg#", ""};
-		{ 6, 61353, "", "=q3=Battlemage Leggings", "=ds=#a1#, =q3=#c3#", "20 #wsg#", ""};
-		{ 7, 61354, "", "=q3=Battlemage Boots", "=ds=#a1#, =q3=#c3#", "10 #wsg#", ""};
-		Next = "Epochsetz";
-		Back = "Epochpvp55";
-	};
-
-	AtlasLoot_Data["Cenarionraep1"] = {
-		{ 1, 61544, "", "=q4=Antlers of Cenarius", "=ds=#s1#, #a2#", "", ""};
-		{ 2, 61545, "", "=q4=Pauldrons of Cenarius", "=ds=#s3#, #a2#", "", ""};
-		{ 3, 61546, "", "=q4=Chestpiece of Cenarius", "=ds=#s5#, #a2#", "", ""};
-		{ 4, 61547, "", "=q4=Britches of Cenarius", "=ds=#s11#, #a2#", "", ""};
-		{ 5, 61548, "", "=q4=Gloves of Cenarius", "=ds=#s9#, #a2#", "", ""};
-		{ 6, 61549, "", "=q4=Striders of Cenarius", "=ds=#s12#, #a2#", "", ""};
-		{ 8, 61550, "", "=q4=Stag-Helm of Cenarius", "=ds=#s1#, #a2#", "", ""};
-		{ 9, 61551, "", "=q4=Mantle of Cenarius", "=ds=#s3#, #a2#", "", ""};
-		{ 10, 61552, "", "=q4=Breastplate of Cenarius", "=ds=#s5#, #a2#", "", ""};
-		{ 11, 61553, "", "=q4=Greaves of Cenarius", "=ds=#s11#, #a2#", "", ""};
-		{ 12, 61554, "", "=q4=Gauntlets of Cenarius", "=ds=#s9#, #a2#", "", ""};
-		{ 13, 61555, "", "=q4=Boots of Cenarius", "=ds=#s12#, #a2#", "", ""};
-		{ 16, 61556, "", "=q4=Crown of Cenarius", "=ds=#s1#, #a2#", "", ""};
-		{ 17, 61557, "", "=q4=Shoulderguards of Cenarius", "=ds=#s3#, #a2#", "", ""};
-		{ 18, 61558, "", "=q4=Chestguard of Cenarius", "=ds=#s5#, #a2#", "", ""};
-		{ 19, 61559, "", "=q4=Legguards of Cenarius", "=ds=#s11#, #a2#", "", ""};
-		{ 20, 61560, "", "=q4=Handguards of Cenarius", "=ds=#s9#, #a2#", "", ""};
-		{ 21, 61561, "", "=q4=Treads of Cenarius", "=ds=#s12#, #a2#", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Giantstep1"] = {
-		{ 1, 61563, "", "=q4=Giantstalker´s Helmet", "", "", ""};
-		{ 2, 61566, "", "=q4=Giantstalker´s Epaulets", "", "", ""};
-		{ 3, 61565, "", "=q4=Giantstalker´s Breastplate", "", "", ""};
-		{ 4, 61564, "", "=q4=Giantstalker´s Leggings", "", "", ""};
-		{ 5, 61562, "", "=q4=Giantstalker´s Gloves", "", "", ""};
-		{ 6, 61567, "", "=q4=Giantstalker´s Boots", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Arcanistsep1"] = {
-		{ 1, 61569, "", "=q4=Arcanist Crown", "", "", ""};
-		{ 2, 61572, "", "=q4=Arcanist Mantle", "", "", ""};
-		{ 3, 61571, "", "=q4=Arcanist Robes", "", "", ""};
-		{ 4, 61570, "", "=q4=Arcanist Leggings", "", "", ""};
-		{ 5, 61568, "", "=q4=Arcanist Gloves", "", "", ""};
-		{ 6, 61573, "", "=q4=Arcanist Boots", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Lawbringep1"] = {
-		{ 1, 61574, "", "=q4=Lawbringer Diadem", "", "", ""};
-		{ 2, 61575, "", "=q4=Lawbringer Pauldrons", "", "", ""};
-		{ 3, 61576, "", "=q4=Lawbringer Chestpiece", "", "", ""};
-		{ 4, 61577, "", "=q4=Lawbringer Leggings", "", "", ""};
-		{ 5, 61578, "", "=q4=Lawbringer Gloves", "", "", ""};
-		{ 6, 61579, "", "=q4=Lawbringer Boots", "", "", ""};
-		{ 8, 61580, "", "=q4=Lawbringer Faceguard", "", "", ""};
-		{ 9, 61581, "", "=q4=Lawbringer Shoulderguards", "", "", ""};
-		{ 10, 61582, "", "=q4=Lawbringer Chestguard", "", "", ""};
-		{ 11, 61583, "", "=q4=Lawbringer Legguards", "", "", ""};
-		{ 12, 61584, "", "=q4=Lawbringer Handguards", "", "", ""};
-		{ 13, 61585, "", "=q4=Lawbringer Sabatons", "", "", ""};
-		{ 16, 61586, "", "=q4=Lawbringer Crown", "", "", ""};
-		{ 17, 61587, "", "=q4=Lawbringer Shoulderplates", "", "", ""};
-		{ 18, 61588, "", "=q4=Lawbringer Breastplate", "", "", ""};
-		{ 19, 61589, "", "=q4=Lawbringer Greaves", "", "", ""};
-		{ 20, 61590, "", "=q4=Lawbringer Gauntlets", "", "", ""};
-		{ 21, 61591, "", "=q4=Lawbringer Pads", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Prophep1"] = {
-		{ 1, 61592, "", "=q4=Circlet of Prophecy", "", "", ""};
-		{ 2, 61593, "", "=q4=Light-Mantle of Prophecy", "", "", ""};
-		{ 3, 61594, "", "=q4=Robes of Prophecy", "", "", ""};
-		{ 4, 61595, "", "=q4=Trousers of Prophecy", "", "", ""};
-		{ 5, 61596, "", "=q4=Handwraps of Prophecy", "", "", ""};
-		{ 6, 61597, "", "=q4=Boots of Prophecy", "", "", ""};
-		{ 16, 61598, "", "=q4=Wreath of Prophecy", "", "", ""};
-		{ 17, 61599, "", "=q4=Soul-Mantle of Prophecy", "", "", ""};
-		{ 18, 61600, "", "=q4=Shroud of Prophecy", "", "", ""};
-		{ 19, 61601, "", "=q4=Leggings of Prophecy", "", "", ""};
-		{ 20, 61602, "", "=q4=Gloves of Prophecy", "", "", ""};
-		{ 21, 61603, "", "=q4=Galoshes of Prophecy", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Nightslep1"] = {
-		{ 1, 61604, "", "=q4=Nightslayer Cover", "", "", ""};
-		{ 2, 61605, "", "=q4=Nightslayer Shoulder Pads", "", "", ""};
-		{ 3, 61606, "", "=q4=Nightslayer Chestpiece", "", "", ""};
-		{ 4, 61607, "", "=q4=Nightslayer Pants", "", "", ""};
-		{ 5, 61608, "", "=q4=Nightslayer Gloves", "", "", ""};
-		{ 6, 61609, "", "=q4=Nightslayer Boots", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Earthfep1"] = {
-		{ 1, 61610, "", "=q4=Earthfury Faceguard", "", "", ""};
-		{ 2, 61611, "", "=q4=Earthfury Shoulderguards", "", "", ""};
-		{ 3, 61612, "", "=q4=Earthfury Chestguard", "", "", ""};
-		{ 4, 61613, "", "=q4=Earthfury Legguards", "", "", ""};
-		{ 5, 61614, "", "=q4=Earthfury Handguards", "", "", ""};
-		{ 6, 61615, "", "=q4=Earthfury Boots", "", "", ""};
-		{ 8, 61616, "", "=q4=Earthfury Helm", "", "", ""};
-		{ 9, 61617, "", "=q4=Earthfury Shoulderplates", "", "", ""};
-		{ 10, 61618, "", "=q4=Earthfury Breastplate", "", "", ""};
-		{ 11, 61619, "", "=q4=Earthfury War-Kilt", "", "", ""};
-		{ 12, 61620, "", "=q4=Earthfury Gauntlets", "", "", ""};
-		{ 13, 61621, "", "=q4=Earthfury Sabatons", "", "", ""};
-		{ 16, 61622, "", "=q4=Earthfury Headdress", "", "", ""};
-		{ 17, 61623, "", "=q4=Earthfury Shoulderpads", "", "", ""};
-		{ 18, 61624, "", "=q4=Earthfury Hauberk", "", "", ""};
-		{ 19, 61625, "", "=q4=Earthfury Kilt", "", "", ""};
-		{ 20, 61626, "", "=q4=Earthfury Gloves", "", "", ""};
-		{ 21, 61627, "", "=q4=Earthfury Pads", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Felhearep1"] = {
-		{ 1, 61629, "", "=q4=Felheart Horns", "", "", ""};
-		{ 2, 61632, "", "=q4=Felheart Shoulder Pads", "", "", ""};
-		{ 3, 61631, "", "=q4=Felheart Robes", "", "", ""};
-		{ 4, 61630, "", "=q4=Felheart Pants", "", "", ""};
-		{ 5, 61628, "", "=q4=Felheart Gloves", "", "", ""};
-		{ 6, 61633, "", "=q4=Felheart Slippers", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Battlegeep1"] = {
-		{ 1, 61634, "", "=q4=Battle-Helm of Might", "", "", ""};
-		{ 2, 61635, "", "=q4=Shoulderplates of Might", "", "", ""};
-		{ 3, 61636, "", "=q4=Breastplate of Might", "", "", ""};
-		{ 4, 61637, "", "=q4=Greaves of Might", "", "", ""};
-		{ 5, 61638, "", "=q4=Gauntlets of Might", "", "", ""};
-		{ 6, 61639, "", "=q4=Sabatons of Might", "", "", ""};
-		{ 16, 61640, "", "=q4=Greathelm of Might", "", "", ""};
-		{ 17, 61641, "", "=q4=Shoulderguards of Might", "", "", ""};
-		{ 18, 61642, "", "=q4=Chestguard of Might", "", "", ""};
-		{ 19, 61643, "", "=q4=Legguards of Might", "", "", ""};
-		{ 20, 61644, "", "=q4=Handguards of Might", "", "", ""};
-		{ 21, 61645, "", "=q4=Sollerets of Might", "", "", ""};
-		Back = "T1T2T3SET";
-	};
-
-	AtlasLoot_Data["Epochpvpwep15"] = {
-		{ 1, 60911, "", "=q2=Rookie´s Dagger", "", "15 #wsg#", ""};
-		{ 2, 60912, "", "=q2=Rookie´s Hatchet", "", "15 #wsg#", ""};
-		{ 3, 60913, "", "=q2=Rookie´s Mallet", "", "15 #wsg#", ""};
-		{ 4, 60914, "", "=q2=Rookie´s Saber", "", "15 #wsg#", ""};
-		{ 5, 60915, "", "=q2=Rookie´s Claw", "", "15 #wsg#", ""};
-		{ 6, 60916, "", "=q2=Rookie´s Spellblade", "", "15 #wsg#", ""};
-		{ 7, 60917, "", "=q2=Rookie´s Frill", "", "15 #wsg#", ""};
-		{ 8, 60918, "", "=q2=Rookie´s Spellfist", "", "15 #wsg#", ""};
-		{ 9, 60919, "", "=q2=Rookie´s Spellhammer", "", "15 #wsg#", ""};
-		{ 10, 60920, "", "=q2=Rookie´s Spellsword", "", "15 #wsg#", ""};
-		{ 11, 60921, "", "=q2=Rookie´s Staff", "", "35 #wsg#", ""};
-		{ 12, 60926, "", "=q2=Rookie´s Battleaxe", "", "35 #wsg#", ""};
-		{ 13, 60927, "", "=q2=Rookie´s Maul", "", "15 #wsg#", ""};
-		{ 14, 60928, "", "=q2=Rookie´s Greatsword", "", "35 #wsg#", ""};
-		{ 15, 60929, "", "=q2=Rookie´s Spellshield", "", "15 #wsg#", ""};
-		{ 16, 60930, "", "=q2=Rookie´s Shield", "", "15 #wsg#", ""};
-		{ 17, 60931, "", "=q2=Rookie´s Axe", "", "15 #wsg#", ""};
-		{ 18, 60932, "", "=q2=Rookie´s Mace", "", "15 #wsg#", ""};
-		{ 19, 60933, "", "=q2=Rookie´s Sword", "", "15 #wsg#", ""};
-		{ 20, 60934, "", "=q2=Rookie´s Knuckles", "", "15 #wsg#", ""};
-		{ 22, 60922, "", "=q2=Rookie´s Rifle", "", "15 #wsg#", ""};
-		{ 23, 60923, "", "=q2=Rookie´s Bow", "", "15 #wsg#", ""};
-		{ 24, 60924, "", "=q2=Rookie´s Crossbow", "", "15 #wsg#", ""};
-		{ 25, 60925, "", "=q2=Rookie´s Knives", "", "15 #wsg#", ""};
-		{ 26, 60935, "", "=q2=Rookie´s Frostflinger", "", "15 #wsg#", ""};
-		{ 27, 60936, "", "=q2=Rookie´s Firestick", "", "15 #wsg#", ""};
-		{ 28, 60937, "", "=q2=Rookie´s Shadowthrower", "", "15 #wsg#", ""};
-		{ 29, 60938, "", "=q2=Rookie´s Arcane Wand", "", "15 #wsg#", ""};
-		{ 30, 60939, "", "=q2=Rookie´s Lightning Rod", "", "15 #wsg#", ""};
-		Back = "Epochpvp15";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc15"] = {
-		{ 14, 60910, "", "=q2=Rookie´s Emblem of Tenacity", "", "5 #wsg#", ""};
-		{ 15, 60909, "", "=q2=Rookie´s Insignia of the Alliance", "", "5 #wsg#", ""};
-		{ 1, 60907, "", "=q2=Rookie´s Band of Physical Potency", "", "15 #wsg#", ""};
-		{ 2, 60906, "", "=q2=Rookie´s Band of Physical Cruelty", "", "15 #wsg#", ""};
-		{ 3, 60905, "", "=q2=Rookie´s Band of Physical Accuracy", "", "15 #wsg#", ""};
-		{ 4, 60904, "", "=q2=Rookie´s Band of Magic Potency", "", "15 #wsg#", ""};
-		{ 5, 60903, "", "=q2=Rookie´s Band of Magic Cruelty", "", "15 #wsg#", ""};
-		{ 6, 60902, "", "=q2=Rookie´s Band of Magic Accuracy", "", "15 #wsg#", ""};
-		{ 7, 60901, "", "=q2=Rookie´s Band of Survival", "", "15 #wsg#", ""};
-		{ 9, 60900, "", "=q2=Rookie´s Amulet of Agility", "", "15 #wsg#", ""};
-		{ 10, 60899, "", "=q2=Rookie´s Amulet of Strength", "", "15 #wsg#", ""};
-		{ 11, 60898, "", "=q2=Rookie´s Amulet of Spellcasting", "", "15 #wsg#", ""};
-		{ 16, 60897, "", "=q2=Rookie´s Cloak of Pyhsical Potency", "", "20 #wsg#", ""};
-		{ 17, 60896, "", "=q2=Rookie´s Cloak of Physical Cruelty", "", "20 #wsg#", ""};
-		{ 18, 60895, "", "=q2=Rookie´s Cloak of Physical Accuracy", "", "20 #wsg#", ""};
-		{ 19, 60894, "", "=q2=Rookie´s Cloak of Magic Potency", "", "20 #wsg#", ""};
-		{ 20, 60893, "", "=q2=Rookie´s Cloak of Magic Cruelty", "", "20 #wsg#", ""};
-		{ 21, 60892, "", "=q2=Rookie´s Cloak of Magic Accuracy", "", "20 #wsg#", ""};
-		{ 22, 60891, "", "=q2=Rookie´s Cloak of Survival", "", "20 #wsg#", ""};
-		{ 30, 60908, "", "=q2=Rookie´s Insignia of the Horde", "", "5 #wsg#", ""};
-		Back = "Epochpvp15";
-	};
-
-	AtlasLoot_Data["Epochpvpwep25"] = {
-		{ 1, 61024, "", "=q2=Skirmisher´s Dagger", "", "16 #wsg#", ""};
-		{ 2, 61025, "", "=q2=Skirmisher´s Hatchet", "", "16 #wsg#", ""};
-		{ 3, 61026, "", "=q2=Skirmisher´s Mallet", "", "16 #wsg#", ""};
-		{ 4, 61027, "", "=q2=Skirmisher´s Saber", "", "16 #wsg#", ""};
-		{ 5, 61028, "", "=q2=Skirmisher´s Claw", "", "16 #wsg#", ""};
-		{ 6, 61029, "", "=q2=Skirmisher´s Spellblade", "", "16 #wsg#", ""};
-		{ 7, 61030, "", "=q2=Skirmisher´s Frill", "", "16 #wsg#", ""};
-		{ 8, 61031, "", "=q2=Skirmisher´s Spellfist", "", "16 #wsg#", ""};
-		{ 9, 61032, "", "=q2=Skirmisher´s Spellhammer", "", "16 #wsg#", ""};
-		{ 10, 61033, "", "=q2=Skirmisher´s Spellsword", "", "16 #wsg#", ""};
-		{ 11, 61034, "", "=q2=Skirmisher´s Staff", "", "36 #wsg#", ""};
-		{ 12, 61039, "", "=q2=Skirmisher´s Battleaxe", "", "36 #wsg#", ""};
-		{ 13, 61040, "", "=q2=Skirmisher´s Maul", "", "16 #wsg#", ""};
-		{ 14, 61041, "", "=q2=Skirmisher´s Greatsword", "", "36 #wsg#", ""};
-		{ 15, 61042, "", "=q2=Skirmisher´s Spellshield", "", "16 #wsg#", ""};
-		{ 16, 61043, "", "=q2=Skirmisher´s Shield", "", "16 #wsg#", ""};
-		{ 17, 61044, "", "=q2=Skirmisher´s Axe", "", "16 #wsg#", ""};
-		{ 18, 61045, "", "=q2=Skirmisher´s Mace", "", "16 #wsg#", ""};
-		{ 19, 61046, "", "=q2=Skirmisher´s Sword", "", "16 #wsg#", ""};
-		{ 20, 61047, "", "=q2=Skirmisher´s Knuckles", "", "16 #wsg#", ""};
-		{ 22, 61035, "", "=q2=Skirmisher´s Rifle", "", "16 #wsg#", ""};
-		{ 23, 61036, "", "=q2=Skirmisher´s Bow", "", "16 #wsg#", ""};
-		{ 24, 61037, "", "=q2=Skirmisher´s Crossbow", "", "16 #wsg#", ""};
-		{ 25, 61038, "", "=q2=Skirmisher´s Knives", "", "16 #wsg#", ""};
-		{ 26, 61048, "", "=q2=Skirmisher´s Frostflinger", "", "16 #wsg#", ""};
-		{ 27, 61049, "", "=q2=Skirmisher´s Firestick", "", "16 #wsg#", ""};
-		{ 28, 61050, "", "=q2=Skirmisher´s Shadowthrower", "", "16 #wsg#", ""};
-		{ 29, 61051, "", "=q2=Skirmisher´s Arcane Wand", "", "16 #wsg#", ""};
-		{ 30, 61052, "", "=q2=Skirmisher´s Lightning Rod", "", "16 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc25"] = {
-		{ 14, 61023, "", "=q2=Skirmisher´s Emblem of Tenacity", "", "6 #wsg#", ""};
-		{ 15, 61022, "", "=q2=Skirmisher´s Insignia of the Alliance", "", "6 #wsg#", ""};
-		{ 1, 61020, "", "=q2=Skirmisher´s Band of Physical Potency", "", "16 #wsg#", ""};
-		{ 2, 61019, "", "=q2=Skirmisher´s Band of Physical Cruelty", "", "16 #wsg#", ""};
-		{ 3, 61018, "", "=q2=Skirmisher´s Band of Physical Accuracy", "", "16 #wsg#", ""};
-		{ 4, 61017, "", "=q2=Skirmisher´s Band of Magic Potency", "", "16 #wsg#", ""};
-		{ 5, 61016, "", "=q2=Skirmisher´s Band of Magic Cruelty", "", "16 #wsg#", ""};
-		{ 6, 61015, "", "=q2=Skirmisher´s Band of Magic Accuracy", "", "16 #wsg#", ""};
-		{ 7, 61014, "", "=q2=Skirmisher´s Band of Survival", "", "16 #wsg#", ""};
-		{ 9, 61013, "", "=q2=Skirmisher´s Amulet of Agility", "", "16 #wsg#", ""};
-		{ 10, 61012, "", "=q2=Skirmisher´s Amulet of Strength", "", "16 #wsg#", ""};
-		{ 11, 61011, "", "=q2=Skirmisher´s Amulet of Spellcasting", "", "16 #wsg#", ""};
-		{ 16, 61010, "", "=q2=Skirmisher´s Cloak of Pyhsical Potency", "", "21 #wsg#", ""};
-		{ 17, 61009, "", "=q2=Skirmisher´s Cloak of Physical Cruelty", "", "21 #wsg#", ""};
-		{ 18, 61008, "", "=q2=Skirmisher´s Cloak of Physical Accuracy", "", "21 #wsg#", ""};
-		{ 19, 61007, "", "=q2=Skirmisher´s Cloak of Magic Potency", "", "21 #wsg#", ""};
-		{ 20, 61006, "", "=q2=Skirmisher´s Cloak of Magic Cruelty", "", "21 #wsg#", ""};
-		{ 21, 61005, "", "=q2=Skirmisher´s Cloak of Magic Accuracy", "", "21 #wsg#", ""};
-		{ 22, 61004, "", "=q2=Skirmisher´s Cloak of Survival", "", "21 #wsg#", ""};
-		{ 30, 61021, "", "=q2=Skirmisher´s Insignia of the Horde", "", "6 #wsg#", ""};
-		Back = "Epochpvp25";
-	};
-
-	AtlasLoot_Data["Epochpvpwep35"] = {
-		{ 1, 61146, "", "=q2=Combatant´s Dagger", "", "17 #wsg#", ""};
-		{ 2, 61147, "", "=q2=Combatant´s Hatchet", "", "17 #wsg#", ""};
-		{ 3, 61148, "", "=q2=Combatant´s Mallet", "", "17 #wsg#", ""};
-		{ 4, 61149, "", "=q2=Combatant´s Saber", "", "17 #wsg#", ""};
-		{ 5, 61150, "", "=q2=Combatant´s Claw", "", "17 #wsg#", ""};
-		{ 6, 61151, "", "=q2=Combatant´s Spellblade", "", "17 #wsg#", ""};
-		{ 7, 61152, "", "=q2=Combatant´s Medical Knife", "", "17 #wsg#", ""};
-		{ 8, 61153, "", "=q2=Combatant´s Frill", "", "17 #wsg#", ""};
-		{ 9, 61154, "", "=q2=Combatant´s Tome", "", "17 #wsg#", ""};
-		{ 10, 61155, "", "=q2=Combatant´s Staff", "", "37 #wsg#", ""};
-		{ 11, 61156, "", "=q2=Combatant´s Stave", "", "37 #wsg#", ""};
-		{ 12, 61157, "", "=q2=Combatant´s Spellfist", "", "17 #wsg#", ""};
-		{ 13, 61158, "", "=q2=Combatant´s Spellhammer", "", "17 #wsg#", ""};
-		{ 14, 61159, "", "=q2=Combatant´s Spellsword", "", "17 #wsg#", ""};
-		{ 15, 61160, "", "=q2=Combatant´s Healing Knuckles", "", "17 #wsg#", ""};
-		{ 16, 61161, "", "=q2=Combatant´s Scepter", "", "17 #wsg#", ""};
-		{ 17, 61162, "", "=q2=Combatant´s Brand", "", "17 #wsg#", ""};
-		{ 18, 61167, "", "=q2=Combatant´s Battleaxe", "", "37 #wsg#", ""};
-		{ 19, 61168, "", "=q2=Combatant´s Maul", "", "17 #wsg#", ""};
-		{ 20, 61169, "", "=q2=Combatant´s Greatsword", "", "37 #wsg#", ""};
-		{ 21, 61170, "", "=q2=Combatant´s Spellshield", "", "17 #wsg#", ""};
-		{ 22, 61171, "", "=q2=Combatant´s Shield", "", "17 #wsg#", ""};
-		{ 23, 61172, "", "=q2=Combatant´s Protector", "", "17 #wsg#", ""};
-		{ 24, 61173, "", "=q2=Combatant´s Axe", "", "17 #wsg#", ""};
-		{ 25, 61174, "", "=q2=Combatant´s Mace", "", "17 #wsg#", ""};
-		{ 26, 61175, "", "=q2=Combatant´s Sword", "", "17 #wsg#", ""};
-		{ 27, 61176, "", "=q2=Combatant´s Knuckles", "", "17 #wsg#", ""};
-		Next = "Epochpvpwep235";
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Epochpvpwep235"] = {
-		{ 1, 61163, "", "=q2=Combatant´s Rifle", "", "17 #wsg#", ""};
-		{ 2, 61164, "", "=q2=Combatant´s Bow", "", "17 #wsg#", ""};
-		{ 3, 61165, "", "=q2=Combatant´s Crossbow", "", "17 #wsg#", ""};
-		{ 4, 61166, "", "=q2=Combatant´s Knives", "", "17 #wsg#", ""};
-		{ 16, 61177, "", "=q2=Combatant´s Frostflinger", "", "17 #wsg#", ""};
-		{ 17, 61178, "", "=q2=Combatant´s Firestick", "", "17 #wsg#", ""};
-		{ 18, 61179, "", "=q2=Combatant´s Shadowthrower", "", "17 #wsg#", ""};
-		{ 19, 61180, "", "=q2=Combatant´s Arcane Wand", "", "17 #wsg#", ""};
-		{ 20, 61181, "", "=q2=Combatant´s Lightning Rod", "", "17 #wsg#", ""};
-		Prev = "Epochpvpwep35";
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc35"] = {
-		{ 29, 61139, "", "=q2=Combatant´s Emblem of Tenacity", "", "7 #wsg#", ""};
-		{ 15, 61138, "", "=q2=Combatant´s Insignia of the Alliance", "", "7 #wsg#", ""};
-		{ 1, 61136, "", "=q2=Combatant´s Band of Physical Potency", "", "17 #wsg#", ""};
-		{ 2, 61135, "", "=q2=Combatant´s Band of Physical Cruelty", "", "17 #wsg#", ""};
-		{ 3, 61134, "", "=q2=Combatant´s Band of Physical Accuracy", "", "17 #wsg#", ""};
-		{ 4, 61133, "", "=q2=Combatant´s Band of Meditation", "", "17 #wsg#", ""};
-		{ 5, 61132, "", "=q2=Combatant´s Band of Magic Potency", "", "17 #wsg#", ""};
-		{ 6, 61131, "", "=q2=Combatant´s Band of Magic Cruelty", "", "17 #wsg#", ""};
-		{ 7, 61130, "", "=q2=Combatant´s Band of Magic Accuracy", "", "17 #wsg#", ""};
-		{ 8, 61129, "", "=q2=Combatant´s Band of Survival", "", "17 #wsg#", ""};
-		{ 10, 61127, "", "=q2=Combatant´s Amulet of Agility", "", "17 #wsg#", ""};
-		{ 11, 61126, "", "=q2=Combatant´s Amulet of Strength", "", "17 #wsg#", ""};
-		{ 12, 61125, "", "=q2=Combatant´s Amulet of Spellcasting", "", "17 #wsg#", ""};
-		{ 13, 61128, "", "=q2=Combatant´s Amulet of Meditation", "", "17 #wsg#", ""};
-		{ 16, 61124, "", "=q2=Combatant´s Cloak of Pyhsical Potency", "", "22 #wsg#", ""};
-		{ 17, 61123, "", "=q2=Combatant´s Cloak of Physical Cruelty", "", "22 #wsg#", ""};
-		{ 18, 61122, "", "=q2=Combatant´s Cloak of Physical Accuracy", "", "22 #wsg#", ""};
-		{ 19, 61121, "", "=q2=Combatant´s Cloak of Meditation", "", "22 #wsg#", ""};
-		{ 20, 61120, "", "=q2=Combatant´s Cloak of Magic Potency", "", "22 #wsg#", ""};
-		{ 21, 61119, "", "=q2=Combatant´s Cloak of Magic Cruelty", "", "22 #wsg#", ""};
-		{ 22, 61118, "", "=q2=Combatant´s Cloak of Magic Accuracy", "", "22 #wsg#", ""};
-		{ 23, 61117, "", "=q2=Combatant´s Cloak of Survival", "", "22 #wsg#", ""};
-		{ 30, 61137, "", "=q2=Combatant´s Insignia of the Horde", "", "7 #wsg#", ""};
-		Back = "Epochpvp35";
-	};
-
-	AtlasLoot_Data["Epochpvpwep45"] = {
-		{ 1, 61305, "", "=q2=Aspirant´s Dagger", "", "18 #wsg#", ""};
-		{ 2, 61306, "", "=q2=Aspirant´s Hatchet", "", "18 #wsg#", ""};
-		{ 3, 61307, "", "=q2=Aspirant´s Mallet", "", "18 #wsg#", ""};
-		{ 4, 61308, "", "=q2=Aspirant´s Saber", "", "18 #wsg#", ""};
-		{ 5, 61309, "", "=q2=Aspirant´s Claw", "", "18 #wsg#", ""};
-		{ 6, 61310, "", "=q2=Aspirant´s Spellblade", "", "18 #wsg#", ""};
-		{ 7, 61311, "", "=q2=Aspirant´s Medical Knife", "", "18 #wsg#", ""};
-		{ 8, 61312, "", "=q2=Aspirant´s Frill", "", "18 #wsg#", ""};
-		{ 9, 61313, "", "=q2=Aspirant´s Tome", "", "18 #wsg#", ""};
-		{ 10, 61314, "", "=q2=Aspirant´s Staff", "", "38 #wsg#", ""};
-		{ 11, 61315, "", "=q2=Aspirant´s Stave", "", "38 #wsg#", ""};
-		{ 12, 61316, "", "=q2=Aspirant´s Spellfist", "", "18 #wsg#", ""};
-		{ 13, 61317, "", "=q2=Aspirant´s Spellhammer", "", "18 #wsg#", ""};
-		{ 14, 61318, "", "=q2=Aspirant´s Spellsword", "", "18 #wsg#", ""};
-		{ 15, 61319, "", "=q2=Aspirant´s Healing Knuckles", "", "18 #wsg#", ""};
-		{ 16, 61320, "", "=q2=Aspirant´s Scepter", "", "18 #wsg#", ""};
-		{ 17, 61321, "", "=q2=Aspirant´s Brand", "", "18 #wsg#", ""};
-		{ 18, 61326, "", "=q2=Aspirant´s Battleaxe", "", "38 #wsg#", ""};
-		{ 19, 61327, "", "=q2=Aspirant´s Maul", "", "18 #wsg#", ""};
-		{ 20, 61328, "", "=q2=Aspirant´s Greatsword", "", "38 #wsg#", ""};
-		{ 21, 61329, "", "=q2=Aspirant´s Spellshield", "", "18 #wsg#", ""};
-		{ 22, 61330, "", "=q2=Aspirant´s Shield", "", "18 #wsg#", ""};
-		{ 23, 61331, "", "=q2=Aspirant´s Protector", "", "18 #wsg#", ""};
-		{ 24, 61332, "", "=q2=Aspirant´s Axe", "", "18 #wsg#", ""};
-		{ 25, 61333, "", "=q2=Aspirant´s Mace", "", "18 #wsg#", ""};
-		{ 26, 61334, "", "=q2=Aspirant´s Sword", "", "18 #wsg#", ""};
-		{ 27, 61335, "", "=q2=Aspirant´s Knuckles", "", "18 #wsg#", ""};
-		Next = "Epochpvpwep245";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Epochpvpwep245"] = {
-		{ 1, 61322, "", "=q2=Aspirant´s Rifle", "", "18 #wsg#", ""};
-		{ 2, 61323, "", "=q2=Aspirant´s Bow", "", "18 #wsg#", ""};
-		{ 3, 61324, "", "=q2=Aspirant´s Crossbow", "", "18 #wsg#", ""};
-		{ 4, 61325, "", "=q2=Aspirant´s Knives", "", "18 #wsg#", ""};
-		{ 16, 61336, "", "=q2=Aspirant´s Frostflinger", "", "18 #wsg#", ""};
-		{ 17, 61337, "", "=q2=Aspirant´s Firestick", "", "18 #wsg#", ""};
-		{ 18, 61338, "", "=q2=Aspirant´s Shadowthrower", "", "18 #wsg#", ""};
-		{ 19, 61339, "", "=q2=Aspirant´s Arcane Wand", "", "18 #wsg#", ""};
-		{ 20, 61340, "", "=q2=Aspirant´s Lightning Rod", "", "18 #wsg#", ""};
-		Prev = "Epochpvpwep45";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc45"] = {
-		{ 1, 61304, "", "=q2=Aspirant´s Emblem of Renewal", "", "8 #wsg#", ""};
-		{ 2, 61303, "", "=q2=Aspirant´s Emblem of Upturn", "", "8 #wsg#", ""};
-		{ 3, 61302, "", "=q2=Aspirant´s Emblem of Power", "", "8 #wsg#", ""};
-		{ 4, 61301, "", "=q2=Aspirant´s Emblem of Alacrity", "", "8 #wsg#", ""};
-		{ 5, 61300, "", "=q2=Aspirant´s Emblem of Dominance", "", "8 #wsg#", ""};
-		{ 6, 61299, "", "=q2=Aspirant´s Emblem of Betterment", "", "8 #wsg#", ""};
-		{ 7, 61298, "", "=q2=Aspirant´s Emblem of Cogitation", "", "8 #wsg#", ""};
-		{ 8, 61297, "", "=q2=Aspirant´s Emblem of Magick", "", "8 #wsg#", ""};
-		{ 9, 61296, "", "=q2=Aspirant´s Emblem of Ferocity", "", "8 #wsg#", ""};
-		{ 10, 61295, "", "=q2=Aspirant´s Emblem of Vigor", "", "8 #wsg#", ""};
-		{ 11, 61292, "", "=q2=Aspirant´s Emblem of Tenacity", "", "8 #wsg#", ""};
-		{ 13, 61294, "", "=q2=Aspirant´s Insignia of Relentlessness", "", "8 #wsg#", ""};
-		{ 14, 61293, "", "=q2=Aspirant´s Insignia of Adaptation", "", "8 #wsg#", ""};
-		{ 15, 61291, "", "=q2=Aspirant´s Insignia of the Alliance", "", "8 #wsg#", ""};
-		{ 16, 61273, "", "=q2=Aspirant´s Band of Physical Potency", "", "18 #wsg#", ""};
-		{ 17, 61272, "", "=q2=Aspirant´s Band of Physical Cruelty", "", "18 #wsg#", ""};
-		{ 18, 61271, "", "=q2=Aspirant´s Band of Physical Accuracy", "", "18 #wsg#", ""};
-		{ 19, 61270, "", "=q2=Aspirant´s Band of Meditation", "", "18 #wsg#", ""};
-		{ 20, 61269, "", "=q2=Aspirant´s Band of Magic Potency", "", "18 #wsg#", ""};
-		{ 21, 61268, "", "=q2=Aspirant´s Band of Magic Cruelty", "", "18 #wsg#", ""};
-		{ 22, 61267, "", "=q2=Aspirant´s Band of Magic Accuracy", "", "18 #wsg#", ""};
-		{ 23, 61266, "", "=q2=Aspirant´s Band of Survival", "", "18 #wsg#", ""};
-		{ 30, 61290, "", "=q2=Aspirant´s Insignia of the Horde", "", "8 #wsg#", ""};
-		Next = "Epochpvpmisc245";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc245"] = {
-		{ 1, 61261, "", "=q2=Cloak of Pyhsical Potency", "", "23 #wsg#", ""};
-		{ 2, 61260, "", "=q2=Cloak of Physical Cruelty", "", "23 #wsg#", ""};
-		{ 3, 61259, "", "=q2=Cloak of Physical Accuracy", "", "23 #wsg#", ""};
-		{ 4, 61258, "", "=q2=Cloak of Meditation", "", "23 #wsg#", ""};
-		{ 5, 61257, "", "=q2=Cloak of Magic Potency", "", "23 #wsg#", ""};
-		{ 6, 61256, "", "=q2=Cloak of Magic Cruelty", "", "23 #wsg#", ""};
-		{ 7, 61255, "", "=q2=Cloak of Magic Accuracy", "", "23 #wsg#", ""};
-		{ 8, 61254, "", "=q2=Cloak of Survival", "", "23 #wsg#", ""};
-		{ 16, 61265, "", "=q2=Amulet of Meditation", "", "18 #wsg#", ""};
-		{ 17, 61264, "", "=q2=Amulet of Agility", "", "18 #wsg#", ""};
-		{ 18, 61263, "", "=q2=Amulet of Strength", "", "18 #wsg#", ""};
-		{ 19, 61262, "", "=q2=Amulet of Spellcasting", "", "18 #wsg#", ""};
-		Prev = "Epochpvpmisc45";
-		Back = "Epochpvp45";
-	};
-
-	AtlasLoot_Data["Epochpvpwep55"] = {
-		{ 1, 61498, "", "=q3=Soldier´s Dagger", "", "20 #wsg#", ""};
-		{ 2, 61499, "", "=q3=Soldier´s Hatchet", "", "20 #wsg#", ""};
-		{ 3, 61500, "", "=q3=Soldier´s Mallet", "", "20 #wsg#", ""};
-		{ 4, 61501, "", "=q3=Soldier´s Saber", "", "20 #wsg#", ""};
-		{ 5, 61502, "", "=q3=Soldier´s Claw", "", "20 #wsg#", ""};
-		{ 6, 61503, "", "=q3=Soldier´s Spellblade", "", "20 #wsg#", ""};
-		{ 7, 61504, "", "=q3=Soldier´s Medical Knife", "", "20 #wsg#", ""};
-		{ 8, 61505, "", "=q3=Soldier´s Frill", "", "20 #wsg#", ""};
-		{ 9, 61506, "", "=q3=Soldier´s Tome", "", "20 #wsg#", ""};
-		{ 10, 61507, "", "=q3=Soldier´s Staff", "", "20 #wsg#", ""};
-		{ 11, 61508, "", "=q3=Soldier´s Stave", "", "20 #wsg#", ""};
-		{ 12, 61509, "", "=q3=Soldier´s Spellfist", "", "20 #wsg#", ""};
-		{ 13, 61510, "", "=q3=Soldier´s Spellhammer", "", "20 #wsg#", ""};
-		{ 14, 61511, "", "=q3=Soldier´s Spellsword", "", "20 #wsg#", ""};
-		{ 15, 61512, "", "=q3=Soldier´s Healing Knuckles", "", "20 #wsg#", ""};
-		{ 16, 61513, "", "=q3=Soldier´s Scepter", "", "20 #wsg#", ""};
-		{ 17, 61514, "", "=q3=Soldier´s Brand", "", "20 #wsg#", ""};
-		{ 18, 61521, "", "=q3=Soldier´s Battleaxe", "", "40 #wsg#", ""};
-		{ 19, 61522, "", "=q3=Soldier´s Maul", "", "20 #wsg#", ""};
-		{ 20, 61523, "", "=q3=Soldier´s Greatsword", "", "40 #wsg#", ""};
-		{ 21, 61524, "", "=q3=Soldier´s Spellshield", "", "20 #wsg#", ""};
-		{ 22, 61525, "", "=q3=Soldier´s Shield", "", "20 #wsg#", ""};
-		{ 23, 61526, "", "=q3=Soldier´s Protector", "20 #wsg#", "", ""};
-		{ 24, 61527, "", "=q3=Soldier´s Axe", "", "20 #wsg#", ""};
-		{ 25, 61528, "", "=q3=Soldier´s Mace", "", "20 #wsg#", ""};
-		{ 26, 61529, "", "=q3=Soldier´s Sword", "", "20 #wsg#", ""};
-		{ 27, 61530, "", "=q3=Soldier´s Knuckles", "", "20 #wsg#", ""};
-		Next = "Epochpvpwep255";
-		Back = "Epochpvp55";
-	};
-
-	AtlasLoot_Data["Epochpvpwep255"] = {
-		{ 1, 61515, "", "=q3=Soldier´s Idol", "", "", ""};
-		{ 2, 61516, "", "=q3=Soldier´s Libram", "", "", ""};
-		{ 3, 61517, "", "=q3=Soldier´s Rifle", "", "", ""};
-		{ 4, 61518, "", "=q3=Soldier´s Bow", "", "", ""};
-		{ 5, 61519, "", "=q3=Soldier´s Crossbow", "", "", ""};
-		{ 6, 61520, "", "=q3=Soldier´s Knives", "", "", ""};
-		{ 16, 61531, "", "=q3=Soldier´s Totem", "=ds=", "1 #wsg#", ""};
-		{ 17, 61532, "", "=q3=Soldier´s Frostflinger", "=ds=", "1 #wsg#", ""};
-		{ 18, 61533, "", "=q3=Soldier´s  Firestick", "=ds=", "1 #wsg#", ""};
-		{ 19, 61534, "", "=q3=Soldier´s  Shadowthrower", "=ds=", "1 #wsg#", ""};
-		{ 20, 61535, "", "=q3=Soldier´s  Arcane Wand", "=ds=", "1 #wsg#", ""};
-		{ 21, 61536, "", "=q3=Soldier´s  Lightning Rod", "=ds=", "1 #wsg#", ""};
-		Prev = "Epochpvpwep55";
-		Back = "Epochpvp55";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc55"] = {
-		{ 1, 61495, "", "=q3=Emblem of Renewal", "=ds=", "10 #wsg#", ""};
-		{ 2, 61494, "", "=q3=Emblem of Upturn", "=ds=", "10 #wsg#", ""};
-		{ 3, 61493, "", "=q3=Emblem of Power", "=ds=", "10 #wsg#", ""};
-		{ 4, 61492, "", "=q3=Emblem of Alacrity", "=ds=", "10 #wsg#", ""};
-		{ 5, 61491, "", "=q3=Emblem of Dominance", "=ds=", "10 #wsg#", ""};
-		{ 6, 61490, "", "=q3=Emblem of Betterment", "=ds=", "10 #wsg#", ""};
-		{ 7, 61489, "", "=q3=Emblem of Cogitation", "=ds=", "10 #wsg#", ""};
-		{ 8, 61488, "", "=q3=Emblem of Magick", "=ds=", "10 #wsg#", ""};
-		{ 9, 61487, "", "=q3=Emblem of Ferocity", "=ds=", "10 #wsg#", ""};
-		{ 10, 61486, "", "=q3=Emblem of Vigor", "=ds=", "10 #wsg#", ""};
-		{ 11, 61485, "", "=q3=Emblem of Tenacity", "=ds=", "10 #wsg#", ""};
-		{ 13, 61144, "", "=q3=Insignia of Relentlessness", "=ds=", "10 #wsg#", ""};
-		{ 14, 61142, "", "=q3=Insignia of Adaptation", "=ds=", "10 #wsg#", ""};
-		{ 15, 61141, "", "=q3=Insignia of the Alliance", "=ds=", "10 #wsg#", ""};
-		{ 16, 61460, "", "=q3=Band of Physical Potency", "=ds=", "20 #wsg#", ""};
-		{ 17, 61459, "", "=q3=Band of Physical Crit", "=ds=", "20 #wsg#", ""};
-		{ 18, 61458, "", "=q3=Band of Physical Accuracy", "=ds=", "20 #wsg#", ""};
-		{ 19, 61457, "", "=q3=Band of Magic Potency", "=ds=", "20 #wsg#", ""};
-		{ 20, 61456, "", "=q3=Band of Magic Cruelty", "=ds=", "20 #wsg#", ""};
-		{ 21, 61455, "", "=q3=Band of Magic Accuracy", "=ds=", "20 #wsg#", ""};
-		{ 22, 61454, "", "=q3=Band of Survival", "=ds=", "20 #wsg#", ""};
-		{ 23, 61453, "", "=q3=Band of Meditation", "=ds=", "20 #wsg#", ""};
-		{ 25, 61452, "", "=q3=Amulet of Spellcasting", "=ds=", "20 #wsg#", ""};
-		{ 26, 90500, "", "=q3=Amulet of Strength", "=ds=", "20 #wsg#", ""};
-		{ 27, 90501, "", "=q3=Amulet of Agility", "=ds=", "20 #wsg#", ""};
-		{ 28, 90502, "", "=q3=Amulet of Meditation", "=ds=", "20 #wsg#", ""};
-		{ 30, 61140, "", "=q3=Insignia of the Horde", "=ds=", "10 #wsg#", ""};
-		Next = "Epochpvpmisc255";
-		Back = "Epochpvp55";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc255"] = {
-		{ 1, 61450, "", "=q3=Cloak of Pyhsical Potency", "=ds=", "25 #wsg#", ""};
-		{ 2, 61449, "", "=q3=Cloak of Physical Cruelty", "=ds=", "25 #wsg#", ""};
-		{ 3, 61448, "", "=q3=Cloak of Physical Accuracy", "=ds=", "25 #wsg#", ""};
-		{ 4, 61447, "", "=q3=Cloak of Magic Potency", "=ds=", "25 #wsg#", ""};
-		{ 5, 61446, "", "=q3=Cloak of Magic Cruelty", "=ds=", "25 #wsg#", ""};
-		{ 6, 61445, "", "=q3=Cloak of Magic Accuracy", "=ds=", "25 #wsg#", ""};
-		{ 7, 61444, "", "=q3=Cloak of Survival", "=ds=", "25 #wsg#", ""};
-		{ 8, 61443, "", "=q3=Cloak of Meditation", "=ds=", "25 #wsg#", ""};
-		Prev = "Epochpvpmisc55";
-		Back = "Epochpvp55";
-	};
-
-	AtlasLoot_Data["Epochpvpwep60"] = {
-		Back = "Epochpvp60";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc60"] = {
-		Next = "Epochpvpmisc260";
-		Back = "Epochpvp60";
-	};
-
-	AtlasLoot_Data["Epochpvpmisc260"] = {
-		Prev = "Epochpvpmisc60";
-		Back = "Epochpvp60";
-	};
-
-	AtlasLoot_Data["Epochpvpworld"] = {
-		{ 1, 62241, "", "=q6=Bloody Token", "", "", ""};
-		{ 3, 62248, "", "=q3=Title Scroll: The Bloodthirsty", "=ds=", "1000 #epvpw#", ""};
-		{ 4, 60152, "", "=q3=Glyph of Bloody Retreat", "=ds=", "500 #epvpw#", ""};
-		{ 5, 49052, "", "=q3=Tabard of Savagery", "=ds=", "500 #epvpw#", ""};
-		{ 6, 38578, "", "=q3=The Flag of Ownership", "=ds=", "250 #epvpw#", ""};
-		{ 18, 62245, "", "=q1=Spiked Net", "=ds=", "25 #epvpw#", ""};
-		{ 19, 62247, "", "=q1=Potion of Closing", "=ds=", "25 #epvpw#", ""};
-		{ 20, 62246, "", "=q1=Rocket Powered Punch", "=ds=", "25 #epvpw#", ""};
-		{ 8, 62244, "", "=q2=Alliance Balloon", "=ds=", "250 #epvpw#", ""};
-		{ 23, 62243, "", "=q2=Horde Balloon", "=ds=", "250 #epvpw#", ""};
-		Back = "EPOCHPVPSETMENU";
-	};
-
-	AtlasLoot_Data["Epochpvps1"] = {
-		{ 1, 61497, "", "=q3=Battlemaster´s Emblem", "#s14#", "", ""};
-		{ 2, 61496, "", "=q3=Insignia of the Horde", "#s14#", "", ""};
-		Back = "EPOCHPVPSETMENU";
-	};
-
-		------------------
+		-----------------
 		--- Epoch Sets ---
 		------------------
 
 	AtlasLoot_Data["Epochset"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Rune Warder Set"], ""};
-		{ 2, 60587, "", "=q3=Rune Warder´s Crown", "=ds=", "", ""};
-		{ 3, 60588, "", "=q3=Rune Warder´s Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
-		{ 5, 60590, "", "=q3=Rune Warder´s Gloves", "=ds=", "", ""};
-		{ 6, 60591, "", "=q3=Rune Warder´s Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 7, 60592, "", "=q3=Rune Warder´s Boots", "=ds="..BabbleEpoch["Nazrasash"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 2, 60587, "", "=q3=Rune Warder's Crown", "=ds=", "", ""};
+		{ 3, 60588, "", "=q3=Rune Warder's Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 4, 60589, "", "=q3=Rune Warder's Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
+		{ 5, 60590, "", "=q3=Rune Warder's Gloves", "=ds=", "", ""};
+		{ 6, 60591, "", "=q3=Rune Warder's Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 7, 60592, "", "=q3=Rune Warder's Boots", "=ds="..BabbleEpoch["Nazrasash"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		Prev = "BHRares";
 	};
 
 	AtlasLoot_Data["Epochset0"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Rune Warder Set"], ""};
-		{ 2, 60587, "", "=q3=Rune Warder´s Crown", "=ds=", "", ""};
-		{ 3, 60588, "", "=q3=Rune Warder´s Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
-		{ 5, 60590, "", "=q3=Rune Warder´s Gloves", "=ds=", "", ""};
-		{ 6, 60591, "", "=q3=Rune Warder´s Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 7, 60592, "", "=q3=Rune Warder´s Boots", "=ds="..BabbleEpoch["Nazrasash"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 2, 60587, "", "=q3=Rune Warder's Crown", "=ds=", "", ""};
+		{ 3, 60588, "", "=q3=Rune Warder's Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 4, 60589, "", "=q3=Rune Warder's Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
+		{ 5, 60590, "", "=q3=Rune Warder's Gloves", "=ds=", "", ""};
+		{ 6, 60591, "", "=q3=Rune Warder's Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 7, 60592, "", "=q3=Rune Warder's Boots", "=ds="..BabbleEpoch["Nazrasash"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		Next = "VWOWWeapons";
 		Prev = "VWOWScholo";
 		Back = "SETSCLASSIC";
@@ -4990,362 +3978,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 60818, "", "=q4=Stormhowler", "", "", ""};
 		Prev = "WorldEpics3";
 		Back = "WORLDEPICS";
-	};
-
-	-----------
-	--- PvP ---
-	-----------
-
-		----------------------
-		--- Alterac Valley ---
-		----------------------
-
-		--------------------
-		--- Arathi Basin ---
-		--------------------
-
-		---------------------
-		--- Warsong Gulch ---
-		---------------------
-
-	AtlasLoot_Data["WSGMisc"] = {
-		{ 1, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 2 #faction#", ""};
-		{ 2, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 2 #faction#", ""};
-		{ 4, 19060, "", "=q1=Enriched Ration", "=ds=", "20 #silver#", ""};
-		{ 5, 19061, "", "=q1=Iron Ration", "=ds=", "15 #silver#", ""};
-		{ 6, 19062, "", "=q1=Field Ration", "=ds=", "10 #silver#", ""};
-		{ 8, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b3#"};
-		{ 9, 61541, "", "=q1=Silverwing Supply Box", "=ds=", "3 #wsg#", ""};
-		{ 10, 61538, "", "=q3=Silverwing Insignia", "=ds=", "9 #wsg#", ""};
-		{ 11, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "15 #wsg#", ""};
-		{ 16, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #faction#", ""};
-		{ 17, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #faction#", ""};
-		{ 19, 19066, "", "=q1=Battlefield Runecloth Bandage", "=ds=", "20 #silver#", ""};
-		{ 20, 19067, "", "=q1=Battlefield Mageweave Bandage", "=ds=", "15 #silver#", ""};
-		{ 21, 19068, "", "=q1=Battlefield Silk Bandage", "=ds=", "10 #silver#", ""};
-		{ 23, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b4#"};
-		{ 24, 61543, "", "=q1=Warsong Supply Box", "=ds=", "3 #wsg#", ""};
-		{ 25, 61539, "", "=q3=Warsong Insignia", "=ds=", "9 #wsg#", ""};
-		{ 26, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "15 #wsg#", ""};
-		Back = "PVPMENU";
-	};
-
-		---------------------------------------
-		--- PvP Level 60 Rare and Epic Sets ---
-		---------------------------------------
-
-	AtlasLoot_Data["PVPDruid"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea1#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Dragonhide Helmet", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Dragonhide Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Dragonhide Breastplate", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Dragonhide Gauntlets", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Dragonhide Legguards", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Dragonhide Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra1#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Dragonhide Headguard", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Dragonhide Shoulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Dragonhide Chestpiece", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Dragonhide Grips", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Dragonhide Leggings", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Dragonhide Treads", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh1#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Dragonhide Helmet", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Dragonhide Epaulets", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Dragonhide Hauberk", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Dragonhide Gloves", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Dragonhide Leggings", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Dragonhide Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh1#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Dragonhide Headguard", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Dragonhide Shoulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Dragonhide Chestpiece", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Dragonhide Grips", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Dragonhide Leggings", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Dragonhide Treads", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPHunter"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea2#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Chain Helm", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Chain Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Chain Breastplate", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Chain Grips", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Chain Legguards", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Chain Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra2#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Chain Helm", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Chain Shoulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Chain Hauberk", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Chain Vices", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Chain Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Chain Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh2#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Chain Helmet", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Chain Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Chain Chestpiece", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Chain Gloves", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Chain Legguards", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Chain Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh2#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Chain Helm", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Chain Shoulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Chain Hauberk", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Chain Vices", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Chain Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Chain Greaves", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPMage"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea3#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Coronet", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Silk Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Silk Vestments", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Silk Gloves", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Silk Leggings", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Silk Footwraps", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra3#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Silk Cowl", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Silk Mantle", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Silk Tunic", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Silk Handwraps", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Silk Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Silk Walkers", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh3#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Silk Cowl", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Silk Amice", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Silk Raiment", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Silk Handguards", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Silk Trousers", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Silk Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh3#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Silk Cowl", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Silk Mantle", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Silk Tunic", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Silk Handwraps", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Silk Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Silk Walkers", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPPaladin"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea4#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Lamellar Faceguard", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Lamellar Pauldrons", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Lamellar Chestplate", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Lamellar Gloves", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Lamellar Legplates", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Lamellar Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra4#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Lamellar Headguard", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Lamellar Shoulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Lamellar Breastplate", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Lamellar Gauntlets", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Lamellar Leggings", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Lamellar Sabatons", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh9#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Lamellar Faceguard", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Lamellar Pauldrons", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Lamellar Chestplate", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Lamellar Gloves", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Lamellar Legplates", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Lamellar Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh9#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Lamellar Headguard", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Lamellar Shoulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Lamellar Breastplate", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Lamellar Gauntlets", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Lamellar Leggings", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Lamellar Sabatons", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPPriest"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea5#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Headdress", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Satin Mantle", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Satin Vestments", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Satin Gloves", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Satin Pants", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Satin Sandals", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra5#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Satin Hood", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Satin Mantle", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Satin Tunic", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Satin Handwraps", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Satin Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Satin Walkers", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh4#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Satin Cowl", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Satin Mantle", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Satin Robes", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Satin Gloves", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Satin Leggings", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Satin Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh4#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Satin Hood", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Satin Mantle", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Satin Tunic", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Satin Handwraps", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Satin Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Satin Walkers", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPRogue"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea6#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Leather Mask", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Leather Epaulets", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Leather Chestpiece", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Leather Handgrips", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Leather Leggings", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Leather Footguards", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra6#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Leather Helm", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Leather Shoulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Leather Chestpiece", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Leather Grips", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Leather Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Leather Walkers", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh5#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Leather Helm", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Leather Spaulders", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Leather Breastplate", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Leather Mitts", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Leather Legguards", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Leather Treads", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh5#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Leather Helm", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Leather Shoulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Leather Chestpiece", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Leather Grips", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Leather Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Leather Walkers", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPShaman"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea9#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Mail Helm", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Mail Spaulders", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Mail Armor", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Mail Gauntlets", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Mail Leggings", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Mail Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra9#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Mail Headguard", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Mail Pauldrons", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Mail Hauberk", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Mail Vices", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Mail Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Mail Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh6#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Mail Helm", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Mail Spaulders", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Mail Armor", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Mail Gauntlets", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Mail Leggings", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Mail Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh6#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Mail Headguard", "=ds=", "5000 #horde#", ""};
-		{ 26, 23260, "", "=q3=Champion's Mail Pauldrons", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Mail Hauberk", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Mail Vices", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Mail Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Mail Greaves", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPWarlock"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea7#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Coronal", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Dreadweave Shoulders", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Dreadweave Robe", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Dreadweave Gloves", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Dreadweave Leggings", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Dreadweave Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra7#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Dreadweave Cowl", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Dreadweave Spaulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Dreadweave Tunic", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Dreadweave Handwraps", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Dreadweave Legguards", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Dreadweave Walkers", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh7#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Dreadweave Hood", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Dreadweave Mantle", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Dreadweave Robe", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Dreadweave Gloves", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Dreadweave Pants", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Dreadweave Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh7#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Dreadweave Cowl", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Dreadweave Spaulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Dreadweave Tunic", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Dreadweave Handwraps", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Dreadweave Legguards", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Dreadweave Walkers", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-	AtlasLoot_Data["PVPWarrior"] = {
-		{ 1, 0, "INV_BannerPVP_02", "=q6=#pvpea8#", "=q5=#pvps1#"};
-		{ 2, 0, "", "=q4=Field Marshal's Plate Helm", "=ds=", "15000 #alliance#", ""};
-		{ 3, 0, "", "=q4=Field Marshal's Plate Shoulderguards", "=ds=", "9000 #alliance#", ""};
-		{ 4, 0, "", "=q4=Field Marshal's Plate Armor", "=ds=", "15000 #alliance#", ""};
-		{ 5, 0, "", "=q4=Marshal's Plate Gauntlets", "=ds=", "9000 #alliance#", ""};
-		{ 6, 0, "", "=q4=Marshal's Plate Legguards", "=ds=", "15000 #alliance#", ""};
-		{ 7, 0, "", "=q4=Marshal's Plate Boots", "=ds=", "9000 #alliance#", ""};
-		{ 9, 0, "INV_BannerPVP_02", "=q6=#pvpra8#", "=q5=#pvps2#"};
-		{ 10, 0, "", "=q3=Lieutenant Commander's Plate Helm", "=ds=", "5000 #alliance#", ""};
-		{ 11, 0, "", "=q3=Lieutenant Commander's Plate Shoulders", "=ds=", "3000 #alliance#", ""};
-		{ 12, 0, "", "=q3=Knight-Captain's Plate Hauberk", "=ds=", "5000 #alliance#", ""};
-		{ 13, 0, "", "=q3=Knight-Lieutenant's Plate Gauntlets", "=ds=", "3000 #alliance#", ""};
-		{ 14, 0, "", "=q3=Knight-Captain's Plate Leggings", "=ds=", "5000 #alliance#", ""};
-		{ 15, 0, "", "=q3=Knight-Lieutenant's Plate Greaves", "=ds=", "3000 #alliance#", ""};
-		{ 16, 0, "INV_BannerPVP_01", "=q6=#pvpeh8#", "=q5=#pvps1#"};
-		{ 17, 0, "", "=q4=Warlord's Plate Headpiece", "=ds=", "15000 #horde#", ""};
-		{ 18, 0, "", "=q4=Warlord's Plate Shoulders", "=ds=", "9000 #horde#", ""};
-		{ 19, 0, "", "=q4=Warlord's Plate Armor", "=ds=", "15000 #horde#", ""};
-		{ 20, 0, "", "=q4=General's Plate Gauntlets", "=ds=", "9000 #horde#", ""};
-		{ 21, 0, "", "=q4=General's Plate Leggings", "=ds=", "15000 #horde#", ""};
-		{ 22, 0, "", "=q4=General's Plate Boots", "=ds=", "9000 #horde#", ""};
-		{ 24, 0, "INV_BannerPVP_01", "=q6=#pvprh8#", "=q5=#pvps2#"};
-		{ 25, 0, "", "=q3=Champion's Plate Helm", "=ds=", "5000 #horde#", ""};
-		{ 26, 0, "", "=q3=Champion's Plate Shoulders", "=ds=", "3000 #horde#", ""};
-		{ 27, 0, "", "=q3=Legionnaire's Plate Hauberk", "=ds=", "5000 #horde#", ""};
-		{ 28, 0, "", "=q3=Blood Guard's Plate Gauntlets", "=ds=", "3000 #horde#", ""};
-		{ 29, 0, "", "=q3=Legionnaire's Plate Leggings", "=ds=", "5000 #horde#", ""};
-		{ 30, 0, "", "=q3=Blood Guard's Plate Greaves", "=ds=", "3000 #horde#", ""};
-		Back = "PVPSET";
-	};
-
-		----------------------------
-		--- PvP Level 60 Weapons ---
-		----------------------------
-
-		--------------------------------
-		--- PvP Level 60 Accessories ---
-		--------------------------------
-
-	AtlasLoot_Data["PvP60Accessories1_A"] = {
-		{ 1, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "3 #wsg#", ""};
-		{ 2, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "12 #wsg#", ""};
-		{ 4, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "18 #wsg#", ""};
-		{ 16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-		{ 17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
-		Back = "PVPMENU";
-	};
-
-	AtlasLoot_Data["PvP60Accessories1_H"] = {
-		{ 1, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "3 #wsg#", ""};
-		{ 2, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "12 #wsg#", ""};
-		{ 4, 18607, "", "=q1=Horde Battle Standard", "=ds=", "18 #wsg#", ""};
-		{ 16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-		{ 17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
-		Back = "PVPMENU";
 	};
 
 	----------------
