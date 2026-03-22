@@ -1,8 +1,8 @@
 ## Interface: 30300
 ## Title: AtlasLoot
 ## Notes: Epoch AtlasLoot
-## Author: Hegarol, Raynbock/Felius(Epoch)
-## Version: v1.12.0
+## Author: Hegarol, Raynbock/Felius(Epoch), Reneas(Epoch)
+## Version: v1.13.0
 ## X-Credits: Daviesh, Lag, Cellelach, Asurn, Pernicus and many others
 ## X-License: GPL v2
 ## X-Website: https://github.com/Raynbock/AtlaslootProjectEpoch

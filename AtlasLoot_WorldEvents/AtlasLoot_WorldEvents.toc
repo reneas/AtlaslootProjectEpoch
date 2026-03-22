@@ -1,8 +1,8 @@
 ## Interface: 30300
 ## Title: AtlasLoot_WorldEvents
 ## Notes: Epoch AtlasLoot
-## Author: Hegarol, Raynbock/Felius(Epoch)
-## Version: v1.10.0
+## Author: Hegarol, Raynbock/Felius(Epoch), Reneas(Epoch)
+## Version: v1.13.0
 ## X-License: GPL v2
 ## X-Website: https://github.com/Raynbock/AtlaslootProjectEpoch
 ## Dependencies: AtlasLoot
