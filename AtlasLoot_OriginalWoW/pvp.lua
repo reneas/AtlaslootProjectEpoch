@@ -1285,21 +1285,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	--- Trinkets ---
 	AtlasLoot_Data["EpochpvpS1ConquestTrinkets"] = {
-		{ 1, 90605, "", "=q3=Rival's Insignia of the Alliance", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{ 2, 90606, "", "=q3=Rival's Insignia of the Horde", "=ds=", "3000 #honor# 3 #wsg# 1 #trinketarmorcomp#", ""};
-		{ 3, 90607, "", "=q3=Rival's Insignia of the Adaption", "=ds=", "3000 #honor# 3 #wsg# 1 #trinketarmorcomp#", ""};
-		{ 4, 90608, "", "=q3=Rival's Insignia of Relentlessness", "=ds=", "3000 #honor# 3 #wsg# 1 #trinketarmorcomp#", ""};
-		{ 5, 90609, "", "=q3=Rival's Emblem of Tenacity", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{ 6, 90610, "", "=q3=Rival's Emblem of Vigor", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{ 7, 90611, "", "=q3=Rival's Emblem of Ferocity", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{ 8, 90612, "", "=q3=Rival's Emblem of Magick", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{ 9, 90613, "", "=q3=Rival's Emblem of Cogitation", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{10, 90614, "", "=q3=Rival's Emblem of Betterment", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{11, 90615, "", "=q3=Rival's Emblem of Dominance", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{12, 90616, "", "=q3=Rival's Emblem of Alacrity", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{13, 90617, "", "=q3=Rival's Emblem of Power", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{14, 90618, "", "=q3=Rival's Emblem of Upturn", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
-		{15, 90619, "", "=q3=Rival's Emblem of Renewal", "=ds=", "10000 #honor# 15 #gillijim# 1 #trinketarmorcomp#", ""};
+		{ 1, 90605, "", "=q3=Rival's Insignia of the Alliance", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
+		{ 2, 90606, "", "=q3=Rival's Insignia of the Horde", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
+		{ 3, 90607, "", "=q3=Rival's Insignia of the Adaption", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
+		{ 4, 90608, "", "=q3=Rival's Insignia of Relentlessness", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
+		{ 5, 90609, "", "=q3=Rival's Emblem of Tenacity", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 6, 90610, "", "=q3=Rival's Emblem of Vigor", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 7, 90611, "", "=q3=Rival's Emblem of Ferocity", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 8, 90612, "", "=q3=Rival's Emblem of Magick", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 9, 90613, "", "=q3=Rival's Emblem of Cogitation", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{10, 90614, "", "=q3=Rival's Emblem of Betterment", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{11, 90615, "", "=q3=Rival's Emblem of Dominance", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{12, 90616, "", "=q3=Rival's Emblem of Alacrity", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{13, 90617, "", "=q3=Rival's Emblem of Power", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{14, 90618, "", "=q3=Rival's Emblem of Upturn", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{15, 90619, "", "=q3=Rival's Emblem of Renewal", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestMisc";
 	};
 
