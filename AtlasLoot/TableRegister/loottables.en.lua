@@ -361,6 +361,7 @@ end
 	AtlasLoot_TableNames["VWOWWeapons1"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons2"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons3"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
+	--- Epoch PVP ---
  	AtlasLoot_TableNames["Epochpvp15"] = { BabbleEpoch["Rookie Sets"], "Menu" };
  	AtlasLoot_TableNames["Epochpvp25"] = { BabbleEpoch["Skirmish Sets"], "Menu" };
  	AtlasLoot_TableNames["Epochpvp35"] = { BabbleEpoch["Combatant Sets"], "Menu" };
@@ -389,47 +390,79 @@ end
  	AtlasLoot_TableNames["Epochpvpwep245"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Epochpvpwep255"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Epochpvpwep260"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
- 	AtlasLoot_TableNames["Epochpvps1honor"] = { BabbleEpoch["Season 1"].." Honor Gear", "Menu" };
- 	AtlasLoot_TableNames["Epochpvps1conquest"] = { BabbleEpoch["Season 1"].." Conquest Gear", "Menu" };
- 	AtlasLoot_TableNames["Epochpvpworld"] = { BabbleEpoch["World PVP"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honormage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorpriest"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorwarlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honordruid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorrogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorhunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorshaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorpaladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorwarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorweapons"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honormisc"] = { AL["Miscellaneous"], "Menu" };
-	AtlasLoot_TableNames["Epochpvps1honortrinkets"] = { AL["Trinkets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorcloaks"] = { AL["Cloaks"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honorrings"] = { AL["Rings"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1honornecks"] = { AL["Neck"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Epochpvpworld"] = { BabbleEpoch["World PVP"], "AtlasLootOriginalWoW" };
+	--- Epoch PVP Season 1 ---
+	--- Honor Gear	---
+ 	AtlasLoot_TableNames["EpochpvpS1Honor"] = { BabbleEpoch["Season 1"].." Honor Gear", "Menu" };
+	--- Mage ---
+	AtlasLoot_TableNames["EpochpvpS1HonorMage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootOriginalWoW" };
+	--- Priest ---
+	AtlasLoot_TableNames["EpochpvpS1HonorPriest"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootOriginalWoW" };
+	--- Warlock ---
+	AtlasLoot_TableNames["EpochpvpS1HonorWarlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
+	--- Druid ---
+	AtlasLoot_TableNames["EpochpvpS1HonorDruid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1HonorDruidFeral"] = { AL["Feral"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorDruidBalance"] = { AL["Balance"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorDruidResto"] = { AL["Restoration"], "AtlasLootOriginalWoW" };
+	--- Rogue ---
+	AtlasLoot_TableNames["EpochpvpS1HonorRogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
+	--- Hunter ---
+	AtlasLoot_TableNames["EpochpvpS1HonorHunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
+	--- Shaman ---
+	AtlasLoot_TableNames["EpochpvpS1HonorShaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1HonorShamanEle"] = { AL["Elemental"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorShamanResto"] = { AL["Restoration"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorShamanEnhancer"] = { AL["Enhancement"], "AtlasLootOriginalWoW" };
+	--- Paladin ---
+	AtlasLoot_TableNames["EpochpvpS1HonorPaladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
+	--- Warrior ---
+	AtlasLoot_TableNames["EpochpvpS1HonorWarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
+	--- Weapons, Misc, Trinkets, Cloaks, Rings, Necklaces ---
+	AtlasLoot_TableNames["EpochpvpS1HonorWeapons"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorWeapons2"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorMisc"] = { AL["Miscellaneous"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1HonorTrinkets"] = { AL["Trinkets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorCloaks"] = { AL["Cloaks"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorRings"] = { AL["Rings"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1HonorNecks"] = { AL["Neck"], "AtlasLootOriginalWoW" };
 
-	AtlasLoot_TableNames["Epochpvps1conquestmage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestpriest"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestwarlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestdruid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestrogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquesthunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestshaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestpaladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestwarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestweapons"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestmisc"] = { AL["Miscellaneous"], "Menu" };
-	AtlasLoot_TableNames["Epochpvps1conquesttrinkets"] = { AL["Trinkets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestcloaks"] = { AL["Cloaks"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestrings"] = { AL["Rings"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestnecks"] = { AL["Neck"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestrogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquesthunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestshaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestpaladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestwarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestweapons"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochpvps1conquestmisc"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+	--- Conquest Gear ---
+	AtlasLoot_TableNames["EpochpvpS1Conquest"] = { BabbleEpoch["Season 1"].." Conquest Gear", "Menu" };
+	--- Mage ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestMage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootOriginalWoW" };
+	--- Priest ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestPriest"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootOriginalWoW" };
+	--- Warlock ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestWarlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
+	--- Druid ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestDruid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestDruidFeral"] = { AL["Feral"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestDruidBalance"] = { AL["Balance"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestDruidResto"] = { AL["Restoration"], "AtlasLootOriginalWoW" };
+	--- Rogue ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestRogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
+	--- Hunter ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestHunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
+	--- Shaman ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestShaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestShamanEle"] = { AL["Elemental"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestShamanResto"] = { AL["Restoration"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestShamanEnhancer"] = { AL["Enhancement"], "AtlasLootOriginalWoW" };
+	--- Paladin ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestPaladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
+	--- Warrior ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestWarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
+	--- Weapons, Misc, Trinkets, Cloaks, Rings, Necklaces ---
+	AtlasLoot_TableNames["EpochpvpS1ConquestWeapons"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestWeapons2"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestMisc"] = { AL["Miscellaneous"], "Menu" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestTrinkets"] = { AL["Trinkets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestCloaks"] = { AL["Cloaks"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestRings"] = { AL["Rings"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochpvpS1ConquestNecks"] = { AL["Neck"], "AtlasLootOriginalWoW" };
+
+
  	AtlasLoot_TableNames["Rookiesep1"] = { BabbleEpoch["Rookie Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Rookieaep1"] = { BabbleEpoch["Rookie's Agile Regalia"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Rookiestep1"] = { BabbleEpoch["Rookie's Strong Regalia"], "AtlasLootOriginalWoW" };
