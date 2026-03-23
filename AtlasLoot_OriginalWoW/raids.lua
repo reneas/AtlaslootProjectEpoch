@@ -23,6 +23,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
 		{ 21, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
 		{ 22, 61806, "", "=q4=Dragon Slayer's Sword", "=ds=#h2# #w10#", "", "" };
+	    { 11, 61829, "", "=q4=Ring of Binding", "=ds=#s13#", "", ""};
 		Next = "OnyxiaAtressian";
 	};
 
@@ -187,7 +188,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 61822, "", "=q3=Red Dragooonscale Shoulders", "", "", ""};
 		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
 		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
-		{ 11, 61829, "", "=q4=Ring of Binding", "", "", ""};
 		{ 14, 61836, "", "=q4=Totem of Draconic Might", "", "", ""};
 		{ 17, 61839, "", "=q1=Black Dragonscale Protector", "", "", ""};
 		{ 18, 61840, "", "=q1=Blue Dragonscale Protector", "", "", ""};
