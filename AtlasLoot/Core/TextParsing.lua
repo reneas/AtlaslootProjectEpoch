@@ -1223,6 +1223,16 @@ function AtlasLoot_FixText(text)
     	text = gsub(text, "#valentineday2#", "|TInterface\\Icons\\inv_jewelry_necklace_43:0|t");
 		
 		-- Custom Epoch Item Aliases
+        text = gsub(text, "#leatherarmorcomp#", function()
+			local icon = GetItemIcon(90535);
+			if icon then return "|T"..icon..":0|t" else return "" end
+		end);
+
+        text = gsub(text, "#mailarmorcomp#", function()
+			local icon = GetItemIcon(90536);
+			if icon then return "|T"..icon..":0|t" else return "" end
+		end);
+
     	text = gsub(text, "#clotharmorcomp#", function()
 			local icon = GetItemIcon(90537);
 			if icon then return "|T"..icon..":0|t" else return "" end
