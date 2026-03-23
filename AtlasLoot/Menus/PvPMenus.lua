@@ -16,8 +16,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 5, "Epochpvp35", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Sets"], ""};
 		{ 7, "Epochpvp45", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Sets"], ""};
 		{ 9, "Epochpvp55", "inv_chest_plate15", "=ds="..BabbleEpoch["Level 55"], ""};
-		{ 16, "Epochpvps1honor", "achievement_arena_2v2_5", "=ds=Season 1 Honor Gear", ""};
-		{ 17, "Epochpvps1conquest", "achievement_arena_3v3_5", "=ds=Season 1 Conquest Gear", ""};
+		{ 16, "EpochpvpS1Honor", "achievement_arena_2v2_5", "=ds=Season 1 Honor Gear", ""};
+		{ 17, "EpochpvpS1Conquest", "achievement_arena_3v3_5", "=ds=Season 1 Conquest Gear", ""};
 		{ 18, "Epochpvpworld", "Inv_bannerpvp_03", "=ds="..BabbleEpoch["World PVP"], ""};
 		Back = "PVPMENU";
 	};
@@ -90,50 +90,50 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 
-	AtlasLoot_Data["Epochpvps1honor"] = {
-		{ 1, "Epochpvps1honormage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-		{ 2, "Epochpvps1honorpriest", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-		{ 3, "Epochpvps1honorwarlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-		{ 4, "Epochpvps1honordruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-		{ 5, "Epochpvps1honorrogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-		{ 6, "Epochpvps1hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-		{ 7, "Epochpvps1honorshaman", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-		{ 8, "Epochpvps1honorpaladin", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-		{ 9, "Epochpvps1honorwarrior", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-		{ 16, "Epochpvps1honorweapons", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
-		{ 17, "Epochpvps1honormisc", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+	AtlasLoot_Data["EpochpvpS1Honor"] = {
+		{ 1, "EpochpvpS1HonorMage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+		{ 2, "EpochpvpS1HonorPriest", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+		{ 3, "EpochpvpS1HonorWarlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+		{ 4, "EpochpvpS1HonorDruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+		{ 5, "EpochpvpS1HonorRogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+		{ 6, "EpochpvpS1HonorHunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+		{ 7, "EpochpvpS1HonorShaman", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+		{ 8, "EpochpvpS1HonorPaladin", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+		{ 9, "EpochpvpS1HonorWarrior", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+		{ 16, "EpochpvpS1HonorWeapons", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "EpochpvpS1HonorMisc", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
 		Back = "EPOCHPVPSETMENU";
 	};
 
-	AtlasLoot_Data["Epochpvps1conquest"] = {
-		{ 1, "Epochpvps1conquestmage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-		{ 2, "Epochpvps1conquestpriest", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-		{ 3, "Epochpvps1conquestwarlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-		{ 4, "Epochpvps1conquestdruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-		{ 5, "Epochpvps1conquestrogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-		{ 6, "Epochpvps1conquesthunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
-		{ 7, "Epochpvps1conquestshaman", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-		{ 8, "Epochpvps1conquestpaladin", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-		{ 9, "Epochpvps1conquestwarrior", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-		{ 16, "Epochpvps1conquestweapons", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
-		{ 17, "Epochpvps1conquestmisc", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+	AtlasLoot_Data["EpochpvpS1Conquest"] = {
+		{ 1, "EpochpvpS1ConquestMage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+		{ 2, "EpochpvpS1ConquestPriest", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+		{ 3, "EpochpvpS1ConquestWarlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+		{ 4, "EpochpvpS1ConquestDruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+		{ 5, "EpochpvpS1ConquestRogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+		{ 6, "EpochpvpS1ConquestHunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+		{ 7, "EpochpvpS1ConquestShaman", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+		{ 8, "EpochpvpS1ConquestPaladin", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+		{ 9, "EpochpvpS1ConquestWarrior", "INV_Shield_05", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+		{ 16, "EpochpvpS1ConquestWeapons", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "EpochpvpS1ConquestMisc", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
 		Back = "EPOCHPVPSETMENU";
 	};
 
-	AtlasLoot_Data["Epochpvps1honormisc"] = {
-		{ 1, "Epochpvps1honorcloaks", "inv_misc_cape_16", "=ds="..AL["Cloaks"], ""};
-		{ 2, "Epochpvps1honorrings", "inv_jewelry_ring_24", "=ds="..AL["Rings"], ""};
-		{ 3, "Epochpvps1honornecks", "inv_jewelry_necklace_22", "=ds="..AL["Neck"], ""};
-		{ 4, "Epochpvps1honortrinkets", "inv_jewelry_talisman_08", "=ds="..AL["Trinkets"], ""};
-		Back = "Epochpvps1honor";
+	AtlasLoot_Data["EpochpvpS1HonorMisc"] = {
+		{ 1, "EpochpvpS1HonorCloaks", "inv_misc_cape_16", "=ds="..AL["Cloaks"], ""};
+		{ 2, "EpochpvpS1HonorRings", "inv_jewelry_ring_24", "=ds="..AL["Rings"], ""};
+		{ 3, "EpochpvpS1HonorNecks", "inv_jewelry_necklace_22", "=ds="..AL["Neck"], ""};
+		{ 4, "EpochpvpS1HonorTrinkets", "inv_jewelry_talisman_08", "=ds="..AL["Trinkets"], ""};
+		Back = "EpochpvpS1Honor";
 	};
 
-	AtlasLoot_Data["Epochpvps1conquestmisc"] = {
-		{ 1, "Epochpvps1conquestcloaks", "inv_misc_cape_16", "=ds="..AL["Cloaks"], ""};
-		{ 2, "Epochpvps1conquestrings", "inv_jewelry_ring_24", "=ds="..AL["Rings"], ""};
-		{ 3, "Epochpvps1conquestnecks", "inv_jewelry_necklace_22", "=ds="..AL["Neck"], ""};
-		{ 4, "Epochpvps1conquesttrinkets", "inv_jewelry_talisman_08", "=ds="..AL["Trinkets"], ""};
-		Back = "Epochpvps1conquest";
+	AtlasLoot_Data["EpochpvpS1ConquestMisc"] = {
+		{ 1, "EpochpvpS1ConquestCloaks", "inv_misc_cape_16", "=ds="..AL["Cloaks"], ""};
+		{ 2, "EpochpvpS1ConquestRings", "inv_jewelry_ring_24", "=ds="..AL["Rings"], ""};
+		{ 3, "EpochpvpS1ConquestNecks", "inv_jewelry_necklace_22", "=ds="..AL["Neck"], ""};
+		{ 4, "EpochpvpS1ConquestTrinkets", "inv_jewelry_talisman_08", "=ds="..AL["Trinkets"], ""};
+		Back = "EpochpvpS1Conquest";
 	};
 
     --Please don't delete EmptyTable, it is needed as it is certain to load
