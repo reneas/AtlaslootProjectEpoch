@@ -143,7 +143,7 @@ lib:SetBaseTranslations {
 	["Praise of the Moon"] = "Praise of the Moon",
 	Prismscale = "Prismscale",
 	["Probably Abandoned Epoch Loot"] = "Probably Abandoned Epoch Loot",
-	["PvP Vendor"] = "PvP Vendor",
+	["PvP Vendor/Battle Quartermaster"] = "PvP Vendor/Battle Quartermaster",
 	["Questrewards"] = "Questrewards",
 	["Questrewards of Interest"] = "Questrewards of Interest",
 	["Raids:"] = "Raids:",

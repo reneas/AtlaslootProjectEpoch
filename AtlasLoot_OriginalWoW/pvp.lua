@@ -45,20 +45,58 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	--------------------------------
 
 	AtlasLoot_Data["PvP60Accessories1_A"] = {
-		{ 1, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "3 #wsg#", ""};
-		{ 2, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "12 #wsg#", ""};
-		{ 4, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "18 #wsg#", ""};
-		{ 16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-		{ 17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
+		{ 1, 15196, "", "=q1=Private's Tabard", "=ds=#s7#", "500 #honor#", ""};
+		{ 2, 15198, "", "=q1=Knight's Colors", "=ds=#s7#", "2500 #honor#", ""};
+		{ 4, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "5000 #honor#", ""};
+
+		{ 6, 0, "INV_Box_01", "=q6=PvP Crafting Mats", ""};
+		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "6000 #honor#", ""};
+		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "6000 #honor#", ""};
+		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "6000 #honor#", ""};
+		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "6000 #honor#", ""};
+		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "6000 #honor#", ""};
+		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "6000 #honor#", ""};
+		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "6000 #honor#", ""};
+
+		{16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
+		{17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
+		{19, 90534, "", "=q1=Crate of Supplies", "=ds=", "5000 #honor#", ""};
+
+		{22,90535, "", "=q1=Leather Armor Components", "=ds=", ""};
+		{23,90536, "", "=q1=Mail Armor Components", "=ds=", ""};
+		{24,90537, "", "=q1=Cloth Armor Components", "=ds=", ""};
+		{25,90538, "", "=q1=Metal Armor Components", "=ds=", ""};
+		{26,90539, "", "=q1=Trinket Components", "=ds=", ""};
+		{27,90540, "", "=q1=Complicated Components", "=ds=", ""};
+		{28,90541, "", "=q1=Magical Armor Components", "=ds=", ""};
 		Back = "PVPMENU";
 	};
 
 	AtlasLoot_Data["PvP60Accessories1_H"] = {
-		{ 1, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "3 #wsg#", ""};
-		{ 2, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "12 #wsg#", ""};
-		{ 4, 18607, "", "=q1=Horde Battle Standard", "=ds=", "18 #wsg#", ""};
-		{ 16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver#", ""};
-		{ 17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver#", ""};
+		{ 1, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#", "500 #honor#", ""};
+		{ 2, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#", "2500 #honor#", ""};
+		{ 4, 18607, "", "=q1=Horde Battle Standard", "=ds=", "5000 #honor#", ""};
+		
+		{ 6, 0, "INV_Box_01", "=q6=PvP Crafting Mats", ""};
+		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "6000 #honor#", ""};
+		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "6000 #honor#", ""};
+		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "6000 #honor#", ""};
+		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "6000 #honor#", ""};
+		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "6000 #honor#", ""};
+		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "6000 #honor#", ""};
+		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "6000 #honor#", ""};
+
+		{16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
+		{17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
+		{19, 90534, "", "=q1=Crate of Supplies", "=ds=", "5000 #honor#", ""};
+
+		{22,90535, "", "=q1=Leather Armor Components", "=ds=", ""};
+		{23,90536, "", "=q1=Mail Armor Components", "=ds=", ""};
+		{24,90537, "", "=q1=Cloth Armor Components", "=ds=", ""};
+		{25,90538, "", "=q1=Metal Armor Components", "=ds=", ""};
+		{26,90539, "", "=q1=Trinket Components", "=ds=", ""};
+		{27,90540, "", "=q1=Complicated Components", "=ds=", ""};
+		{28,90541, "", "=q1=Magical Armor Components", "=ds=", ""};
 		Back = "PVPMENU";
 	};
 
