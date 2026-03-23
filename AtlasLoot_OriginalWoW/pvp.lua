@@ -1290,16 +1290,16 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 90607, "", "=q3=Rival's Insignia of the Adaption", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
 		{ 4, 90608, "", "=q3=Rival's Insignia of Relentlessness", "=ds=", "10 #arena# 7 #wsg# 2 #trinketarmorcomp#", ""};
 		{ 5, 90609, "", "=q3=Rival's Emblem of Tenacity", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{ 6, 90610, "", "=q3=Rival's Emblem of Vigor", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{ 7, 90611, "", "=q3=Rival's Emblem of Ferocity", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{ 8, 90612, "", "=q3=Rival's Emblem of Magick", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{ 9, 90613, "", "=q3=Rival's Emblem of Cogitation", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{10, 90614, "", "=q3=Rival's Emblem of Betterment", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{11, 90615, "", "=q3=Rival's Emblem of Dominance", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{12, 90616, "", "=q3=Rival's Emblem of Alacrity", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{13, 90617, "", "=q3=Rival's Emblem of Power", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{14, 90618, "", "=q3=Rival's Emblem of Upturn", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
-		{15, 90619, "", "=q3=Rival's Emblem of Renewal", "=ds=", "50 #honor# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 6, 90610, "", "=q3=Rival's Emblem of Vigor", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 7, 90611, "", "=q3=Rival's Emblem of Ferocity", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 8, 90612, "", "=q3=Rival's Emblem of Magick", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{ 9, 90613, "", "=q3=Rival's Emblem of Cogitation", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{10, 90614, "", "=q3=Rival's Emblem of Betterment", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{11, 90615, "", "=q3=Rival's Emblem of Dominance", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{12, 90616, "", "=q3=Rival's Emblem of Alacrity", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{13, 90617, "", "=q3=Rival's Emblem of Power", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{14, 90618, "", "=q3=Rival's Emblem of Upturn", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
+		{15, 90619, "", "=q3=Rival's Emblem of Renewal", "=ds=", "50 #arena# 7 #gillijim# 2 #trinketarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestMisc";
 	};
 
