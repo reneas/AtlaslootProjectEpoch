@@ -1340,64 +1340,64 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	--- Mage ---
 	AtlasLoot_Data["EpochpvpS1ConquestMage"] = {
-		{1,90734, "", "=q4=Rivals's Battlemage Crown", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{2,90735, "", "=q4=Rivals's Battlemage Mantle", "=ds=", "75 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{3,90736, "", "=q4=Rivals's Battlemage Robe", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{4,90737, "", "=q4=Rivals's Battlemage Wraps", "=ds=", "100 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{5,90738, "", "=q4=Rivals's Battlemage Leggings", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{6,90739, "", "=q4=Rivals's Battlemage Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{1,90734, "", "=q4=Rivals's Battlemage Crown", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{2,90735, "", "=q4=Rivals's Battlemage Mantle", "=ds=", "75 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{3,90736, "", "=q4=Rivals's Battlemage Robe", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{4,90737, "", "=q4=Rivals's Battlemage Wraps", "=ds=", "100 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{5,90738, "", "=q4=Rivals's Battlemage Leggings", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{6,90739, "", "=q4=Rivals's Battlemage Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 
-		{8,90740, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
-		{9,90741, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{8,90740, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
+		{9,90741, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
 	};
 
 	--- Priest ---
 	AtlasLoot_Data["EpochpvpS1ConquestPriest"] = {
 		{1, 0 , "INV_Box_01", "=q6=Vanta Set", ""};
-		{2, 90710, "", "=q4=Rivals's Vanta Mask", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{3, 90711, "", "=q4=Rivals's Vanta Mantle", "=ds=", "75 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{4, 90712, "", "=q4=Rivals's Vanta Robe", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{5, 90713, "", "=q4=Rivals's Vanta Wraps", "=ds=", "100 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{6, 90714, "", "=q4=Rivals's Vanta Leggings", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{7, 90715, "", "=q4=Rivals's Vanta Sandals", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{2, 90710, "", "=q4=Rivals's Vanta Mask", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{3, 90711, "", "=q4=Rivals's Vanta Mantle", "=ds=", "75 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{4, 90712, "", "=q4=Rivals's Vanta Robe", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{5, 90713, "", "=q4=Rivals's Vanta Wraps", "=ds=", "100 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{6, 90714, "", "=q4=Rivals's Vanta Leggings", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{7, 90715, "", "=q4=Rivals's Vanta Sandals", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 
-		{10, 90716, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
-		{11, 90717, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{10, 90716, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
+		{11, 90717, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 
 		{16, 0, "INV_Box_01", "=q6=Divined Set", ""};
-		{17, 90718, "", "=q4=Rivals's Divined Mask", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{18, 90719, "", "=q4=Rivals's Divined Mantle", "=ds=", "75 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{19, 90720, "", "=q4=Rivals's Divined Robe", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{20, 90721, "", "=q4=Rivals's Divined Wraps", "=ds=", "100 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{21, 90722, "", "=q4=Rivals's Divined Leggings", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{22, 90723, "", "=q4=Rivals's Divined Sandals", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};	
+		{17, 90718, "", "=q4=Rivals's Divined Mask", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{18, 90719, "", "=q4=Rivals's Divined Mantle", "=ds=", "75 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{19, 90720, "", "=q4=Rivals's Divined Robe", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{20, 90721, "", "=q4=Rivals's Divined Wraps", "=ds=", "100 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{21, 90722, "", "=q4=Rivals's Divined Leggings", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{22, 90723, "", "=q4=Rivals's Divined Sandals", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};	
 
-		{25, 90724, "", "=q4=Rival's Waistband of Preservation", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
-		{26, 90725, "", "=q4=Rival's Bands of Preservation", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{25, 90724, "", "=q4=Rival's Waistband of Preservation", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
+		{26, 90725, "", "=q4=Rival's Bands of Preservation", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
 	};
 
 	--- Warlock ---
 	AtlasLoot_Data["EpochpvpS1ConquestWarlock"] = {
 		{1, 0, "INV_Box_01", "=q6=Afflictor Set", ""};
-		{2, 90756, "", "=q4=Rivals's Afflictor Mask", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{3, 90757, "", "=q4=Rivals's Afflictor Mantle", "=ds=", "75 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{4, 90758, "", "=q4=Rivals's Afflictor Robe", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{5, 90759, "", "=q4=Rivals's Afflictor Wraps", "=ds=", "100 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{6, 90760, "", "=q4=Rivals's Afflictor Leggings", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{7, 90761, "", "=q4=Rivals's Afflictor Sandals", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{2, 90756, "", "=q4=Rivals's Afflictor Mask", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{3, 90757, "", "=q4=Rivals's Afflictor Mantle", "=ds=", "75 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{4, 90758, "", "=q4=Rivals's Afflictor Robe", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{5, 90759, "", "=q4=Rivals's Afflictor Wraps", "=ds=", "100 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{6, 90760, "", "=q4=Rivals's Afflictor Leggings", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{7, 90761, "", "=q4=Rivals's Afflictor Sandals", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 
 		{16, 0, "INV_Box_01", "=q6=Shadowcaster Set", ""};
-		{17, 90762, "", "=q4=Rivals's Shadowcaster Mask", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{18, 90763, "", "=q4=Rivals's Shadowcaster Mantle", "=ds=", "75 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{19, 90764, "", "=q4=Rivals's Shadowcaster Robe", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{20, 90765, "", "=q4=Rivals's Shadowcaster Wraps", "=ds=", "100 #arena# 10 #wsg# 1 #clotharmorcomp#", ""};
-		{21, 90766, "", "=q4=Rivals's Shadowcaster Leggings", "=ds=", "100 #arena# 15 #wsg# 1 #clotharmorcomp#", ""};
-		{22, 90767, "", "=q4=Rivals's Shadowcaster Sandals", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{17, 90762, "", "=q4=Rivals's Shadowcaster Mask", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{18, 90763, "", "=q4=Rivals's Shadowcaster Mantle", "=ds=", "75 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{19, 90764, "", "=q4=Rivals's Shadowcaster Robe", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{20, 90765, "", "=q4=Rivals's Shadowcaster Wraps", "=ds=", "100 #arena# 10 #wsg# 2 #clotharmorcomp#", ""};
+		{21, 90766, "", "=q4=Rivals's Shadowcaster Leggings", "=ds=", "100 #arena# 15 #wsg# 2 #clotharmorcomp#", ""};
+		{22, 90767, "", "=q4=Rivals's Shadowcaster Sandals", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 
-		{10, 90768, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
-		{11, 90769, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #clotharmorcomp#", ""};
+		{10, 90768, "", "=q4=Rival's Waistband of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
+		{11, 90769, "", "=q4=Rival's Bands of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #clotharmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
 	};
 
@@ -1411,45 +1411,45 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 
 	AtlasLoot_Data["EpochpvpS1ConquestDruidFeral"] = {
-		{1, 90794, "", "=q4=Rival's Animalistic Cowl", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{2, 90795, "", "=q4=Rival's Animalistic Spaulders", "=ds=", "75 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{3, 90796, "", "=q4=Rival's Animalistic Vest", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{4, 90797, "", "=q4=Rival's Animalistic Gloves", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
-		{5, 90798, "", "=q4=Rival's Animalistic Kilt", "=ds=", "100 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{6, 90799, "", "=q4=Rival's Animalistic Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{1, 90794, "", "=q4=Rival's Animalistic Cowl", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{2, 90795, "", "=q4=Rival's Animalistic Spaulders", "=ds=", "75 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{3, 90796, "", "=q4=Rival's Animalistic Vest", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{4, 90797, "", "=q4=Rival's Animalistic Gloves", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
+		{5, 90798, "", "=q4=Rival's Animalistic Kilt", "=ds=", "100 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{6, 90799, "", "=q4=Rival's Animalistic Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 		
-		{9, 90800, "", "=q4=Rival's Belt of Assault", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{10, 90801, "", "=q4=Rival's Wrists of Assault", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{9, 90800, "", "=q4=Rival's Belt of Assault", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{10, 90801, "", "=q4=Rival's Wrists of Assault", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 
 		{16, 90949, "", "=q4=Rival's Idol", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestDruid";
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestDruidBalance"] = {
-		{1, 90802, "", "=q4=Rival's Astral Cowl", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{2, 90803, "", "=q4=Rival's Astral Spaulders", "=ds=", "75 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{3, 90804, "", "=q4=Rival's Astral Vest", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{4, 90805, "", "=q4=Rival's Astral Gloves", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
-		{5, 90806, "", "=q4=Rival's Astral Kilt", "=ds=", "100 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{6, 90807, "", "=q4=Rival's Astral Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{1, 90802, "", "=q4=Rival's Astral Cowl", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{2, 90803, "", "=q4=Rival's Astral Spaulders", "=ds=", "75 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{3, 90804, "", "=q4=Rival's Astral Vest", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{4, 90805, "", "=q4=Rival's Astral Gloves", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
+		{5, 90806, "", "=q4=Rival's Astral Kilt", "=ds=", "100 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{6, 90807, "", "=q4=Rival's Astral Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 
-		{9, 90808, "", "=q4=Rival's Belt of Spellcasting", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{10,90809, "", "=q4=Rival's Wrists of Spellcasting", "=ds=", "75 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
+		{9, 90808, "", "=q4=Rival's Belt of Spellcasting", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{10,90809, "", "=q4=Rival's Wrists of Spellcasting", "=ds=", "75 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
 
 		{16, 90949, "", "=q4=Rival's Idol", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestDruid";
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestDruidResto"] = {
-		{1, 90810, "", "=q4=Rival's Barking Cowl", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{2, 90811, "", "=q4=Rival's Barking Spaulders", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
-		{3, 90812, "", "=q4=Rival's Barking Vest", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{4, 90813, "", "=q4=Rival's Barking Gloves", "=ds=", "75 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{5, 90814, "", "=q4=Rival's Barking Kilt", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{6, 90815, "", "=q4=Rival's Barking Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{1, 90810, "", "=q4=Rival's Barking Cowl", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{2, 90811, "", "=q4=Rival's Barking Spaulders", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
+		{3, 90812, "", "=q4=Rival's Barking Vest", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{4, 90813, "", "=q4=Rival's Barking Gloves", "=ds=", "75 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{5, 90814, "", "=q4=Rival's Barking Kilt", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{6, 90815, "", "=q4=Rival's Barking Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 
-		{9, 90816, "", "=q4=Rival's Belt of Restoration", "=ds=", "100 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{10,90817, "", "=q4=Rival's Wrists of Restoration", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{9, 90816, "", "=q4=Rival's Belt of Restoration", "=ds=", "100 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{10,90817, "", "=q4=Rival's Wrists of Restoration", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 
 		{16, 90949, "", "=q4=Rival's Idol", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestDruid";
@@ -1457,29 +1457,29 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		
 	--- Rogue ---
 	AtlasLoot_Data["EpochpvpS1ConquestRogue"] = {
-		{1, 90826, "", "=q4=Rival's Scouting Cap", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{2, 90827, "", "=q4=Rival's Scouting Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{3, 90828, "", "=q4=Rival's Scouting Tunic", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{4, 90829, "", "=q4=Rival's Scouting Gloves", "=ds=", "100 #arena# 10 #wsg# 1 #leatherarmorcomp#", ""};
-		{5, 90830, "", "=q4=Rival's Scouting Trousers", "=ds=", "100 #arena# 15 #wsg# 1 #leatherarmorcomp#", ""};
-		{6, 90831, "", "=q4=Rival's Scouting Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{1, 90826, "", "=q4=Rival's Scouting Cap", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{2, 90827, "", "=q4=Rival's Scouting Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{3, 90828, "", "=q4=Rival's Scouting Tunic", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{4, 90829, "", "=q4=Rival's Scouting Gloves", "=ds=", "100 #arena# 10 #wsg# 2 #leatherarmorcomp#", ""};
+		{5, 90830, "", "=q4=Rival's Scouting Trousers", "=ds=", "100 #arena# 15 #wsg# 2 #leatherarmorcomp#", ""};
+		{6, 90831, "", "=q4=Rival's Scouting Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 		
-		{9, 90832, "", "=q4=Rival's Belt of Prowess", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
-		{10, 90833, "", "=q4=Rival's Bracers of Prowess", "=ds=", "50 #arena# 7 #gillijim# 1 #leatherarmorcomp#", ""};
+		{9, 90832, "", "=q4=Rival's Belt of Prowess", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
+		{10, 90833, "", "=q4=Rival's Bracers of Prowess", "=ds=", "50 #arena# 7 #gillijim# 2 #leatherarmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
 	};
 
 	--- Hunter ---
 	AtlasLoot_Data["EpochpvpS1ConquestHunter"] = {
-		{1, 90890, "", "=q4=Rival's Ranger Cap", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{2, 90891, "", "=q4=Rival's Ranger Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{3, 90892, "", "=q4=Rival's Ranger Tunic", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{4, 90893, "", "=q4=Rival's Ranger Gloves", "=ds=", "100 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{5, 90894, "", "=q4=Rival's Ranger Trousers", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{6, 90895, "", "=q4=Rival's Ranger Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{1, 90890, "", "=q4=Rival's Ranger Cap", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{2, 90891, "", "=q4=Rival's Ranger Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{3, 90892, "", "=q4=Rival's Ranger Tunic", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{4, 90893, "", "=q4=Rival's Ranger Gloves", "=ds=", "100 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{5, 90894, "", "=q4=Rival's Ranger Trousers", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{6, 90895, "", "=q4=Rival's Ranger Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 
-		{9, 90896, "", "=q4=Rival's Belt of Prowess", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
-		{10, 90897, "", "=q4=Rival's Bracers of Prowess", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{9, 90896, "", "=q4=Rival's Belt of Prowess", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
+		{10, 90897, "", "=q4=Rival's Bracers of Prowess", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
 	};
 
@@ -1492,45 +1492,45 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestShamanEle"] = {
-		{1, 90866, "", "=q4=Rival's Barking Coif", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{2, 90867, "", "=q4=Rival's Barking Shoulderpads", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
-		{3, 90868, "", "=q4=Rival's Barking Vest", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{4, 90869, "", "=q4=Rival's Barking Gloves", "=ds=", "75 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{5, 90870, "", "=q4=Rival's Barking Kilt", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{6, 90871, "", "=q4=Rival's Barking Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{1, 90866, "", "=q4=Rival's Barking Coif", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{2, 90867, "", "=q4=Rival's Barking Shoulderpads", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
+		{3, 90868, "", "=q4=Rival's Barking Vest", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{4, 90869, "", "=q4=Rival's Barking Gloves", "=ds=", "75 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{5, 90870, "", "=q4=Rival's Barking Kilt", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{6, 90871, "", "=q4=Rival's Barking Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 
-		{9, 90872, "", "=q4=Rival's Cord of Spellcasting", "=ds=", "100 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{10,90873, "", "=q4=Rival's Bindings of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{9, 90872, "", "=q4=Rival's Cord of Spellcasting", "=ds=", "100 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{10,90873, "", "=q4=Rival's Bindings of Spellcasting", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 		
 		{16, 90951, "", "=q4=Rival's Totem", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestShaman";
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestShamanResto"] = {
-		{1, 90874, "", "=q4=Rival's Tidal Coif", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{2, 90875, "", "=q4=Rival's Tidal Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{3, 90876, "", "=q4=Rival's Tidal Tunic", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{4, 90877, "", "=q4=Rival's Tidal Gloves", "=ds=", "100 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{5, 90878, "", "=q4=Rival's Tidal Trousers", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{6, 90879, "", "=q4=Rival's Tidal Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{1, 90874, "", "=q4=Rival's Tidal Coif", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{2, 90875, "", "=q4=Rival's Tidal Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{3, 90876, "", "=q4=Rival's Tidal Tunic", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{4, 90877, "", "=q4=Rival's Tidal Gloves", "=ds=", "100 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{5, 90878, "", "=q4=Rival's Tidal Trousers", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{6, 90879, "", "=q4=Rival's Tidal Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 
-		{9, 90880, "", "=q4=Rival's Cord of Preservation", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{10,90881, "", "=q4=Rival's Bindings of Preservation", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{9, 90880, "", "=q4=Rival's Cord of Preservation", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{10,90881, "", "=q4=Rival's Bindings of Preservation", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 		
 		{16, 90951, "", "=q4=Rival's Totem", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestShaman";
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestShamanEnhancer"] = {
-		{1, 90858,	"", "=q4=Rival's Shockchain Coif", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{2, 90859,	"", "=q4=Rival's Shockchain Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{3, 90860,	"", "=q4=Rival's Shockchain Tunic", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{4, 90861,	"", "=q4=Rival's Shockchain Gloves", "=ds=", "100 #arena# 10 #wsg# 1 #mailarmorcomp#", ""};
-		{5, 90862,	"", "=q4=Rival's Shockchain Trousers", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{6, 90863,	"", "=q4=Rival's Shockchain Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{1, 90858,	"", "=q4=Rival's Shockchain Coif", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{2, 90859,	"", "=q4=Rival's Shockchain Shoulderpads", "=ds=", "75 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{3, 90860,	"", "=q4=Rival's Shockchain Tunic", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{4, 90861,	"", "=q4=Rival's Shockchain Gloves", "=ds=", "100 #arena# 10 #wsg# 2 #mailarmorcomp#", ""};
+		{5, 90862,	"", "=q4=Rival's Shockchain Trousers", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{6, 90863,	"", "=q4=Rival's Shockchain Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 
-		{9, 90864, "", "=q4=Rival's Cord of Assault", "=ds=", "100 #arena# 15 #wsg# 1 #mailarmorcomp#", ""};
-		{10,90865, "", "=q4=Rival's Bindings of Assault", "=ds=", "50 #arena# 7 #gillijim# 1 #mailarmorcomp#", ""};
+		{9, 90864, "", "=q4=Rival's Cord of Assault", "=ds=", "100 #arena# 15 #wsg# 2 #mailarmorcomp#", ""};
+		{10,90865, "", "=q4=Rival's Bindings of Assault", "=ds=", "50 #arena# 7 #gillijim# 2 #mailarmorcomp#", ""};
 		
 		{16, 90951, "", "=q4=Rival's Totem", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1ConquestShaman";
@@ -1539,26 +1539,26 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	--- Paladin ---
 	AtlasLoot_Data["EpochpvpS1ConquestPaladin"] = {
 		{1,0, "INV_Box_01", "=q6=Righteous Set", ""};
-		{2, 90914, "", "=q4=Rival's Righteous Helm", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{3, 90915, "", "=q4=Rival's Righteous Spaulders", "=ds=", "75 #arena# 10 #wsg# 1 #metalarmorcomp#", ""};
-		{4, 90916, "", "=q4=Rival's Righteous Breastplate", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{5, 90917, "", "=q4=Rival's Righteous Gauntlets", "=ds=", "100 #arena# 10 #wsg# 1 #metalarmorcomp#", ""};
-		{6, 90918, "", "=q4=Rival's Righteous Legplates", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{7, 90919, "", "=q4=Rival's Righteous Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};
+		{2, 90914, "", "=q4=Rival's Righteous Helm", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{3, 90915, "", "=q4=Rival's Righteous Spaulders", "=ds=", "75 #arena# 10 #wsg# 2 #metalarmorcomp#", ""};
+		{4, 90916, "", "=q4=Rival's Righteous Breastplate", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{5, 90917, "", "=q4=Rival's Righteous Gauntlets", "=ds=", "100 #arena# 10 #wsg# 2 #metalarmorcomp#", ""};
+		{6, 90918, "", "=q4=Rival's Righteous Legplates", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{7, 90919, "", "=q4=Rival's Righteous Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};
 
-		{10, 90920, "", "=q4=Rival's Girdle of Assault", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};
-		{11, 90921, "", "=q4=Rival's Bracers of Assault", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};
+		{10, 90920, "", "=q4=Rival's Girdle of Assault", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};
+		{11, 90921, "", "=q4=Rival's Bracers of Assault", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{16, 0,"INV_Box_01", "=q6=Truthful Set", ""};
-		{17, 90922, "", "=q4=Rival's Truthful Helm", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{18, 90923, "", "=q4=Rival's Truthful Spaulders", "=ds=", "75 #arena# 10 #wsg# 1 #metalarmorcomp#", ""};
-		{19, 90924, "", "=q4=Rival's Truthful Breastplate", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{20, 90925, "", "=q4=Rival's Truthful Gauntlets", "=ds=", "100 #arena# 10 #wsg# 1 #metalarmorcomp#", ""};
-		{21, 90926, "", "=q4=Rival's Truthful Legplates", "=ds=", "100 #arena# 15 #wsg# 1 #metalarmorcomp#", ""};
-		{22, 90927, "", "=q4=Rival's Truthful Boots", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};	
+		{17, 90922, "", "=q4=Rival's Truthful Helm", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{18, 90923, "", "=q4=Rival's Truthful Spaulders", "=ds=", "75 #arena# 10 #wsg# 2 #metalarmorcomp#", ""};
+		{19, 90924, "", "=q4=Rival's Truthful Breastplate", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{20, 90925, "", "=q4=Rival's Truthful Gauntlets", "=ds=", "100 #arena# 10 #wsg# 2 #metalarmorcomp#", ""};
+		{21, 90926, "", "=q4=Rival's Truthful Legplates", "=ds=", "100 #arena# 15 #wsg# 2 #metalarmorcomp#", ""};
+		{22, 90927, "", "=q4=Rival's Truthful Boots", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};	
 
-		{25, 90928, "", "=q4=Rival's Girdle of Preservation", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};
-		{26, 90929, "", "=q4=Rival's Bracers of Preservation", "=ds=", "50 #arena# 7 #gillijim# 1 #metalarmorcomp#", ""};
+		{25, 90928, "", "=q4=Rival's Girdle of Preservation", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};
+		{26, 90929, "", "=q4=Rival's Bracers of Preservation", "=ds=", "50 #arena# 7 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{13, 90950, "", "=q4=Rival's Libram", "=ds=", "150 #honor# 15 #gillijim# 2 #magicalarmorcomp#", ""};
 		Back = "EpochpvpS1Conquest";
