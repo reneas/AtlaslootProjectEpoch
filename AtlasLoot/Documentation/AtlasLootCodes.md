@@ -135,3 +135,32 @@ These are the codes used in the `originalwow.lua` loot tables with the following
 | `#h2#` | Two-Hand |
 | `#h3#` | Main Hand |
 | `#h4#` | Off Hand |
+
+## Professions (`#p`)
+
+| Code | Profession |
+| :--- | :--- |
+| `#p1#` | Alchemy |
+| `#p2#` | Blacksmithing |
+| `#p3#` | Cooking |
+| `#p4#` | Enchanting |
+| `#p5#` | Engineering |
+| `#p6#` | First Aid |
+| `#p7#` | Leatherworking |
+| `#p8#` | Tailoring |
+| `#p9#` | Dragonscale Leatherworking |
+| `#p10#` | Tribal Leatherworking |
+| `#p11#` | Elemental Leatherworking |
+| `#p12#` | Jewelcrafting |
+| `#p13#` | Armorsmith |
+| `#p14#` | Master Axesmith |
+| `#p15#` | Master Swordsmith |
+| `#p16#` | Weaponsmith |
+| `#p17#` | Gnomish Engineering |
+| `#p18#` | Goblin Engineering |
+| `#p19#` | Mooncloth Tailoring |
+| `#p20#` | Shadoweave Tailoring |
+| `#p21#` | Spellfire Tailoring |
+| `#p22#` | Master Hammersmith |
+| `#p23#` | Mining |
+| `#p24#` | Fishing |
