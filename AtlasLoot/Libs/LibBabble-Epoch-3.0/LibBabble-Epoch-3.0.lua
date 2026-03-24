@@ -118,6 +118,7 @@ lib:SetBaseTranslations {
 	["Level 56-60"] = "Level 56-60",
 	["Level 60"] = "Level 60",
 	["Light's Chosen Garments"] = "Light's Chosen Garments",
+	["Lord Kazzak"] = "Lord Kazzak",
 	["Loyal Warrior's Ensemble"] = "Loyal Warrior's Ensemble",
 	["Mecha-Chicken 3000"] = "Mecha-Chicken 3000",
 	["Mickey G"] = "Mickey G",
