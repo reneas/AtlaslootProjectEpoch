@@ -98,18 +98,40 @@ AtlasLoot_DewDropDown = {
 		},
 	},
 	[3] = {
-		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
+		[AL["World Bosses"]] = {
+			[1] = {
+				{ BabbleEpoch["Corrupted Ancient"], "Corruptedancient", "Table" },
+			},
+			[2] = {
+				{ BabbleEpoch["Gonzor"], "Gonzor", "Table" },
+			},
+			[3] = {
+				{ BabbleEpoch["King Gnok"], "Kinggnok", "Table" },
+			},
+			[4] = {
+				{ BabbleEpoch["Silithid Lurker"], "Silithidlurker", "Table" },
+			},
+			[5] = {
+				{ BabbleEpoch["Volchan"], "Volchan", "Table" },
+			},
+			[6] = {
+				{ BabbleEpoch["Lord Kazzak"], "LordKazzak", "Table" },
+			},
+		},
 	},
 	[4] = {
-		{ AL["Sets/Collections"], "SETMENU", "Table" },
+		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
 	},
 	[5] = {
-		{ AL["PvP Rewards"], "PVPMENU", "Table" },
+		{ AL["Sets/Collections"], "SETMENU", "Table" },
 	},
 	[6] = {
-		{ AL["Reputation Factions"], "REPMENU", "Table" },
+		{ AL["PvP Rewards"], "PVPMENU", "Table" },
 	},
 	[7] = {
+		{ AL["Reputation Factions"], "REPMENU", "Table" },
+	},
+	[8] = {
 		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
 	},
 };
@@ -306,10 +328,5 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Chief Ukorz Sandscalp"], "ZFChiefUkorzSandscalp" },
 		{ BabbleBoss["Zerillis"], "ZFZerillis" },
 		{ AL["Trash Mobs"], "ZFTrash" },
-	},
-	["WORLDBOSSMENU"] = {
-		{ BabbleEpoch["Corrupted Ancient"], "Corruptedancient" },
-		{ BabbleEpoch["Silithid Lurker"], "Silithidlurker" },
-		{ BabbleEpoch["Volchan"], "Volchan" },
 	},
 };
