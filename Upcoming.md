@@ -2,7 +2,6 @@
 
 ## Raids
 
-- Clean up Onyxia Loot and add new items
 - Once MC dropps, add those items too
 
 ## PvP
