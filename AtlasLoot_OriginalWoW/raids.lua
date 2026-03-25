@@ -192,7 +192,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61651, "", "=q4=Fel Infused Leggings", "", "", ""};
 		{ 7, 61652, "", "=q4=Flayed Doomguard Belt", "", "", ""};
 		{ 8, 61653, "", "=q4=Infernal Headcage", "", "", ""};
-		{ 9, 61654, "", "=q4=Ring of Entropy", "", "", ""};
 		{ 10, 61656, "", "=q4=Anti-Thermolytic Carcanet", "", "", ""};
 		{ 11, 61665, "", "=q4=Basalt-Etched Blade", "", "", ""};
 		{ 12, 61667, "", "=q4=Bluntmaster's Handguards", "", "", ""};

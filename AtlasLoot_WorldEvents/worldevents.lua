@@ -505,7 +505,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["LordKazzak"] = {
-		{1, 90549, "", "=q4=Band of Endless", "=ds=#s13#", "", ""};
-		{2, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#", "", ""};
+		{ 1, 90549, "", "=q4=Band of the Endless", "=ds=#s13#", "", ""};
+		{ 2, 18543, "", "=q4=Ring of Entropy", "=ds=#s13#", "", ""};
+
+		{ 4, 61648, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
+		
+		{ 6, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
+
+		{ 8, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#", "", ""};
+
+		{16, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
 		Back = "WORLDBOSSMENU";
 	};
