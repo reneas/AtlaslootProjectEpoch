@@ -492,15 +492,17 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["Volchan"] = {
-		{ 1, 64750, "", "=q4=Wildfire Chain Shoulders", "=ds=#s3#", "", ""};
-		{ 2, 64742, "", "=q4=Cloak of Convalescence", "=ds=#s4#", "", ""};
-		{ 3, 64743, "", "=q4=Crossfire Shoulderguards", "=ds=#s3#", "", ""};
-		{ 4, 64744, "", "=q4=Flame-Tempered Shoulderplates", "=ds=#s3#", "", ""};
-		{ 5, 64745, "", "=q4=Living Spark Spaulders", "=ds=#s3#", "", ""};
-		{ 6, 64746, "", "=q4=Mantle of the Royal Flame", "=ds=#s3#", "", ""};
-		{ 7, 64747, "", "=q4=Mountain Breaker", "=ds=#w6#", "", ""};
-		{ 8, 64748, "", "=q4=Pyrite-Studded Chain Epaulets", "=ds=#s3#", "", ""};
-		{ 9, 64749, "", "=q4=Seethe", "=ds=#w4#", "", ""};
+		{ 1, 64750, "", "=q4=Wildfire Chain Shoulders", "=ds=#s3#, #a3#", "", ""};
+		{ 2, 64743, "", "=q4=Crossfire Shoulderguards", "=ds=#s3#, #a2#", "", ""};
+		{ 3, 64744, "", "=q4=Flame-Tempered Shoulderplates", "=ds=#s3#, #a4#", "", ""};
+		{ 4, 64745, "", "=q4=Living Spark Spaulders", "=ds=#s3#, #a2#", "", ""};
+		{ 5, 64746, "", "=q4=Mantle of the Royal Flame", "=ds=#s3#, #a1#", "", ""};
+		{ 6, 64748, "", "=q4=Pyrite-Studded Chain Epaulets", "=ds=#s3#, #a3#", "", ""};
+
+		{ 8, 64742, "", "=q4=Cloak of Convalescence", "=ds=#s4#", "", ""};
+		
+		{16, 64749, "", "=q4=Seethe", "=ds=#w4#", "", ""};
+		{17, 64747, "", "=q4=Mountain Breaker", "=ds=#w6#", "", ""};
 		Back = "WORLDBOSSMENU";
 	};
 
@@ -512,7 +514,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		
 		{ 6, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
 
-		{ 8, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#", "", ""};
+		{ 8, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", ""};
+
+		{10, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
 
 		{16, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
 		Back = "WORLDBOSSMENU";
