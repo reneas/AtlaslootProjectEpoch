@@ -123,7 +123,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 61747, "", "=q4=Scorched Felheart Bracers", "=ds=#s8#, #a1#", "", ""};
 
 		{ 16, 61830, "", "=q4=Sapphiron Drape", "=ds=#s4#", "", ""};
-		{ 17, 61801, "", "=q4=Cloak of Forewarning", "=ds=#s4", "", ""};
+		{ 17, 61801, "", "=q4=Cloak of Forewarning", "=ds=#s4#", "", ""};
 
 		{ 19, 61838, "", "=q4=Woven Shadowthread Chemise", "=ds=#s5#, #a1#", "", ""};
 		{ 20, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
@@ -155,11 +155,16 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{15, 61821, "", "=q3=Pattern: Onyxia Scale Shield", "=ds=#p2# (300)", "", ""};
 		
 		{16, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
-		{17, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
+		{17, 0, "INV_Box_01", "=q6=Quest Rewards", "", "", ""};
+		{18, 18403, "", "=q4=Dragonslayer's Signet", "=ds=#s13#", "" };
+		{19, 18404, "", "=q4=Onyxia Tooth Pendant", "=ds=#s2#", "" };
+		{20, 18406, "", "=q4=Onyxia Blood Talisman", "=ds=#s14#", "" };
+		
+		{22, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
 
-		{19, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{20, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
-		{21, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
+		{26, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{25, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
+		{26, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
 		
 		{ 28, 17966, "", "=q2=Onyxia Hide Backpack", "18 Slot =ds=#e1#", "" };
 
