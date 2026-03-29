@@ -2,7 +2,7 @@
 
 This is a modified version of Atlas Loot that contains Project Epoch custom data. This is a work in progress and may not contain everything. 
 
-### Installation
+## Installation
 1. Download **[Latest Version](https://github.com/reneas/AtlaslootProjectEpoch/archive/refs/heads/main.zip)**
 2. Unpack `AtlasLootProjectEpoch-main.zip`
 3. Open the Folder `AtlasLootProjectEpoch-main`
@@ -15,11 +15,14 @@ This is a modified version of Atlas Loot that contains Project Epoch custom data
     - **AtlasLootFu** 
 4. Restart Wow
 
+## Contributing
 If you want to help fill out Atlasloot, use the Optional included Addon **AnyIDTooltip**, screenshot the Item and open an issue **[here](https://github.com/reneas/AtlaslootProjectEpoch/issues)**.
 
-Optional you can find Atlas here:https://github.com/Raynbock/Atlas-Project-Epoch
 
-Special thanks to:
+## Other Stuff
+Optionally you can find Atlas here:https://github.com/Raynbock/Atlas-Project-Epoch
+
+**Special thanks to:**
 
 Raynbock for keeping the Addon up to date until his departure.
 
