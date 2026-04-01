@@ -6,22 +6,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
 	AtlasLoot_Data["WORLDEVENTMENU"] = {
-		{ 7, "Halloween1", "INV_Misc_Bag_28_Halloween", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
-		{ 2, "Valentineday", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
-		{ 5, "MidsummerFestival", "INV_SummerFest_FireFlower", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["Various Locations"]};
-		{ 16, "GurubashiArena", "INV_Box_02", "=ds="..AL["Gurubashi Arena Booty Run"], "=q5="..BabbleZone["Stranglethorn Vale"]};
-		{ 18, "MirageRaceways", "ability_vehicle_powertowheels", "=ds="..BabbleEpoch["Mirage Raceway"], "=q5="..BabbleZone["Thousand Needles"]};
-		{ 29, "DARKMOONMENU", "INV_Misc_Ticket_Tarot_Madness", "=ds="..BabbleFaction["Darkmoon Faire"], "=q5="..AL["Various Locations"]};
-		{ 4, "ChildrensWeek", "Ability_Hunter_BeastCall", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
-		{ 8, "Winterviel1", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
-		{ 6, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
 		{ 1, "LunarFestival1", "INV_Misc_ElvenCoins", "=ds="..AL["Lunar Festival"], "=q5="..AL["Various Locations"]};
+		{ 2, "Valentineday", "INV_ValentinesBoxOfChocolates02", "=ds="..AL["Love is in the Air"], "=q5="..AL["Various Locations"]};
 		{ 3, "Noblegarden", "INV_Egg_03", "=ds="..AL["Noblegarden"], "=q5="..AL["Various Locations"]};
+		{ 4, "ChildrensWeek", "Ability_Hunter_BeastCall", "=ds="..AL["Children's Week"], "=q5="..AL["Various Locations"]};
+		{ 5, "MidsummerFestival", "INV_SummerFest_FireFlower", "=ds="..AL["Midsummer Fire Festival"], "=q5="..AL["Various Locations"]};
+		{ 6, "HarvestFestival", "INV_Misc_Food_33", "=ds="..AL["Harvest Festival"], "=q5="..AL["Various Locations"]};
+		{ 7, "Halloween1", "INV_Misc_Bag_28_Halloween", "=ds="..AL["Hallow's End"], "=q5="..AL["Various Locations"]};
+		{ 8, "Winterviel1", "INV_Holiday_Christmas_Present_01", "=ds="..AL["Feast of Winter Veil"], "=q5="..AL["Various Locations"]};
+	
+		{ 16, "GurubashiArena", "INV_Box_02", "=ds="..AL["Gurubashi Arena Booty Run"], "=q5="..BabbleZone["Stranglethorn Vale"]};
 		{ 17, "FishingExtravaganza", "INV_Fishingpole_02", "=ds="..AL["Stranglethorn Fishing Extravaganza"], "=q5="..BabbleZone["Stranglethorn Vale"]};
+		{ 18, "MirageRaceways", "ability_vehicle_powertowheels", "=ds="..BabbleEpoch["Mirage Raceway"], "=q5="..BabbleZone["Thousand Needles"]};
 		{ 20, "RAREMENU", "inv_bijou_silver", "=ds="..BabbleEpoch["Rares"], "=q5="..AL["Various Locations"]};
 		{ 21, "Blastedlandsod", "achievement_zone_blastedlands_01", "=ds="..BabbleEpoch["Felstone Fortress"], "=q5="..BabbleZone["Blasted Lands"]};
 		{ 23, "WORLDBOSSMENU", "achievement_boss_shadeoferanikus", "=ds="..BabbleEpoch["World Bosses"], "=q5="..AL["Various Locations"]};
 		{ 22, "WinterspringBoss", "Inv_misc_head_dragon_blue", "=ds="..BabbleEpoch["Winterspring Summon Boss"], "=q5="..BabbleZone["Winterspring"]};
+		{ 29, "DARKMOONMENU", "INV_Misc_Ticket_Tarot_Madness", "=ds="..BabbleFaction["Darkmoon Faire"], "=q5="..AL["Various Locations"]};
 	};
 
 	AtlasLoot_Data["DARKMOONMENU"] = {
@@ -42,5 +43,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "Kinggnok", "ability_hunter_pet_gorilla", "=ds="..BabbleEpoch["King Gnok"], "=q5="..BabbleZone["Stranglethorn Vale"]};
 		{ 4, "Silithidlurker", "ability_hunter_pet_silithid", "=ds="..BabbleEpoch["Silithid Lurker"], "=q5="..BabbleZone["Tanaris"]};
 		{ 5, "Volchan", "spell_shaman_lavaflow", "=ds="..BabbleEpoch["Volchan"], "=q5="..BabbleZone["Burning Steppes"]};
+		{ 6, "LordKazzak", "achievement_boss_doomwalker", "=ds="..BabbleEpoch["Lord Kazzak"], "=q5="..BabbleZone["Blasted Lands"]};
 		Back = "WORLDEVENTMENU";
 	};

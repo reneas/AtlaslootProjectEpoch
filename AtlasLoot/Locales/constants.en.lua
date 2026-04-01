@@ -441,6 +441,7 @@ if AL then
 	AL["PvP Accessories (Level 70)"] = true;
 	AL["PvP Weapons (Level 70)"] = true;
 	AL["PvP Reputation Sets (Level 70)"] = true;
+	AL["PvP Crafting Materials"] = true;
 	AL["Arena Season 2 Weapons"] = true;
 	AL["Arena Season 3 Weapons"] = true;
 	AL["Arena Season 4 Weapons"] = true;

@@ -594,6 +594,7 @@ end
 	AtlasLoot_TableNames["Corruptedancient"] = { BabbleEpoch["Corrupted Ancient"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Gonzor"] = { BabbleEpoch["Gonzor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Kinggnok"] = { BabbleEpoch["King Gnok"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["LordKazzak"] = { BabbleEpoch["Lord Kazzak"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Silithidlurker"] = { BabbleEpoch["Silithid Lurker"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WinterspringBoss"] = { BabbleEpoch["Winterspring Summon Boss"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Volchan"] = { BabbleEpoch["Volchan"], "AtlasLootOriginalWoW" };
@@ -760,6 +761,7 @@ end
 	AtlasLoot_TableNames["TailoringArmorOld7"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringBags1"] = { TAILORING..": "..AL["Bags"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringMisc1"] = { TAILORING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["TailoringItemEnhancements"] = { TAILORING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringShirts1"] = { TAILORING..": "..AL["Shirts"], "AtlasLootCrafting" };
   -- Cooking
 	AtlasLoot_TableNames["Cooking1"] = { COOKING, "AtlasLootCrafting" };
@@ -805,7 +807,7 @@ end
 	AtlasLoot_TableNames["PvP60Accessories2_H"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWeapons_A"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWeapons_H"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
-
+	AtlasLoot_TableNames["PvPCrafting"] = { AL["PvP Crafting Materials"], "AtlasLootCrafting"}
 -------------
 --- Other ---
 -------------

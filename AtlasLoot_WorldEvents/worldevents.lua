@@ -420,3 +420,110 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Prev = "Easternrares";
 		Back = "RAREMENU";
 	};
+
+	--------------------
+	--- World Bosses ---
+	--------------------
+
+	AtlasLoot_Data["Azuregos"] = {
+		Back = "WORLDBOSSMENU";
+	};
+
+
+	AtlasLoot_Data["Corruptedancient"] = {
+		{ 1, 64829, "", "=q3=Enchanted Robe", "", "", ""};
+		{ 2, 64830, "", "=q3=Agile Bracers", "", "", ""};
+		{ 3, 64831, "", "=q3=Hardened Greaves", "", "", ""};
+		{ 4, 64832, "", "=q3=Cloak of the Ancient", "", "", ""};
+		{ 5, 64833, "", "=q3=Sparkling Scepter", "=ds=#w12#", "", ""};
+		{ 16, 62911, "", "=q1=Heart of the Ancient", "=ds=#m3#", "", ""};
+		{ 17, 62910, "", "=q1=Amulet of the Forest", "=q1=#m4#", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
+	AtlasLoot_Data["Gonzor"] = {
+		{ 1, 64780, "", "=q3=Abominable Drape", "", "", ""};
+		{ 2, 64779, "", "=q3=Sasquatch Signet", "", "", ""};
+		{ 3, 64778, "", "=q3=Icy Buckle", "", "", ""};
+		{ 4, 64777, "", "=q3=Bigfoot Handguards", "", "", ""};
+		{ 5, 64776, "", "=q3=Frostbite Bindings", "", "", ""};
+		{ 6, 64775, "", "=q3=Glacial Greatsword", "", "", ""};
+		{ 7, 64774, "", "=q3=Avalanche Slicer", "", "", ""};
+		{ 8, 64773, "", "=q2=Yeti Crusher", "", "", ""};
+		{ 9, 64772, "", "=q3=Gonzor´s Lunch", "", "", ""};
+		{ 10, 64771, "", "=q3=Frostbiter", "", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
+	AtlasLoot_Data["Kinggnok"] = {
+		{ 1, 64805, "", "=q3=Kingly Pendant", "", "", ""};
+		{ 2, 64804, "", "=q3=Wild Tassets", "", "", ""};
+		{ 3, 64803, "", "=q3=Jungle Heartguard", "", "", ""};
+		{ 4, 64802, "", "=q3=Canopy Shoulders", "", "", ""};
+		{ 5, 64801, "", "=q3=Silverback Helm", "", "", ""};
+		{ 6, 64800, "", "=q3=Silverback Smasher", "", "", ""};
+		{ 7, 64799, "", "=q3=Jungle Channeler", "", "", ""};
+		{ 8, 64798, "", "=q3=King´s Shot", "", "", ""};
+		{ 9, 64797, "", "=q3=Thunderous Roar", "", "", ""};
+		{ 10, 64796, "", "=q3=Vineblade", "", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
+	AtlasLoot_Data["Silithidlurker"] = {
+		{ 2, 64896, "", "=q3=Jewel of the Lurker", "=ds=#s2#", "", ""};
+		{ 1, 64893, "", "=q3=Duskwalker Turban", "=ds=#s1#", "", ""};
+		{ 3, 64894, "", "=q3=Sandwalker Gauntlets", "=ds=#s9#", "", ""};
+		{ 4, 64895, "", "=q3=Infested Legguards", "=ds=#s11#", "", ""};
+		{ 5, 64897, "", "=q3=Lurker´s Brood", "=ds=#s14#"};
+		{ 6, 64892, "", "=q3=Silithid Poker", "", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
+	AtlasLoot_Data["WinterspringBoss"] = {
+		{ 1, 18704, "", "=q4=Mature Blue Dragon Sinew", "", "", ""};
+		{ 2, 64906, "", "=q2=Blue Rune", "", "", ""};
+		{ 16, 62171, "", "=q4=Pattern: Blue Dragonscale Boots", "=ds=#p7# (300)", "", ""};
+		{ 17, 62170, "", "=q4=Blue Dragonscale Boots", "", "", ""};
+		{ 19, 62157, "", "=q3=Schematic: Ley-Stabalized Arcane Reflector", "=ds=#p5# (300)", "", ""};
+		{ 20, 62156, "", "=q3=Ley-Stabalized Arcane Reflector", "", "", ""};
+		{ 22, 62141, "", "=q3=Formula: Spellweaver", "=ds=#p4# (300)"};
+		{ 23, 62140, "", "=q3=Spellweaver", "", "", ""};
+		Back = "WORLDEVENTMENU";
+	};
+
+	AtlasLoot_Data["Volchan"] = {
+		{ 1, 64750, "", "=q4=Wildfire Chain Shoulders", "=ds=#s3#, #a3#", "", ""};
+		{ 2, 64743, "", "=q4=Crossfire Shoulderguards", "=ds=#s3#, #a2#", "", ""};
+		{ 3, 64744, "", "=q4=Flame-Tempered Shoulderplates", "=ds=#s3#, #a4#", "", ""};
+		{ 4, 64745, "", "=q4=Living Spark Spaulders", "=ds=#s3#, #a2#", "", ""};
+		{ 5, 64746, "", "=q4=Mantle of the Royal Flame", "=ds=#s3#, #a1#", "", ""};
+		{ 6, 64748, "", "=q4=Pyrite-Studded Chain Epaulets", "=ds=#s3#, #a3#", "", ""};
+
+		{ 8, 64742, "", "=q4=Cloak of Convalescence", "=ds=#s4#", "", ""};
+		
+		{16, 64749, "", "=q4=Seethe", "=ds=#w4#", "", ""};
+		{17, 64747, "", "=q4=Mountain Breaker", "=ds=#w6#", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
+	AtlasLoot_Data["LordKazzak"] = {
+		{ 1, 90549, "", "=q4=Band of the Endless", "=ds=#s13#", "", ""};
+		{ 2, 18543, "", "=q4=Ring of Entropy", "=ds=#s13#", "", ""};
+
+		{ 4, 61648, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
+		
+		{ 6, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
+
+		{ 8, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", ""};
+
+		{10, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
+
+		{12, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
+		
+		{16, 62152, "", "=q3=Formula: Enchant Weapon - Ferocity", "=ds=#p4# (300)", "", ""};
+		
+		{18, 90966, "", "=q2=Plans: Gauntlets of Impossible Grip", "=ds=#p2# (300)", "", ""};
+		{19, 90967, "", "=q2=Pattern: Brakskin Trousers", "=ds=#p7# (300)", "", ""};
+		{20, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};	
+		Back = "WORLDBOSSMENU";
+	};

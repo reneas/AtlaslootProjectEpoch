@@ -3,6 +3,80 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
+		-------------------
+		--- Molten Core ---
+		-------------------
+
+	AtlasLoot_Data["MCLucifron"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Next = "MCMagmadar";
+	};
+
+	AtlasLoot_Data["MCMagmadar"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCLucifron";
+		Next = "MCGehennas";
+	};
+
+	AtlasLoot_Data["MCGehennas"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCMagmadar";
+		Next = "MCGarr";
+	};
+
+	AtlasLoot_Data["MCGarr"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCGehennas";
+		Next = "MCShazzrah";
+	};
+
+	AtlasLoot_Data["MCShazzrah"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCGarr";
+		Next = "MCGeddon";
+	};
+
+	AtlasLoot_Data["MCGeddon"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCShazzrah";
+		Next = "MCGolemagg";
+	};
+
+	AtlasLoot_Data["MCGolemagg"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCGeddon";
+		Next = "MCSulfuron";
+	};
+
+	AtlasLoot_Data["MCSulfuron"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCGolemagg";
+		Next = "MCMajordomo";
+	};
+
+	AtlasLoot_Data["MCMajordomo"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCSulfuron";
+		Next = "MCRagnaros";
+	};
+
+	AtlasLoot_Data["MCRagnaros"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCMajordomo";
+		Next = "MCRANDOMBOSSDROPPS";
+	};
+
+	AtlasLoot_Data["MCRANDOMBOSSDROPPS"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCRagnaros";
+		Next = "MCTrashMobs";
+	};
+
+	AtlasLoot_Data["MCTrashMobs"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Molten Core", "=ds=Loot table not added yet", "", ""};
+		Prev = "MCRANDOMBOSSDROPPS";
+	};
+
         ---------------------
 		--- Onyxia's Lair ---
 		---------------------
@@ -10,38 +84,55 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["OnyxiaOrtorg"] = {
 		{ 1, 61794, "", "=q4=Ashen Belt of Might", "=ds=#s10#, #a4#", "", ""};
 		{ 2, 61657, "", "=q4=Ashen Bracers of Might", "=ds=#s8#, #a4#", "", ""};
+		
 		{ 4, 61796, "", "=q4=Ashen Giantstalker's Belt", "=ds=#s10#, #a3#", "", ""};
 		{ 5, 61659, "", "=q4=Ashen Giantstalker's Bracers", "=ds=#s8#, #a3#", "", ""};
+		
 		{ 7, 61795, "", "=q4=Ashen Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
 		{ 8, 61658, "", "=q4=Ashen Earthfury Bracers", "=ds=#s8#, #a3#", "", ""};
+		
 		{ 10, 61797, "", "=q4=Ashen Nightslayer Belt", "=ds=#s10#, #a2#", "", ""};
 		{ 11, 61660, "", "=q4=Ashen Nightslayer Bracelets", "=ds=#s8#, #a2#", "", ""};
+		
 		{ 16, 61802, "", "=q4=Cuffs of Malevolence", "=ds=#s8#, #a2#", "", ""};
-		{ 17, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
-		{ 18, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
-		{ 19, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
-		{ 20, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
-		{ 21, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
-		{ 22, 61806, "", "=q4=Dragon Slayer's Sword", "=ds=#h2# #w10#", "", "" };
+		{ 17, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
+		{ 18, 61829, "", "=q4=Ring of Binding", "=ds=#s13#", "", ""};
+		
+		{ 20, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
+		
+		{ 21, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
+		
+		{ 22, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
+		{ 23, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
+		{ 24, 61806, "", "=q4=Dragon Slayer's Sword", "=ds=#h2# #w10#", "", "" };
 		Next = "OnyxiaAtressian";
 	};
+	
 
 	AtlasLoot_Data["OnyxiaAtressian"] = {
 		{ 1, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
 		{ 2, 61746, "", "=q4=Scorched Earthfury Bracers", "=ds=#s8#, #a3#", "", ""};
+
 		{ 4, 61832, "", "=q4=Scorched Cenarion Belt", "=ds=#s10#, #a2#", "", ""};
 		{ 5, 61745, "", "=q4=Scorched Cenarion Bracers", "=ds=#s8#, #a2#", "", ""};
+
 		{ 7, 61831, "", "=q4=Scorched Arcanist Belt", "=ds=#s10#, #a1#", "", ""};
 		{ 8, 61744, "", "=q4=Scorched Arcanist Bindings", "=ds=#s8#, #a1#", "", ""};
+
 		{ 10, 61834, "", "=q4=Scorched Felheart Belt", "=ds=#s10#, #a1#", "", ""};
 		{ 11, 61747, "", "=q4=Scorched Felheart Bracers", "=ds=#s8#, #a1#", "", ""};
+
 		{ 16, 61830, "", "=q4=Sapphiron Drape", "=ds=#s4#", "", ""};
-		{ 17, 61838, "", "=q4=Woven Shadowthread Chemise", "=ds=#s5#, #a1#", "", ""};
-		{ 18, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
-		{ 19, 61798, "", "=q4=Boots of Contempt", "=ds=#s12#, #a1#", "", ""};
-		{ 20, 61809, "", "=q4=Faceted Beryl Palm Stone", "=ds=#s14#", "" };
-		{ 21, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
-		{ 22, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
+		{ 17, 61801, "", "=q4=Cloak of Forewarning", "=ds=#s4#", "", ""};
+
+		{ 19, 61838, "", "=q4=Woven Shadowthread Chemise", "=ds=#s5#, #a1#", "", ""};
+		{ 20, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
+		{ 21, 61798, "", "=q4=Boots of Contempt", "=ds=#s12#, #a1#", "", ""};
+		
+		{ 22, 61809, "", "=q4=Faceted Beryl Palm Stone", "=ds=#s14#", "" };
+		{ 23, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
+		
+		{ 25, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
 		Prev = "OnyxiaOrtorg";
 		Next = "OnyxiaBoss";
 	};
@@ -54,25 +145,33 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 61805, "", "=q4=Draconic Focusing Leystone", "=ds=#s14#", "", ""};
 		{ 6, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "" };
 		{ 7, 90505, "", "=q4=Broodmother's Eye", "=ds=#s14#", "" };
-		{ 8, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{ 9, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
-		{ 10, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
-		{ 12, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
-		{ 13, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
-		{ 16, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
-		{ 17, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
-		{ 19, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
-		{ 20, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
-		{ 21, 61786, "", "=q4=Helm of the Glorious Hero", "=ds=#c5#,=ds=#c7#,=ds=#c3#", "", ""};
-		{ 23, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#e1#", "" };
-		{ 25, 17969, "", "=q2=Red Sack of Gems", "", "" };
-		{ 26, 17964, "", "=q2=Gray Sack of Gems", "", "" };
-		{ 27, 17962, "", "=q2=Blue Sack of Gems", "", "" };
-		{ 28, 17963, "", "=q2=Green Sack of Gems", "", "" };
-		{ 29, 17965, "", "=q2=Yellow Sack of Gems", "", "" };
+		{ 8, 90503, "", "=q4=Robes of Draconic Legacy", "=ds=#s5#, #a1#", "", ""};
+		
+		{10, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
+		{11, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
+		{12, 61786, "", "=q4=Helm of the Glorious Hero", "=ds=#c5#,=ds=#c7#,=ds=#c3#", "", ""};
+				
+		{14, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
+		{15, 61821, "", "=q3=Pattern: Onyxia Scale Shield", "=ds=#p2# (300)", "", ""};
+		
+		{16, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+		{17, 0, "INV_Box_01", "=q6=Quest Rewards", "", "", ""};
+		{18, 18403, "", "=q4=Dragonslayer's Signet", "=ds=#s13#", "" };
+		{19, 18404, "", "=q4=Onyxia Tooth Pendant", "=ds=#s2#", "" };
+		{20, 18406, "", "=q4=Onyxia Blood Talisman", "=ds=#s14#", "" };
+		
+		{22, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
+
+		{26, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{25, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
+		{26, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
+		
+		{ 28, 17966, "", "=q2=Onyxia Hide Backpack", "18 Slot =ds=#e1#", "" };
+
+		{ 30, 17969, "", "=q2=Red Sack of Gems", "5 Different Colors", "" };
 		Prev = "OnyxiaAtressian";
 		Next = "OnyxiaTrash";
-	};
+	};		
 
 	AtlasLoot_Data["OnyxiaTrash"] = {
 		{ 1, 90100, "", "=q4=Dragonbone Ring", "=ds=#s13#", "", ""};
@@ -98,7 +197,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61651, "", "=q4=Fel Infused Leggings", "", "", ""};
 		{ 7, 61652, "", "=q4=Flayed Doomguard Belt", "", "", ""};
 		{ 8, 61653, "", "=q4=Infernal Headcage", "", "", ""};
-		{ 9, 61654, "", "=q4=Ring of Entropy", "", "", ""};
 		{ 10, 61656, "", "=q4=Anti-Thermolytic Carcanet", "", "", ""};
 		{ 11, 61665, "", "=q4=Basalt-Etched Blade", "", "", ""};
 		{ 12, 61667, "", "=q4=Bluntmaster's Handguards", "", "", ""};
@@ -166,28 +264,22 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61790, "", "=q4=Gloves of the Glorious Hero", "", "", ""};
 		{ 7, 61791, "", "=q4=Sabatons of the Glorious Hero", "", "", ""};
 		{ 8, 61792, "", "=q4=Adopted Whelp", "", "", ""};
-		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
 		{ 24, 61812, "", "=q4=Idol of Starlight", "", "", ""};
 		{ 25, 61813, "", "=q4=Libram of Consecrated Ground", "", "", ""};
 		{ 26, 61815, "", "=q3=Pattern: Onyxia Scale Breastplate", "", "", ""};
 		{ 27, 61814, "", "=q4=Onyxia Scale Breastplate", "", "", ""};
 		{ 28, 61817, "", "=q3=Pattern: Onyxia Scale Hood", "", "", ""};
 		{ 29, 61816, "", "=q4=Onyxia Scale Hood", "", "", ""};
-		{ 30, 61819, "", "=q3=Pattern: Onyxia Scale Leggings", "", "", ""};
 		Next = "Abandoned4";
 		Prev = "Abandoned2";
 		Back = "SETMENU";
 	};
 
 	AtlasLoot_Data["Abandoned4"] = {
-		{ 1, 61818, "", "=q4=Onyxia Scale Leggings", "", "", ""};
-		{ 2, 61821, "", "=q3=Pattern: Onyxia Scale Shield", "", "", ""};
-		{ 3, 61820, "", "=q4=Onyxia Scale Shield", "", "", ""};
-		{ 4, 61823, "", "=q3=Pattern: Red Dragooonscale Shoulders", "", "", ""};
-		{ 5, 61822, "", "=q3=Red Dragooonscale Shoulders", "", "", ""};
+		{ 4, 61823, "", "=q3=Pattern: Red Dragonscale Shoulders", "", "", ""};
+		{ 5, 61822, "", "=q3=Red Dragonscale Shoulders", "", "", ""};
 		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
 		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
-		{ 11, 61829, "", "=q4=Ring of Binding", "", "", ""};
 		{ 14, 61836, "", "=q4=Totem of Draconic Might", "", "", ""};
 		{ 17, 61839, "", "=q1=Black Dragonscale Protector", "", "", ""};
 		{ 18, 61840, "", "=q1=Blue Dragonscale Protector", "", "", ""};

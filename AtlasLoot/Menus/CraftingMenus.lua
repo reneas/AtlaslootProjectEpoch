@@ -10,14 +10,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 4, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
 		{ 5, "SMITHINGMENU", "Trade_BlackSmithing", "=ds="..GetSpellInfo(2018), ""};
 		{ 6, "ENGINEERINGMENU", "Trade_Engineering", "=ds="..GetSpellInfo(4036), ""};
-		{ 14, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
-		{ 15, "CRAFTSET1", "INV_Box_01", AL["Crafted Sets"], ""};
-		{ 16, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
-		{ 17, "Herbalism1", "spell_nature_naturetouchgrow", "=ds="..GetSpellInfo(2366), ""};
-		{ 18, "Skinning1", "inv_misc_pelt_wolf_01", "=ds="..GetSpellInfo(8613), ""};
-		{ 19, "Fishing1", "trade_fishing", "=ds="..GetSpellInfo(7620), ""};
-		{ 20, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
-		{ 21, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
+		{14, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
+		{15, "CRAFTSET1", "INV_Box_01", AL["Crafted Sets"], ""};
+		{16, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
+		{17, "Herbalism1", "spell_nature_naturetouchgrow", "=ds="..GetSpellInfo(2366), ""};
+		{18, "Skinning1", "inv_misc_pelt_wolf_01", "=ds="..GetSpellInfo(8613), ""};
+		{19, "Fishing1", "trade_fishing", "=ds="..GetSpellInfo(7620), ""};
+		{20, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
+		{21, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
+		{29, "PvPCrafting", "inv_bannerpvp_02", "=ds=PvP Crafting", ""}
 	};
 
 	AtlasLoot_Data["ALCHEMYMENU"] = {
@@ -88,9 +89,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["TAILORINGMENU"] = {
 		{ 1, "TailoringArmorOld1", "inv_chest_cloth_59", "=ds="..BabbleEpoch["Armor"], "=q5=" };
-		{ 16, "TailoringBags1", "inv_misc_bag_19", "=ds="..AL["Bags"], "" };
-		{ 17, "TailoringMisc1", "inv_inscription_armorscroll03", "=ds="..BabbleEpoch["Embroidery"], "" };
-		{ 18, "TailoringShirts1", "inv_shirt_black_01", "=ds="..AL["Shirts"], "" };
+		{ 2, "TailoringMisc1", "inv_inscription_armorscroll04", "=ds=" ..BabbleEpoch["PvP Crafting Materials"], ""};
+		{16, "TailoringBags1", "inv_misc_bag_19", "=ds="..AL["Bags"], "" };
+		{17, "TailoringItemEnhancements", "inv_inscription_armorscroll03", "=ds="..BabbleEpoch["Embroidery"], "" };
+		{18, "TailoringShirts1", "inv_shirt_black_01", "=ds="..AL["Shirts"], "" };
 		Back = "CRAFTINGMENU";
 	};
 
