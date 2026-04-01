@@ -1380,69 +1380,69 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	--- Weapons ---
 	AtlasLoot_Data["EpochpvpS1ConquestWeapons"] = {
 		{1, 0, "INV_Box_01", "=q6=Daggers", "=ds=",""};
-		{2,90657, "", "=q4=Rival's Dagger", "=ds=", " ", ""};
-		{3,90658, "", "=q4=Rival's Spellblade", "=ds=", " ", ""};
-		{4,90659, "", "=q4=Rival's Medical Knife", "=ds=", " ", ""};
+		{2,90657, "", "=q4=Rival's Dagger", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{3,90658, "", "=q4=Rival's Spellblade", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{4,90659, "", "=q4=Rival's Medical Knife", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{6, 0, "INV_Box_01", "=q6=One-Handed Axes", "=ds=",""};
-		{7,90660, "", "=q4=Rival's Axe", "=ds=", " ", ""};
-		{8,90661, "", "=q4=Rival's Claw", "=ds=", " ", ""};
+		{7,90660, "", "=q4=Rival's Axe", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{8,90661, "", "=q4=Rival's Claw", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{10, 0, "INV_Box_01", "=q6=Two-Handed Axes", "=ds=",""};
-		{11,90662, "", "=q4=Rival's Battleaxe", "=ds=", " ", ""};
+		{11,90662, "", "=q4=Rival's Battleaxe", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
 
 		{16, 0, "INV_Box_01", "=q6=One-Handed Maces", "=ds=",""};
-		{17,90663, "", "=q4=Rival's Mace", "=ds=", " ", ""};
-		{18,90664, "", "=q4=Rival's Mace", "=ds=", " ", ""};
-		{19,90665, "", "=q4=Rival's Spellhammer", "=ds=", " ", ""};
-		{20,90666, "", "=q4=Rival's Scepter", "=ds=", " ", ""};
+		{17,90663, "", "=q4=Rival's Mace", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{18,90664, "", "=q4=Rival's Mace", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{19,90665, "", "=q4=Rival's Spellhammer", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{20,90666, "", "=q4=Rival's Scepter", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{28, 0, "INV_Box_01", "=q6=Two-Handed Maces", "=ds=",""};
-		{29,90667, "", "=q4=Rival's Maul", "=ds=", " ", ""};
+		{29,90667, "", "=q4=Rival's Maul", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
 
 		{22,0, "INV_Box_01", "=q6=One-Handed Swords", "=ds=",""};
-		{23,90668, "", "=q4=Rival's Saber", "=ds=", " ", ""};
-		{24,90669, "", "=q4=Rival's Sword", "=ds=", " ", ""};
-		{25,90670, "", "=q4=Rival's Spellsword", "=ds=", " ", ""};
-		{26,90671, "", "=q4=Rival's Brand", "=ds=", " ", ""};
+		{23,90668, "", "=q4=Rival's Saber", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{24,90669, "", "=q4=Rival's Sword", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{25,90670, "", "=q4=Rival's Spellsword", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{26,90671, "", "=q4=Rival's Brand", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{13, 0, "INV_Box_01", "=q6=Two-Handed Swords", "=ds=",""};
-		{14,90672, "", "=q4=Rival's Greatsword", "=ds=", " ", ""};
+		{14,90672, "", "=q4=Rival's Greatsword", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
 		Next = "EpochpvpS1ConquestWeapons2";
 		Back = "EpochpvpS1Conquest";
 	};
 
 	AtlasLoot_Data["EpochpvpS1ConquestWeapons2"] = {
 		{ 1, 0, "INV_Box_01", "=q6=Fist Weapons", "=ds=",""};
-		{ 2,90673, "", "=q4=Rival's Knuckles", "=ds=", " ", ""};
-		{ 3,90674, "", "=q4=Rival's Knuckles", "=ds=", " ", ""};
-		{ 4,90675, "", "=q4=Rival's Spellfists", "=ds=", " ", ""};
-		{ 5,90676, "", "=q4=Rival's Healing Knuckles", "=ds=", " ", ""};
+		{ 2,90673, "", "=q4=Rival's Knuckles", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{ 3,90674, "", "=q4=Rival's Knuckles", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{ 4,90675, "", "=q4=Rival's Spellfists", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{ 5,90676, "", "=q4=Rival's Healing Knuckles", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{ 7, 0, "INV_Box_01", "=q6=Staves", "=ds=",""};
-		{ 8,90677, "", "=q4=Rival's Staff", "=ds=", " ", ""};
-		{ 9,90678, "", "=q4=Rival's Stave", "=ds=", " ", ""};
-		{10,90679, "", "=q4=Rival's Quarterstaff", "=ds=", " ", ""};
+		{ 8,90677, "", "=q4=Rival's Staff", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
+		{ 9,90678, "", "=q4=Rival's Stave", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
+		{10,90679, "", "=q4=Rival's Quarterstaff", "=ds=", "300 #arena# 30 #gillijim# 4 #metalarmorcomp#", ""};
 		
 		{16,0, "INV_Box_01", "=q6=Ranged Weapons", "=ds=",""};
-		{17,90680, "", "=q4=Rival's Rifle", "=ds=", " ", ""};
-		{18,90681, "", "=q4=Rival's Bow", "=ds=", " ", ""};
-		{19,90682, "", "=q4=Rival's Crossbow", "=ds=", " ", ""};
-		{20,90683, "", "=q4=Rival's Knives", "=ds=", " ", ""};
-		{21,90689, "", "=q4=Rival's Frostfinger", "=ds=", " ", ""};
-		{22,90690, "", "=q4=Rival's Firestick", "=ds=", " ", ""};
-		{23,90691, "", "=q4=Rival's Shadowthrower", "=ds=", " ", ""};
-		{24,90692, "", "=q4=Rival's Arcane Wand", "=ds=", " ", ""};
-		{25,90693, "", "=q4=Rival's Lightning Rod", "=ds=", " ", ""};
+		{17,90680, "", "=q4=Rival's Rifle", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{18,90681, "", "=q4=Rival's Bow", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{19,90682, "", "=q4=Rival's Crossbow", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{20,90683, "", "=q4=Rival's Knives", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{21,90689, "", "=q4=Rival's Frostfinger", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{22,90690, "", "=q4=Rival's Firestick", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{23,90691, "", "=q4=Rival's Shadowthrower", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{24,90692, "", "=q4=Rival's Arcane Wand", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{25,90693, "", "=q4=Rival's Lightning Rod", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{27,0, "INV_Box_01", "=q6=Off-Hands", "=ds=",""};
-		{28,90684, "", "=q4=Rival's Frill", "=ds=", " ", ""};
-		{29,90685, "", "=q4=Rival's Tome", "=ds=", " ", ""};
+		{28,90684, "", "=q4=Rival's Frill", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{29,90685, "", "=q4=Rival's Tome", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 
 		{12,0, "INV_Box_01", "=q6=Shields", "=ds=",""};
-		{13,90686, "", "=q4=Rival's Shield", "=ds=", " ", ""};
-		{14,90687, "", "=q4=Rival's Spellshield", "=ds=", " ", ""};
-		{15,90688, "", "=q4=Rival's Protector", "=ds=", " ", ""};
+		{13,90686, "", "=q4=Rival's Shield", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{14,90687, "", "=q4=Rival's Spellshield", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
+		{15,90688, "", "=q4=Rival's Protector", "=ds=", "150 #arena# 15 #gillijim# 2 #metalarmorcomp#", ""};
 		Prev = "EpochpvpS1ConquestWeapons";
 		Back = "EpochpvpS1Conquest";
 	};

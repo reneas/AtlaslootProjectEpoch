@@ -4,10 +4,6 @@
 
 - Once MC dropps, add those items too
 
-## PvP
-
-- Add crafting costs for Conquest PvP Weapons once PvP Season 1 Week 3 is here
-
 ## World Bosses
 
 - Add Kazzak Loot
