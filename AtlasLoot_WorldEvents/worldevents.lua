@@ -518,6 +518,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 		{10, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
 
-		{16, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
+		{12, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
+		
+		{16, 62152, "", "=q3=Formula: Enchant Weapon - Ferocity", "=ds=#p4# (300)", "", ""};
+		
+		{18, 90966, "", "=q2=Plans: Gauntlets of Impossible Grip", "=ds=#p2# (300)", "", ""};
+		{19, 90967, "", "=q2=Pattern: Brakskin Trousers", "=ds=#p7# (300)", "", ""};
+		{20, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};	
 		Back = "WORLDBOSSMENU";
 	};
