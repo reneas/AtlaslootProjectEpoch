@@ -17,7 +17,7 @@ if not lib then return end
 local GAME_LOCALE = GetLocale()
 
 lib:SetBaseTranslations {
-	[").  Depending on changes, there may be the occasional error, so please visit https://github.com/Raynbock/AtlaslootProjectEpoch/tree/main as soon as possible to update."] = ").  Depending on changes, there may be the occasional error, so please visit https://github.com/Raynbock/AtlaslootProjectEpoch/tree/main as soon as possible to update.",
+	[").  Depending on changes, there may be the occasional error, so please visit https://github.com/reneas/AtlaslootProjectEpoch/tree/main as soon as possible to update."] = ").  Depending on changes, there may be the occasional error, so please visit https://github.com/reneas/AtlaslootProjectEpoch/tree/main as soon as possible to update.",
 	["Aerie Peak"] = "Aerie Peak",
 	["Ortorg the Ardent"] = "Ortorg the Ardent",
 	Atressian = "Atressian",

@@ -150,7 +150,7 @@ StaticPopupDialogs["ATLASLOOT_SETUP"] = {
 
 --Popup Box for an old version of Atlas
 StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
-  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..BabbleEpoch[").  Depending on changes, there may be the occasional error, so please visit https://github.com/Raynbock/AtlaslootProjectEpoch/tree/main as soon as possible to update."],
+  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..BabbleEpoch[").  Depending on changes, there may be the occasional error, so please visit https://github.com/reneas/AtlaslootProjectEpoch/tree/main as soon as possible to update."],
   button1 = AL["OK"],
   OnAccept = function()
 	  DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["Incompatible Atlas Detected"]);
