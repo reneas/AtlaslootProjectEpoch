@@ -107,6 +107,7 @@ lib:SetBaseTranslations {
 	Jewelry = "Jewelry",
 	["Kalimdor Rares"] = "Kalimdor Rares",
 	["King Gnok"] = "King Gnok",
+	["King Mosh"] = "King Mosh",
 	["Korut the Mournful"] = "Korut the Mournful",
 	Krakken = "Krakken",
 	["Lava Leather"] = "Lava Leather",

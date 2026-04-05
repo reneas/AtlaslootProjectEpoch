@@ -109,12 +109,15 @@ AtlasLoot_DewDropDown = {
 				{ BabbleEpoch["King Gnok"], "Kinggnok", "Table" },
 			},
 			[4] = {
-				{ BabbleEpoch["Silithid Lurker"], "Silithidlurker", "Table" },
+				{ BabbleEpoch["King Mosh"], "KingMosh", "Table" },
 			},
 			[5] = {
-				{ BabbleEpoch["Volchan"], "Volchan", "Table" },
+				{ BabbleEpoch["Silithid Lurker"], "Silithidlurker", "Table" },
 			},
 			[6] = {
+				{ BabbleEpoch["Volchan"], "Volchan", "Table" },
+			},
+			[7] = {
 				{ BabbleEpoch["Lord Kazzak"], "LordKazzak", "Table" },
 			},
 		},

@@ -594,6 +594,7 @@ end
 	AtlasLoot_TableNames["Corruptedancient"] = { BabbleEpoch["Corrupted Ancient"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Gonzor"] = { BabbleEpoch["Gonzor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Kinggnok"] = { BabbleEpoch["King Gnok"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["KingMosh"] = { BabbleEpoch["King Mosh"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["LordKazzak"] = { BabbleEpoch["Lord Kazzak"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Silithidlurker"] = { BabbleEpoch["Silithid Lurker"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WinterspringBoss"] = { BabbleEpoch["Winterspring Summon Boss"], "AtlasLootOriginalWoW" };

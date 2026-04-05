@@ -469,12 +469,23 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "WORLDBOSSMENU";
 	};
 
+	AtlasLoot_Data["KingMosh"] = {
+		{ 1, 65715, "", "=q3=Tyrant King's Crown", "=ds=#a3#, #s1#", "", ""};
+		{ 2, 65716, "", "=q3=Slicing Claw", "=ds=#w4#", "", ""};
+		{ 3, 65717, "", "=q3=Devilsaur Tooth Necklace", "=ds=#s2#", "", ""};
+		
+		{16, 65719, "", "=q3=Pattern: Lizard King's Hide", "=ds=#p7# (300)", "", ""};
+
+		{18, 65720, "", "=q3=Venomhide Ravasaur Hatchling", "", "", ""};
+		Back = "WORLDBOSSMENU";
+	};
+
 	AtlasLoot_Data["Silithidlurker"] = {
 		{ 2, 64896, "", "=q3=Jewel of the Lurker", "=ds=#s2#", "", ""};
 		{ 1, 64893, "", "=q3=Duskwalker Turban", "=ds=#s1#", "", ""};
 		{ 3, 64894, "", "=q3=Sandwalker Gauntlets", "=ds=#s9#", "", ""};
 		{ 4, 64895, "", "=q3=Infested Legguards", "=ds=#s11#", "", ""};
-		{ 5, 64897, "", "=q3=Lurker´s Brood", "=ds=#s14#"};
+		{ 5, 64897, "", "=q3=Lurker's Brood", "=ds=#s14#"};
 		{ 6, 64892, "", "=q3=Silithid Poker", "", "", ""};
 		Back = "WORLDBOSSMENU";
 	};
@@ -500,7 +511,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, 64748, "", "=q4=Pyrite-Studded Chain Epaulets", "=ds=#s3#, #a3#", "", ""};
 
 		{ 8, 64742, "", "=q4=Cloak of Convalescence", "=ds=#s4#", "", ""};
-		
+
 		{16, 64749, "", "=q4=Seethe", "=ds=#w4#", "", ""};
 		{17, 64747, "", "=q4=Mountain Breaker", "=ds=#w6#", "", ""};
 		Back = "WORLDBOSSMENU";
