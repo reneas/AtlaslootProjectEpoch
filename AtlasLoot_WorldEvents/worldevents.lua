@@ -522,21 +522,27 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["LordKazzak"] = {
 		{ 1, 90549, "", "=q4=Band of the Endless", "=ds=#s13#", "", ""};
 		{ 2, 18543, "", "=q4=Ring of Entropy", "=ds=#s13#", "", ""};
+		{ 3, 61648, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
 
-		{ 4, 61648, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
+		{ 5, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#", "", ""};
 		
-		{ 6, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
+		{ 7, 61647, "", "=q4=Blacklight Bracer", "=ds=#s8#, #a1#", "", ""};
+		{ 8, 61651, "", "=q4=Fel Infused Leggings", "=ds=#s11#, #a1#", "", ""};
 
-		{ 8, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", ""};
+		{10, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", ""};
+		{11, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
 
-		{10, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
+		{13, 61653, "", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "", ""}; 
 
-		{12, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
+		{15, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
 		
 		{16, 62152, "", "=q3=Formula: Enchant Weapon - Ferocity", "=ds=#p4# (300)", "", ""};
 		
 		{18, 90966, "", "=q2=Plans: Gauntlets of Impossible Grip", "=ds=#p2# (300)", "", ""};
 		{19, 90967, "", "=q2=Pattern: Brakskin Trousers", "=ds=#p7# (300)", "", ""};
-		{20, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};	
+		{20, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};
+
+		{22, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
+		{23, 61650, "", "=q4=Empyrean Demolisher", "=ds=#h1#, #w6#", "", ""}; 
 		Back = "WORLDBOSSMENU";
 	};
