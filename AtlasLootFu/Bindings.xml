@@ -1,4 +1,4 @@
 <Bindings>
-	<Binding name="Toggle window" header="ATLASLOOT">
+	<Binding name="AtlasLootFu" header="AtlasLootFu">
 		AtlasLootFu:OnClick("LeftButton")</Binding>
 </Bindings>
