@@ -1,0 +1,74 @@
+name: Release AtlasLoot
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'AtlasLoot/AtlasLoot.toc'
+      - 'AtlasLoot_Crafting/AtlasLoot_Crafting.toc'
+      - 'AtlasLoot_OriginalWoW/AtlasLoot_OriginalWoW.toc'
+      - 'AtlasLoot_WorldEvents/AtlasLoot_WorldEvents.toc'
+      - 'AtlasLootFu/AtlasLootFu.toc'
+      - 'AtlasLoot/Core/AtlasLoot.lua'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read version from AtlasLoot.toc
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+          NEW_VERSION="$(grep -E '^## Version:' AtlasLoot/AtlasLoot.toc | head -n1 | sed -E 's/^## Version:[[:space:]]*//')"
+          if [[ ! "$NEW_VERSION" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Invalid version format in AtlasLoot/AtlasLoot.toc: '$NEW_VERSION'"
+            exit 1
+          fi
+          echo "new_version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Check whether tag exists
+        id: tag_check
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.new_version }}"
+          if git ls-remote --tags origin "refs/tags/$TAG" | grep -q "$TAG"; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Git tag
+        if: steps.tag_check.outputs.exists == 'false'
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.new_version }}"
+          git tag "$TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub release
+        if: steps.tag_check.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.new_version }}
+          generate_release_notes: true
+
+      - name: Existing tag info
+        if: steps.tag_check.outputs.exists == 'true'
+        shell: bash
+        run: |
+          echo "Tag ${{ steps.version.outputs.new_version }} already exists. Skipping tag/release creation."
