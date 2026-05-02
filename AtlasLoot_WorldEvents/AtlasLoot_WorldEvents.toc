@@ -2,7 +2,7 @@
 ## Title: AtlasLoot_WorldEvents
 ## Notes: Epoch AtlasLoot
 ## Author: Hegarol, Raynbock/Felius(Epoch), Reneas(Epoch)
-## Version: v1.13.1
+## Version: v1.13.2
 ## X-License: GPL v2
 ## X-Website: https://github.com/reneasAtlaslootProjectEpoch
 ## Dependencies: AtlasLoot
