@@ -1,24 +1,24 @@
 name: Release AtlasLoot
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'AtlasLoot/AtlasLoot.toc'
-      - 'AtlasLoot_Crafting/AtlasLoot_Crafting.toc'
-      - 'AtlasLoot_OriginalWoW/AtlasLoot_OriginalWoW.toc'
-      - 'AtlasLoot_WorldEvents/AtlasLoot_WorldEvents.toc'
-      - 'AtlasLootFu/AtlasLootFu.toc'
-      - 'AtlasLoot/Core/AtlasLoot.lua'
   workflow_dispatch:
+    inputs:
+      bump_type:
+        description: Semantic version bump type
+        required: true
+        default: patch
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
 
 permissions:
   contents: write
 
 jobs:
   release:
-    if: github.actor != 'github-actions[bot]'
+    if: github.actor != 'github-actions[bot]' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
@@ -27,17 +27,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Read version from AtlasLoot.toc
+      - name: Configure Git identity
+        shell: bash
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
+      - name: Bump version
         id: version
         shell: bash
         run: |
           set -euo pipefail
-          NEW_VERSION="$(grep -E '^## Version:' AtlasLoot/AtlasLoot.toc | head -n1 | sed -E 's/^## Version:[[:space:]]*//')"
+          chmod +x scripts/bump_version.sh
+          NEW_VERSION="$(./scripts/bump_version.sh "${{ github.event.inputs.bump_type }}")"
           if [[ ! "$NEW_VERSION" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            echo "Invalid version format in AtlasLoot/AtlasLoot.toc: '$NEW_VERSION'"
+            echo "Invalid version returned by script: '$NEW_VERSION'"
             exit 1
           fi
           echo "new_version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Commit bumped files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add AtlasLoot/AtlasLoot.toc AtlasLoot_Crafting/AtlasLoot_Crafting.toc AtlasLoot_OriginalWoW/AtlasLoot_OriginalWoW.toc AtlasLoot_WorldEvents/AtlasLoot_WorldEvents.toc AtlasLootFu/AtlasLootFu.toc AtlasLoot/Core/AtlasLoot.lua
+          if git diff --staged --quiet; then
+            echo "No version changes were produced by bump script"
+            exit 1
+          fi
+          git commit -m "chore(release): ${{ steps.version.outputs.new_version }} [skip ci]"
+          git push
 
       - name: Check whether tag exists
         id: tag_check
