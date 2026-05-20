@@ -230,8 +230,6 @@ function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 		AtlasLoot_OnVariablesLoaded();
 	--Taint errors
 	elseif(event == "PLAYER_ENTERING_WORLD") then
-		AtlasLootOptions_MinimapToggle();
-		AtlasLootOptions_MinimapToggle();
 		if not atlasLootAlreadyShown and ATLASLOOT_LOCAL_VERSION < atlasLootUpdateAvailable then
 			if AtlasLoot.db and AtlasLoot.db.profile and AtlasLoot.db.profile.UpdateNotify then
 				print("|cffFF8400AtlasLoot|r |cffcccccc[Project Epoch]|r New version available!")
