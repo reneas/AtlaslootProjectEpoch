@@ -1052,45 +1052,32 @@ AtlasLoot_Data["EngineeringAmmo1"] = {
 };
 
 AtlasLoot_Data["EngineeringArmor1"] = {
-	{ 1, "s85248", "60770", "=q3=Soul Mirror", "=ds=#sr# 300"};
-	{ 2, "s23082", "18639", "=q3=Ultra-Flash Shadow Reflector", "=ds=#sr# 300"};
-	{ 3, "s86803", "62156", "=q3=Ley-Stabilized Arcane Reflector", "=ds=#sr# 300"};
-	{ 4, "s23081", "18638", "=q3=Hyper-Radiant Flame Reflector", "=ds=#sr# 290"};
-	{ 5, "s23077", "18634", "=q3=Gyrofreeze Ice Reflector", "=ds=#sr# 260"};
-	{ 6, "s63750", "45631", "=q3=High-powered Flashlight", "=ds=#sr# 250"};
-	{ 7, "s19819", "16009", "=q2=Voice Amplification Modulator", "=ds=#sr# 290"};
-	{ 8, "s23079", "18637", "=q2=Major Recombobulator", "=ds=#sr# 275"};
+	{ 1, "s84409", "60185", "=q3=Lens of Kajal", "=ds=#sr# 250"};
+	{ 2, "s12622", "10504", "=q3=Green Lens", "=ds=#sr# 245"};
+	{ 3, "s19819", "16009", "=q2=Voice Amplification Modulator", "=ds=#sr# 290"};
+	{ 4, "s19825", "16008", "=q2=Master Engineer's Goggles", "=ds=#sr# 290"};
+	{ 5, "s23079", "18637", "=q2=Major Recombobulator", "=ds=#sr# 275"};
+	{ 6, "s19794", "15999", "=q2=Spellpower Goggles Xtreme Plus", "=ds=#sr# 270"};
+	{ 7, "s12617", "10506", "=q2=Deepdive Helmet", "=ds=#sr# 230"};
+	{ 8, "s12618", "10503", "=q2=Rose Colored Goggles", "=ds=#sr# 230"};
 	{ 9, "s12616", "10518", "=q2=Parachute Cloak", "=ds=#sr# 225"};
-	{10, "s3952", "4381", "=q2=Minor Recombobulator", "=ds=#sr# 140"};
-	{11, "s9269", "7506", "=q2=Gnomish Universal Remote", "=ds=#sr# 125"};
-	{12, "s3971", "4397", "=q1=Gnomish Cloaking Device", "=ds=#sr# 200"};
-	Next = "EngineeringArmor2";
+	{10, "s12615", "10502", "=q2=Spellpower Goggles Xtreme", "=ds=#sr# 225"};
+	{11, "s12607", "10501", "=q2=Catseye Ultra Goggles", "=ds=#sr# 220"};
+	{12, "s86810", "62162", "=q2=Quick Laser Goggles", "=ds=#sr# 210"};
+	{13, "s12594", "10500", "=q2=Fire Goggles", "=ds=#sr# 205"};
+	{14, "s3966", "4393", "=q2=Craftsman's Monocle", "=ds=#sr# 185"};
+	{15, "s12587", "10499", "=q2=Bright-Eye Goggles", "=ds=#sr# 175"};
+	{16, "s3956", "4385", "=q2=Green Tinted Goggles", "=ds=#sr# 150"};
+	{17, "s86808", "62160", "=q2=Hyper Focused Goggles", "=ds=#sr# 150"};
+	{18, "s86811", "62163", "=q2=Reinforced Tiger Goggles", "=ds=#sr# 150"};
+	{19, "s3940", "4373", "=q2=Shadow Goggles", "=ds=#sr# 120"};
+	{20, "s86806", "62159", "=q2=Copper Tiger Goggles", "=ds=#sr# 100"};
+	{21, "s86801", "62155", "=q2=Agile Tiger Goggles", "=ds=#sr# 100"};
+	{22, "s3934", "4368", "=q2=Flying Tiger Goggles", "=ds=#sr# 100"};
 	Back = "ENGINEERINGMENU";
 };
 
-AtlasLoot_Data["EngineeringArmor2"] = {
-	{ 1, "s84409", "60185", "=q3=Lens of Kajal", "=ds=#sr# 250"};
-	{ 2, "s12622", "10504", "=q3=Green Lens", "=ds=#sr# 245"};
-	{ 3, "s19825", "16008", "=q2=Master Engineer's Goggles", "=ds=#sr# 290"};
-	{ 4, "s19794", "15999", "=q2=Spellpower Goggles Xtreme Plus", "=ds=#sr# 270"};
-	{ 5, "s12617", "10506", "=q2=Deepdive Helmet", "=ds=#sr# 230"};
-	{ 6, "s12618", "10503", "=q2=Rose Colored Goggles", "=ds=#sr# 230"};
-	{ 7, "s12615", "10502", "=q2=Spellpower Goggles Xtreme", "=ds=#sr# 225"};
-	{ 8, "s12607", "10501", "=q2=Catseye Ultra Goggles", "=ds=#sr# 220"};
-	{ 9, "s86810", "62162", "=q2=Quick Laser Goggles", "=ds=#sr# 210"};
-	{10, "s12594", "10500", "=q2=Fire Goggles", "=ds=#sr# 205"};
-	{11, "s3966", "4393", "=q2=Craftsman's Monocle", "=ds=#sr# 185"};
-	{12, "s12587", "10499", "=q2=Bright-Eye Goggles", "=ds=#sr# 175"};
-	{13, "s3956", "4385", "=q2=Green Tinted Goggles", "=ds=#sr# 150"};
-	{14, "s86808", "62160", "=q2=Hyper Focused Goggles", "=ds=#sr# 150"};
-	{15, "s86811", "62163", "=q2=Reinforced Tiger Goggles", "=ds=#sr# 150"};
-	{16, "s3940", "4373", "=q2=Shadow Goggles", "=ds=#sr# 120"};
-	{17, "s86806", "62159", "=q2=Copper Tiger Goggles", "=ds=#sr# 100"};
-	{18, "s86801", "62155", "=q2=Agile Tiger Goggles", "=ds=#sr# 100"};
-	{19, "s3934", "4368", "=q2=Flying Tiger Goggles", "=ds=#sr# 100"};
-	Prev = "EngineeringArmor1";
-	Back = "ENGINEERINGMENU";
-};
+AtlasLoot_Data["EngineeringArmor2"] = AtlasLoot_Data["EngineeringArmor1"];
 
 AtlasLoot_Data["EngineeringExplosives1"] = {
 	{ 1, "s19831", "16040", "=q1=Arcane Bomb", "=ds=#sr# 300"};
@@ -1121,8 +1108,18 @@ AtlasLoot_Data["EngineeringExplosives1"] = {
 };
 
 AtlasLoot_Data["EngineeringTrinkets1"] = {
-	{ 1, "s90107", "90106", "=q4=Stable Flamecore Engine", "=ds=#sr# 300"};
+	{ 1, "s19830", "16022", "=q3=Arcanite Dragonling", "=ds=#sr# 300"};
 	{ 2, "s23082", "18639", "=q3=Ultra-Flash Shadow Reflector", "=ds=#sr# 300"};
+	{ 3, "s86803", "62156", "=q3=Ley-Stabilized Arcane Reflector", "=ds=#sr# 300"};
+	{ 4, "s23081", "18638", "=q3=Hyper-Radiant Flame Reflector", "=ds=#sr# 290"};
+	{ 5, "s23077", "18634", "=q3=Gyrofreeze Ice Reflector", "=ds=#sr# 260"};
+	{ 6, "s63750", "45631", "=q3=High-powered Flashlight", "=ds=#sr# 250"};
+	{ 7, "s12624", "10576", "=q2=Mithril Mechanical Dragonling", "=ds=#sr# 250"};
+	{ 8, "s86813", "62164", "=q2=Revantusk Disguise", "=ds=#sr# 200"};
+	{ 9, "s3952", "4381", "=q2=Minor Recombobulator", "=ds=#sr# 140"};
+	{10, "s9269", "7506", "=q2=Gnomish Universal Remote", "=ds=#sr# 125"};
+	{11, "s3969", "4396", "=q1=Mechanical Dragonling", "=ds=#sr# 200"};
+	{12, "s3971", "4397", "=q1=Gnomish Cloaking Device", "=ds=#sr# 200"};
 	Back = "ENGINEERINGMENU";
 };
 
@@ -1137,37 +1134,33 @@ AtlasLoot_Data["EngineeringItemEnhancements1"] = {
 };
 
 AtlasLoot_Data["EngineeringMisc1"] = {
-	{ 1, "s150175", "90540", "=q1=Engineering: Complicated Components,", "=ds=#p5#, #sr# 300"};
-	{ 2, "s19830", "16022", "=q3=Arcanite Dragonling", "=ds=#sr# 300"};
-	{ 3, "s12624", "10576", "=q2=Mithril Mechanical Dragonling", "=ds=#sr# 250"};
-	{ 4, "s3969", "4396", "=q1=Mechanical Dragonling", "=ds=#sr# 200"};
-	{ 5, "s22704", "18232", "=q1=Field Repair Bot 74A", "=ds=#sr# 300"};
-	{ 6, "s19814", "16023", "=q1=Masterwork Target Dummy", "=ds=#sr# 275"};
-	{ 7, "s3965", "4392", "=q1=Advanced Target Dummy", "=ds=#sr# 185"};
-	{ 8, "s3963", "4391", "=q1=Compact Harvest Reaper Kit", "=ds=#sr# 175"};
-	{ 9, "s3932", "4366", "=q1=Target Dummy", "=ds=#sr# 85"};
-	{10 , "s30573", "23832", "=q1=Gnomish Tonk Controller", "=ds=#sr# 295"};
-	{11, "s30561", "23831", "=q1=Goblin Tonk Controller", "=ds=#sr# 295"};
-	{12, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265"};
-	{13, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250"};
+	--- TODO: adjust position numbers
+	{ 1, "s85248", "60770", "=q3=Soul Mirror", "=ds=#sr# 300"};
+	{ 2, "s85792", "61907", "=q3=Dark Iron Fishing Pole", "=ds=#sr# 300"};
+	{ 3, "s86380", "62000", "=q2=Thorium Toolbox", "=ds=#sr# 275"};
+	{ 4, "s86815", "62167", "=q2=Sturdy Tackle Box", "=ds=#sr# 225"};
+	{ 5, "s150175", "90540", "=q1=Engineering: Complicated Components,", "=ds=#p5#, #sr# 300"};
+	{ 6, "s22704", "18232", "=q1=Field Repair Bot 74A", "=ds=#sr# 300"};
+	{ 7, "s30573", "23832", "=q1=Gnomish Tonk Controller", "=ds=#sr# 295"};
+	{ 8, "s30561", "23831", "=q1=Goblin Tonk Controller", "=ds=#sr# 295"};
+	{ 9, "s19814", "16023", "=q1=Masterwork Target Dummy", "=ds=#sr# 275"};
+	{10, "s87286", "40893", "=q1=Bladed Pickaxe", "=ds=#sr# 270"};
+	{11, "s19793", "15996", "=q1=Lifelike Mechanical Toad", "=ds=#sr# 265"};
+	{12, "s26011", "21277", "=q1=Tranquil Mechanical Yeti", "=ds=#sr# 250"};
+	{13, "s19567", "15846", "=q1=Salt Shaker", "=ds=#sr# 250"};
 	{14, "s15628", "11825", "=q1=Pet Bombling", "=ds=#sr# 205"};
 	{15, "s15633", "11826", "=q1=Lil' Smoky", "=ds=#sr# 205"};
-
-	{16, "s85792", "61907", "=q3=Dark Iron Fishing Pole", "=ds=#sr# 300"};
-	{17, "s86380", "62000", "=q2=Thorium Toolbox", "=ds=#sr# 275"};
-	{18, "s87286", "40893", "=q1=Bladed Pickaxe", "=ds=#sr# 270"};
-	{19, "s19567", "15846", "=q1=Salt Shaker", "=ds=#sr# 250"};
-	{20, "s86815", "62167", "=q2=Sturdy Tackle Box", "=ds=#sr# 225"};
-	{21, "s86813", "62164", "=q2=Revantusk Disguise", "=ds=#sr# 200"};
-	{22, "s15255", "11590", "=q1=Mechanical Repair Kit", "=ds=#sr# 200"};
-	{23, "s8243", "4852", "=q1=Flash Bomb", "=ds=#sr# 185"};
-	{24, "s3959", "4388", "=q1=Discombobulator Ray", "=ds=#sr# 160"};
-	{25, "s3957", "4386", "=q1=Ice Deflector", "=ds=#sr# 155"};
-	{26, "s9271", "6533", "=q1=Aquadynamic Fish Attractor", "=ds=#sr# 150"};
-	{27, "s6458", "5507", "=q1=Ornate Spyglass", "=ds=#sr# 135"};
-	{28, "s3944", "4376", "=q1=Flame Deflector", "=ds=#sr# 125"};
-	{29, "s8334", "6712", "=q1=Practice Lock", "=ds=#sr# 100"};
-	{30, "s3928", "4401", "=q1=Mechanical Squirrel", "=ds=#sr# 75"};
+	{16, "s8243", "4852", "=q1=Flash Bomb", "=ds=#sr# 185"};
+	{17, "s3965", "4392", "=q1=Advanced Target Dummy", "=ds=#sr# 185"};
+	{18, "s3963", "4391", "=q1=Compact Harvest Reaper Kit", "=ds=#sr# 175"};
+	{19, "s3959", "4388", "=q1=Discombobulator Ray", "=ds=#sr# 160"};
+	{20, "s3957", "4386", "=q1=Ice Deflector", "=ds=#sr# 155"};
+	{21, "s9271", "6533", "=q1=Aquadynamic Fish Attractor", "=ds=#sr# 150"};
+	{22, "s6458", "5507", "=q1=Ornate Spyglass", "=ds=#sr# 135"};
+	{23, "s3944", "4376", "=q1=Flame Deflector", "=ds=#sr# 125"};
+	{24, "s8334", "6712", "=q1=Practice Lock", "=ds=#sr# 100"};
+	{25, "s3932", "4366", "=q1=Target Dummy", "=ds=#sr# 85"};
+	{26, "s3928", "4401", "=q1=Mechanical Squirrel", "=ds=#sr# 75"};
 	Next = "EngineeringMisc2";
 	Back = "ENGINEERINGMENU";
 };
