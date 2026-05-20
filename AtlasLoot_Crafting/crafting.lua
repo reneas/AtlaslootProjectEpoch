@@ -1121,7 +1121,8 @@ AtlasLoot_Data["EngineeringExplosives1"] = {
 };
 
 AtlasLoot_Data["EngineeringTrinkets1"] = {
-	{ 1, "s90107", "90106", "", "" };
+	{ 1, "s90107", "90106", "=q4=Stable Flamecore Engine", "=ds=#sr# 300"};
+	{ 2, "s23082", "18639", "=q3=Ultra-Flash Shadow Reflector", "=ds=#sr# 300"};
 	Back = "ENGINEERINGMENU";
 };
 
