@@ -296,6 +296,10 @@ Required as the Atlas function cannot deal with the AtlasLoot button template or
 function AtlasLoot_AtlasScrollBar_Update()
     local line, lineplusoffset, originalLineNumber;
     if (getglobal("AtlasBossLine1_Text") ~= nil) then
+        if not AtlasLootWBBossButtons then
+            pcall(LoadAddOn, "AtlasLoot_WorldEvents");
+        end
+        local worldBossButtons = AtlasLootWBBossButtons or {};
         local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
         --Update the contents of the Atlas scroll frame
         FauxScrollFrame_Update(AtlasScrollBar,ATLAS_CUR_LINES,ATLAS_LOOT_BOSS_LINES,15);
@@ -307,7 +311,7 @@ function AtlasLoot_AtlasScrollBar_Update()
                 local lootPageForThisLine = nil;
                 getglobal("AtlasBossLine"..line.."_Text"):SetText(ATLAS_SCROLL_LIST[lineplusoffset]);
 
-                for _, dataSource in ipairs({AtlasLootBossButtons, AtlasLootWBBossButtons, AtlasLootBattlegrounds}) do
+                for _, dataSource in ipairs({AtlasLootBossButtons, worldBossButtons, AtlasLootBattlegrounds}) do
                     if (dataSource[zoneID]~=nil and dataSource[zoneID][originalLineNumber] ~= nil and dataSource[zoneID][originalLineNumber] ~= "") then
                         lootPageForThisLine = dataSource[zoneID][originalLineNumber];
                     end

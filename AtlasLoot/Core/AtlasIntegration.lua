@@ -37,6 +37,11 @@ function AtlasLootBoss_OnClick(name)
     local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
     local id = this.idnum;
 
+    if not AtlasLootWBBossButtons then
+        pcall(LoadAddOn, "AtlasLoot_WorldEvents");
+    end
+    local worldBossButtons = AtlasLootWBBossButtons or {};
+
 
     
     
@@ -54,9 +59,9 @@ function AtlasLootBoss_OnClick(name)
             if AtlasLoot_IsLootTableAvailable(AtlasLootBossButtons[zoneID][id]) then
                 dataSource = AtlasLootBossButtons;
             end
-        elseif (AtlasLootWBBossButtons[zoneID] ~= nil and AtlasLootWBBossButtons[zoneID][id] ~= nil and AtlasLootWBBossButtons[zoneID][id] ~= "") then
-            if AtlasLoot_IsLootTableAvailable(AtlasLootWBBossButtons[zoneID][id]) then
-                dataSource = AtlasLootWBBossButtons;
+        elseif (worldBossButtons[zoneID] ~= nil and worldBossButtons[zoneID][id] ~= nil and worldBossButtons[zoneID][id] ~= "") then
+            if AtlasLoot_IsLootTableAvailable(worldBossButtons[zoneID][id]) then
+                dataSource = worldBossButtons;
             end
         elseif (AtlasLootBattlegrounds[zoneID] ~= nil and AtlasLootBattlegrounds[zoneID][id] ~= nil and AtlasLootBattlegrounds[zoneID][id] ~= "") then
             if AtlasLoot_IsLootTableAvailable(AtlasLootBattlegrounds[zoneID][id]) then

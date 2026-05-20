@@ -3,6 +3,36 @@ local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
+AtlasLootWBBossButtons = {
+	Corruptedancient = {
+		"Corruptedancient";
+	};
+	Gonzor = {
+		"Gonzor";
+	};
+	Kinggnok = {
+		"Kinggnok";
+	};
+	KingMosh = {
+		"KingMosh";
+	};
+	Silithidlurker = {
+		"Silithidlurker";
+	};
+	Volchan = {
+		"Volchan";
+	};
+	Azuregos = {
+		"Azuregos";
+	};
+	WinterspringBoss = {
+		"WinterspringBoss";
+	};
+	LordKazzak = {
+		"LordKazzak";
+	};
+}
+
 
 -- Index
 --- Seasonal Events
