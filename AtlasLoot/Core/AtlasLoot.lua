@@ -43,6 +43,36 @@ local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "04";
 
+local function AtlasLoot_StrSplit(delimiter, subject)
+	if not subject then return nil end
+	local delimiter, fields = delimiter or ":", {}
+	local pattern = string.format("([^%s]+)", delimiter)
+	string.gsub(subject, pattern, function(c) fields[table.getn(fields)+1] = c end)
+	return unpack(fields)
+end
+
+local function AtlasLoot_FormatVersion(versionNum)
+	local major = math.floor(versionNum / 10000)
+	local minor = math.floor((versionNum % 10000) / 100)
+	local fix = versionNum % 100
+	return major .. "." .. minor .. "." .. fix
+end
+
+local atlasLootVersion = tostring(GetAddOnMetadata("AtlasLoot", "Version") or "")
+atlasLootVersion = string.gsub(atlasLootVersion, "^[^%d]*", "")
+local alMajor, alMinor, alFix = AtlasLoot_StrSplit(".", atlasLootVersion)
+alMajor = tonumber(alMajor) or tonumber(EPOCH_VERSION_MAJOR) or 0
+alMinor = tonumber(alMinor) or tonumber(EPOCH_VERSION_MINOR) or 0
+alFix = tonumber(alFix) or tonumber(EPOCH_VERSION_BOSSES) or 0
+
+local ATLASLOOT_UPDATE_PREFIX = "ALPE"
+local ATLASLOOT_LOCAL_VERSION = tonumber(alMajor * 10000 + alMinor * 100 + alFix)
+local atlasLootUpdateAvailable = tonumber(atlaslootupdateavailable) or 0
+local atlasLootAlreadyShown = false
+local atlasLootLoginChannels = { "BATTLEGROUND", "RAID", "GUILD", "PARTY" }
+local atlasLootGroupChannels = { "BATTLEGROUND", "RAID", "PARTY" }
+local atlasLootGroupSize = 0
+
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Epoch v"..EPOCH_VERSION_MAJOR.."."..EPOCH_VERSION_MINOR.."."..EPOCH_VERSION_BOSSES.."|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.17.1", "1.17.0"};
@@ -99,6 +129,7 @@ local AtlasLootDBDefaults = {
         ItemIDs = false,
         ItemSpam = false,
         MinimapButton = false,
+		UpdateNotify = true,
         FuBarAttached = true,
         FuBarText = true,
         FuBarIcon = true,
@@ -166,14 +197,51 @@ event - Name of the event, passed from the API
 Invoked whenever a relevant event is detected by the engine.  The function then
 decides what action to take depending on the event.
 ]]
-function AtlasLoot_OnEvent(event)
+function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
+	if(event == "CHAT_MSG_ADDON" and arg1 == ATLASLOOT_UPDATE_PREFIX) then
+		local command, version = AtlasLoot_StrSplit(":", arg2)
+		version = tonumber(version)
+		if command == "VERSION" and version then
+			if version > ATLASLOOT_LOCAL_VERSION then
+				atlaslootupdateavailable = version
+				atlasLootUpdateAvailable = version
+				if not atlasLootAlreadyShown and AtlasLoot.db and AtlasLoot.db.profile and AtlasLoot.db.profile.UpdateNotify then
+					print("|cffFF8400AtlasLoot|r |cffcccccc[Project Epoch]|r New version available!")
+					print("Current: |cff66ccff" .. AtlasLoot_FormatVersion(ATLASLOOT_LOCAL_VERSION) .. "|r -> Available: |cff66ccff" .. AtlasLoot_FormatVersion(version) .. "|r")
+					print("|cff66ccffhttps://github.com/reneas/AtlaslootProjectEpoch|r")
+					atlasLootAlreadyShown = true
+				end
+			end
+		elseif command == "PING?" then
+			for _, chan in ipairs(atlasLootLoginChannels) do
+				SendAddonMessage(ATLASLOOT_UPDATE_PREFIX, "PONG!:" .. tostring(GetAddOnMetadata("AtlasLoot", "Version") or ""), chan)
+			end
+		end
+	elseif(event == "PARTY_MEMBERS_CHANGED") then
+		local groupsize = GetNumRaidMembers() > 0 and GetNumRaidMembers() or GetNumPartyMembers() > 0 and GetNumPartyMembers() or 0
+		if atlasLootGroupSize < groupsize then
+			for _, chan in ipairs(atlasLootGroupChannels) do
+				SendAddonMessage(ATLASLOOT_UPDATE_PREFIX, "VERSION:" .. ATLASLOOT_LOCAL_VERSION, chan)
+			end
+		end
+		atlasLootGroupSize = groupsize
 	--Addons all loaded
-	if(event == "VARIABLES_LOADED") then
+	elseif(event == "VARIABLES_LOADED") then
 		AtlasLoot_OnVariablesLoaded();
 	--Taint errors
-    elseif(event == "PLAYER_ENTERING_WORLD") then
-        AtlasLootOptions_MinimapToggle();
-        AtlasLootOptions_MinimapToggle();
+	elseif(event == "PLAYER_ENTERING_WORLD") then
+		if not atlasLootAlreadyShown and ATLASLOOT_LOCAL_VERSION < atlasLootUpdateAvailable then
+			if AtlasLoot.db and AtlasLoot.db.profile and AtlasLoot.db.profile.UpdateNotify then
+				print("|cffFF8400AtlasLoot|r |cffcccccc[Project Epoch]|r New version available!")
+				print("Current: |cff66ccff" .. AtlasLoot_FormatVersion(ATLASLOOT_LOCAL_VERSION) .. "|r -> Available: |cff66ccff" .. AtlasLoot_FormatVersion(atlasLootUpdateAvailable) .. "|r")
+				print("|cff66ccffhttps://github.com/reneas/AtlaslootProjectEpoch|r")
+			end
+			atlaslootupdateavailable = ATLASLOOT_LOCAL_VERSION
+			atlasLootAlreadyShown = true
+		end
+		for _, chan in ipairs(atlasLootLoginChannels) do
+			SendAddonMessage(ATLASLOOT_UPDATE_PREFIX, "VERSION:" .. ATLASLOOT_LOCAL_VERSION, chan)
+		end
 	elseif(arg1 == "AtlasLoot") then
 		--Junk command to suppress taint message
 		local i=3;
@@ -482,6 +550,9 @@ the required resources are in place
 ]]
 function AtlasLoot_OnLoad()
 	this:RegisterEvent("VARIABLES_LOADED");
+	this:RegisterEvent("CHAT_MSG_ADDON");
+	this:RegisterEvent("PLAYER_ENTERING_WORLD");
+	this:RegisterEvent("PARTY_MEMBERS_CHANGED");
 	this:RegisterEvent("ADDON_ACTION_FORBIDDEN");
 	this:RegisterEvent("ADDON_ACTION_BLOCKED");
 	--Enable the use of /al or /atlasloot to open the loot browser
