@@ -1043,9 +1043,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 60615, "", "=q3=Voidhound Cloak", "=ds=#s4#", "", ""};
 		{ 4, 60533, "", "=q3=Cinch of Magical Repel", "=ds=#s10#, #a2#", "", ""};
 		{ 5, 60532, "", "=q3=Cherryleaf Sash", "=ds=#s10#, #a1#", "", ""};
-		{ 6, 60600, "", "=q3=Shadowheart", "=ds=#s14#", "", ""};
-		{ 7, 60518, "", "=q3=Baradin Medic's Polestaff", "=ds=#w7#", "", ""};
-		{ 8, 60602, "", "=q3=Shimmering Silver Loop", "=ds=#s13#", "", ""};
+		{ 6, 60518, "", "=q3=Baradin Medic's Polestaff", "=ds=#w7#", "", ""};
+		{ 7, 60602, "", "=q3=Shimmering Silver Loop", "=ds=#s13#", "", ""};
 		Next = "BHHelnurath";
 	};
 
@@ -1065,7 +1064,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 60577, "", "=q3=Orb of Dak´mal", "=ds=#s15#", "", ""};
 		{ 4, 60556, "", "=q3=Impenetrable Shoulderpads", "=ds=#s3#, #a1#", "", ""};
 		{ 5, 60524, "", "=q3=Blade of Fel Curses", "=ds=#h1#, #w10#", "", ""};
-		{ 7, 60588, "", "=q3=Rune Warder´s Mantle", "=ds=#s3#, #a1#", "", ""};
+		{ 6, 60600, "", "=q3=Shadowheart", "=ds=#s14#", "", ""};
+		{ 8, 60588, "", "=q3=Rune Warder´s Mantle", "=ds=#s3#, #a1#", "", ""};
 		{ 16, 18415, "", "=q3=Pattern: Felcloth Gloves", "", "", ""};
 		Next = "BHMillhouseManastorm";
 		Prev = "BHHelnurath";
