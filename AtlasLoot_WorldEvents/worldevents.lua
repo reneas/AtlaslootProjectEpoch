@@ -573,10 +573,10 @@ AtlasLootWBBossButtons = {
 		{16, 62152, "", "=q3=Formula: Enchant Weapon - Ferocity", "=ds=#p4# (300)", "", ""};
 		
 		{18, 90966, "", "=q2=Plans: Gauntlets of Impossible Grip", "=ds=#p2# (300)", "", ""};
-		{19, 90967, "", "=q2=Pattern: Brakskin Trousers", "=ds=#p7# (300)", "", ""};
-		{20, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};
+		-- {19, 90967, "", "=q2=Pattern: Barkskin Trousers", "=ds=#p7# (300)", "", ""};
+		{19, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};
 
-		{22, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
-		{23, 61650, "", "=q4=Empyrean Demolisher", "=ds=#h1#, #w6#", "", ""}; 
+		{21, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
+		{22, 61650, "", "=q4=Empyrean Demolisher", "=ds=#h1#, #w6#", "", ""}; 
 		Back = "WORLDBOSSMENU";
 	};
