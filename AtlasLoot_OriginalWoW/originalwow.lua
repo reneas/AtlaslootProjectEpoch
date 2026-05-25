@@ -1109,8 +1109,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 8, 60525, "", "=q3=Bloody Cleaver", "=ds=#h1#, #w1#", "", ""};
 		{ 9, 60604, "", "=q3=South Sea Cookbook", "=ds=#s15#", "", ""};
 		{ 10, 60551, "", "=q3=Girdle of Extreme Duress", "=ds=#s10#, #a3#", "", ""};
-		{ 16, 60631, "", "=q2=Recipe: Lobster Roll", "=ds=#p3# (285)", "", ""};
-		{ 17, 60634, "", "=q2=Recipe: Seafarer's Swig", "=ds=#p3# (175)", "", ""};
+		{ 16, 60627, "", "=q2=Recipe: Black Coffee", "=ds=#p3# (145)", "", ""};
+		{ 17, 60629, "", "=q2=Recipe: Crestfall Crab Taco", "=ds=#p3# (225)", "", ""};
+		{ 18, 60631, "", "=q2=Recipe: Lobster Roll", "=ds=#p3# (285)", "", ""};
+		{ 19, 60634, "", "=q2=Recipe: Seafarer's Swig", "=ds=#p3# (175)", "", ""};
 		Next = "BHAstilosTheHollow";
 		Prev = "BHIsalien";
 	};
@@ -1167,11 +1169,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 60522, "", "=q3=Blackstone's Authority", "=ds=#s1#, #a2#", "", ""};
 		{ 7, 60579, "", "=q3=Pilfered Panoply of Light", "=ds=#s5#, #a4#", "", ""};
 		{ 8, 60565, "", "=q3=Landlubber's Pantaloons", "=ds=#s11#, #a1#", "", ""};
-		{ 9, 60603, "", "=q3=Signet of Moonlit Water", "=ds=#s13#, #a1#", "", ""};
-		{ 10, 60527, "", "=q3=Booty Belt", "=ds=#s10#, #a2#", "", ""};
-		{ 11, 60581, "", "=q3=Portable Surgeon's Kit", "=ds=#s15#", "", ""};
-		{ 12, 60613, "", "=q3=Totem of Seas", "=ds=#s16#, #w15#", "", ""};
-		{ 14, 60584, "", "=q2=Quartermaster Bonds Key", "", "", ""};
+		{ 9, 60527, "", "=q3=Booty Belt", "=ds=#s10#, #a2#", "", ""};
+		{ 10, 60581, "", "=q3=Portable Surgeon's Kit", "=ds=#s15#", "", ""};
+		{ 11, 60613, "", "=q3=Totem of Seas", "=ds=#s16#, #w15#", "", ""};
+		{ 13, 60584, "", "=q2=Quartermaster Bonds Key", "", "", ""};
 		{ 16, 0, "INV_Misc_Bag_09", "=q6=Hidden Quest", "=q5=Book =q2=(behind boss)"};
 		{ 17, 62028, "", "=q3=Chaos, Touch of Secrets", "=ds=#h3#, #w4#", "", ""};
 		{ 18, 62029, "", "=q3=Prudence, Heirloom of Heroes", "=ds=#h3#, #w6#", "", ""};
