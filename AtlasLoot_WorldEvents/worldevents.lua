@@ -556,17 +556,17 @@ AtlasLootWBBossButtons = {
 	AtlasLoot_Data["LordKazzak"] = {
 		{ 1, 90549, "", "=q4=Band of the Endless", "=ds=#s13#", "", ""};
 		{ 2, 18543, "", "=q4=Ring of Entropy", "=ds=#s13#", "", ""};
-		{ 3, 61648, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
+		{ 3, 17111, "", "=q4=Blazefury Medallion", "=ds=#s2#", "", ""};
 
 		{ 5, 18204, "", "=q4=Eskhandar's Pelt", "=ds=#s4#", "", ""};
 		
-		{ 7, 61647, "", "=q4=Blacklight Bracer", "=ds=#s8#, #a1#", "", ""};
-		{ 8, 61651, "", "=q4=Fel Infused Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 7, 19135, "", "=q4=Blacklight Bracer", "=ds=#s8#, #a1#", "", ""};
+		{ 8, 19133, "", "=q4=Fel Infused Leggings", "=ds=#s11#, #a1#", "", ""};
 
 		{10, 19134, "", "=q4=Flayed Doomguard Belt", "=ds=#s10#, #a2#", "", ""};
 		{11, 18544, "", "=q4=Doomhide Gauntles", "=ds=#s9#, #a2#", "", ""};
 
-		{13, 61653, "", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "", ""}; 
+		{13, 18546, "", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "", ""}; 
 
 		{15, 18665, "", "=q4=The Eye of Shadow", "=ds=#s14#", "", ""};
 		
@@ -577,6 +577,6 @@ AtlasLootWBBossButtons = {
 		{19, 90968, "", "=q2=Formula: Lesson of the Doom Lord", "=ds=#p4# (300)", "", ""};
 
 		{21, 17113, "", "=q4=Ambersal Keeper", "=ds=#w9#", "", ""};
-		{22, 61650, "", "=q4=Empyrean Demolisher", "=ds=#h1#, #w6#", "", ""}; 
+		{22, 17112, "", "=q4=Empyrean Demolisher", "=ds=#h1#, #w6#", "", ""}; 
 		Back = "WORLDBOSSMENU";
 	};
