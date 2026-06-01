@@ -3,10 +3,9 @@
 This is a modified version of Atlas Loot that contains Project Epoch custom data. This is a work in progress and may not contain everything. 
 
 ## Installation
-1. Download **[Latest Version](https://github.com/reneas/AtlaslootProjectEpoch/archive/refs/heads/main.zip)**
-2. Unpack `AtlasLootProjectEpoch-main.zip`
-3. Open the Folder `AtlasLootProjectEpoch-main`
-3. Copy these containing folders into ..\Wow-Directory\Interface\AddOns
+1. Download **[Latest Version](https://github.com/reneas/AtlaslootProjectEpoch/releases/latest/download/AtlasLootProjectEpoch.zip)**
+2. Unpack the Zip-Archive into your WoW AddOns Folder in `..\Wow-Directory\Interface\AddOns`
+3. Remove all already existing AtlasLoot files or answer with "yes" if prompted to overwrite:
     - **AnyIDTooltip** _(Optional)_
     - **AtlasLoot**
     - **AtlasLoot_Crafting**
@@ -17,7 +16,6 @@ This is a modified version of Atlas Loot that contains Project Epoch custom data
 
 ## Contributing
 If you want to help fill out Atlasloot, use the Optional included Addon **AnyIDTooltip**, screenshot the Item and open an issue **[here](https://github.com/reneas/AtlaslootProjectEpoch/issues)**.
-
 
 ## Other Stuff
 Optionally you can find Atlas here:https://github.com/Raynbock/Atlas-Project-Epoch
