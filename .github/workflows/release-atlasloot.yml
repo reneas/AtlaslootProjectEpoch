@@ -89,7 +89,7 @@ jobs:
         run: |
           set -euo pipefail
           VERSION="${{ steps.version.outputs.new_version }}"
-          zip -r "AtlasLootProjectEpoch-${VERSION}.zip" AnyIDTooltip AtlasLoot AtlasLoot_Crafting AtlasLoot_OriginalWoW AtlasLoot_WorldEvents AtlasLootFu
+          zip -r "AtlasLootProjectEpoch.zip" AnyIDTooltip AtlasLoot AtlasLoot_Crafting AtlasLoot_OriginalWoW AtlasLoot_WorldEvents AtlasLootFu
 
       - name: Create GitHub release
         if: steps.tag_check.outputs.exists == 'false'
