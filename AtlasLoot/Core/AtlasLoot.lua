@@ -43,14 +43,6 @@ local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "04";
 
-local function AtlasLoot_StrSplit(delimiter, subject)
-	if not subject then return nil end
-	local delimiter, fields = delimiter or ":", {}
-	local pattern = string.format("([^%s]+)", delimiter)
-	string.gsub(subject, pattern, function(c) fields[table.getn(fields)+1] = c end)
-	return unpack(fields)
-end
-
 local function AtlasLoot_FormatVersion(versionNum)
 	local major = math.floor(versionNum / 10000)
 	local minor = math.floor((versionNum % 10000) / 100)
@@ -60,7 +52,7 @@ end
 
 local atlasLootVersion = tostring(GetAddOnMetadata("AtlasLoot", "Version") or "")
 atlasLootVersion = string.gsub(atlasLootVersion, "^[^%d]*", "")
-local alMajor, alMinor, alFix = AtlasLoot_StrSplit(".", atlasLootVersion)
+local alMajor, alMinor, alFix = string.split(".", atlasLootVersion)
 alMajor = tonumber(alMajor) or tonumber(EPOCH_VERSION_MAJOR) or 0
 alMinor = tonumber(alMinor) or tonumber(EPOCH_VERSION_MINOR) or 0
 alFix = tonumber(alFix) or tonumber(EPOCH_VERSION_BOSSES) or 0
@@ -199,7 +191,7 @@ decides what action to take depending on the event.
 ]]
 function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 	if(event == "CHAT_MSG_ADDON" and arg1 == ATLASLOOT_UPDATE_PREFIX) then
-		local command, version = AtlasLoot_StrSplit(":", arg2)
+		local command, version = string.split(":", arg2)
 		version = tonumber(version)
 		if command == "VERSION" and version then
 			if version > ATLASLOOT_LOCAL_VERSION then
