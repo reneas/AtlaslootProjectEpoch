@@ -67,7 +67,7 @@ alFix = tonumber(alFix) or tonumber(EPOCH_VERSION_BOSSES) or 0
 
 local ATLASLOOT_UPDATE_PREFIX = "ALPE"
 local ATLASLOOT_LOCAL_VERSION = tonumber(alMajor * 10000 + alMinor * 100 + alFix)
-local atlasLootUpdateAvailable = tonumber(atlaslootupdateavailable) or 0
+local atlasLootUpdateAvailable = 0
 local atlasLootAlreadyShown = false
 local atlasLootLoginChannels = { "BATTLEGROUND", "RAID", "GUILD", "PARTY" }
 local atlasLootGroupChannels = { "BATTLEGROUND", "RAID", "PARTY" }
@@ -203,7 +203,6 @@ function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 		version = tonumber(version)
 		if command == "VERSION" and version then
 			if version > ATLASLOOT_LOCAL_VERSION then
-				atlaslootupdateavailable = version
 				atlasLootUpdateAvailable = version
 				if not atlasLootAlreadyShown and AtlasLoot.db and AtlasLoot.db.profile and AtlasLoot.db.profile.UpdateNotify then
 					print("|cffFF8400AtlasLoot|r |cffcccccc[Project Epoch]|r New version available!")
@@ -236,7 +235,7 @@ function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 				print("Current: |cff66ccff" .. AtlasLoot_FormatVersion(ATLASLOOT_LOCAL_VERSION) .. "|r -> Available: |cff66ccff" .. AtlasLoot_FormatVersion(atlasLootUpdateAvailable) .. "|r")
 				print("|cff66ccffhttps://github.com/reneas/AtlaslootProjectEpoch|r")
 			end
-			atlaslootupdateavailable = ATLASLOOT_LOCAL_VERSION
+			atlasLootUpdateAvailable = ATLASLOOT_LOCAL_VERSION
 			atlasLootAlreadyShown = true
 		end
 		for _, chan in ipairs(atlasLootLoginChannels) do
