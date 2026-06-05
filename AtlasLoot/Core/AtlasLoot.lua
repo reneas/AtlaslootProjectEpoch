@@ -43,14 +43,6 @@ local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
 local VERSION_BOSSES = "04";
 
-local function AtlasLoot_StrSplit(delimiter, subject)
-	if not subject then return nil end
-	local delimiter, fields = delimiter or ":", {}
-	local pattern = string.format("([^%s]+)", delimiter)
-	string.gsub(subject, pattern, function(c) fields[table.getn(fields)+1] = c end)
-	return unpack(fields)
-end
-
 local function AtlasLoot_FormatVersion(versionNum)
 	local major = math.floor(versionNum / 10000)
 	local minor = math.floor((versionNum % 10000) / 100)
@@ -60,14 +52,14 @@ end
 
 local atlasLootVersion = tostring(GetAddOnMetadata("AtlasLoot", "Version") or "")
 atlasLootVersion = string.gsub(atlasLootVersion, "^[^%d]*", "")
-local alMajor, alMinor, alFix = AtlasLoot_StrSplit(".", atlasLootVersion)
+local alMajor, alMinor, alFix = string.split(".", atlasLootVersion)
 alMajor = tonumber(alMajor) or tonumber(EPOCH_VERSION_MAJOR) or 0
 alMinor = tonumber(alMinor) or tonumber(EPOCH_VERSION_MINOR) or 0
 alFix = tonumber(alFix) or tonumber(EPOCH_VERSION_BOSSES) or 0
 
 local ATLASLOOT_UPDATE_PREFIX = "ALPE"
 local ATLASLOOT_LOCAL_VERSION = tonumber(alMajor * 10000 + alMinor * 100 + alFix)
-local atlasLootUpdateAvailable = tonumber(atlaslootupdateavailable) or 0
+local atlasLootUpdateAvailable = 0
 local atlasLootAlreadyShown = false
 local atlasLootLoginChannels = { "BATTLEGROUND", "RAID", "GUILD", "PARTY" }
 local atlasLootGroupChannels = { "BATTLEGROUND", "RAID", "PARTY" }
@@ -199,11 +191,10 @@ decides what action to take depending on the event.
 ]]
 function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 	if(event == "CHAT_MSG_ADDON" and arg1 == ATLASLOOT_UPDATE_PREFIX) then
-		local command, version = AtlasLoot_StrSplit(":", arg2)
+		local command, version = string.split(":", arg2)
 		version = tonumber(version)
 		if command == "VERSION" and version then
 			if version > ATLASLOOT_LOCAL_VERSION then
-				atlaslootupdateavailable = version
 				atlasLootUpdateAvailable = version
 				if not atlasLootAlreadyShown and AtlasLoot.db and AtlasLoot.db.profile and AtlasLoot.db.profile.UpdateNotify then
 					print("|cffFF8400AtlasLoot|r |cffcccccc[Project Epoch]|r New version available!")
@@ -236,7 +227,7 @@ function AtlasLoot_OnEvent(event, arg1, arg2, arg3, arg4)
 				print("Current: |cff66ccff" .. AtlasLoot_FormatVersion(ATLASLOOT_LOCAL_VERSION) .. "|r -> Available: |cff66ccff" .. AtlasLoot_FormatVersion(atlasLootUpdateAvailable) .. "|r")
 				print("|cff66ccffhttps://github.com/reneas/AtlaslootProjectEpoch|r")
 			end
-			atlaslootupdateavailable = ATLASLOOT_LOCAL_VERSION
+			atlasLootUpdateAvailable = ATLASLOOT_LOCAL_VERSION
 			atlasLootAlreadyShown = true
 		end
 		for _, chan in ipairs(atlasLootLoginChannels) do
@@ -440,7 +431,7 @@ function AtlasLoot_OnVariablesLoaded()
 	else
 		collectgarbage("collect");
 	end
-    panel = getglobal("AtlasLootOptionsFrame");
+    local panel = getglobal("AtlasLootOptionsFrame");
     panel.name=AL["AtlasLoot"];
     InterfaceOptions_AddCategory(panel);
     --Filter and wishlist options menus creates as part of the next 2 commands
@@ -628,7 +619,7 @@ It is the workhorse of the mod and allows the loot tables to be displayed any wa
 ]]
 function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	--Set up local variables needed for GetItemInfo, etc
-	local itemName, itemLink, itemQuality, itemLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, itemColor;
+	local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, itemColor;
 	local iconFrame, nameFrame, extraFrame, itemButton;
 	local text, extra;
 	local wlPage, wlPageMax = 1, 1;
@@ -657,7 +648,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	-- Hide the Filter Check-Box
 	AtlasLootFilterCheck:Hide();
     
-    dataSource_backup = dataSource;
+    local dataSource_backup = dataSource;
 	if dataID == "SearchResult" or dataID == "WishList" then
         dataSource = {};
         -- Match the page number to display
@@ -878,7 +869,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
         --Show a red box around the item to indicate this to the user
         --((dataSource[dataID][i][2] ~= 0) and (not GetItemInfo(dataSource[dataID][i][2]))
         for i = 1, 30, 1 do
-            itemID = getglobal("AtlasLootItem_"..i).itemID;
+            local itemID = getglobal("AtlasLootItem_"..i).itemID;
             if itemID and itemID ~= 0 and (string.sub(itemID, 1, 1) ~= "s") then
                 if GetItemInfo(itemID) then
                     getglobal("AtlasLootItem_"..i.."_Unsafe"):Hide();
@@ -1034,10 +1025,10 @@ function AtlasLoot_GenerateAtlasMenu(dataID, pFrame)
             extra = AtlasLoot_FixText(extra);
 
             --Use shortcuts for easier reference to parts of the item button
-            itemButton = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1]);
-            iconFrame  = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Icon");
-            nameFrame  = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Name");
-            extraFrame = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Extra");
+            local itemButton = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1]);
+            local iconFrame  = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Icon");
+            local nameFrame  = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Name");
+            local extraFrame = getglobal("AtlasLootMenuItem_"..AtlasLoot_Data[dataID][i][1].."_Extra");
 
             --If there is no data on the texture an item should have, show a big red question mark
             if AtlasLoot_Data[dataID][i][3] == "?" then
@@ -1310,7 +1301,7 @@ function AtlasLoot_IsLootTableAvailable(dataID)
 		else
 			if moduleName then
                 if not IsAddOnLoaded(moduleName) then
-                    loaded, reason=LoadAddOn(moduleName);
+                    local loaded, reason = LoadAddOn(moduleName);
                     if not loaded then
                         if (reason == "MISSING") or (reason == "DISABLED") then
                             DEFAULT_CHAT_FRAME:AddMessage(GREEN..AL["AtlasLoot"]..": "..ORANGE..AtlasLoot_TableNames[dataID][1]..WHITE..AL[" is unavailable, the following load on demand module is required: "]..ORANGE..moduleName);
@@ -1450,7 +1441,7 @@ AtlasLoot_RefreshQuickLookButtons()
 Enables/disables the quicklook buttons depending on what is assigned
 ]]
 function AtlasLoot_RefreshQuickLookButtons()
-    i=1;
+    local i=1;
     while i<5 do
         if ((not AtlasLootCharDB["QuickLooks"][i]) or (not AtlasLootCharDB["QuickLooks"][i][1])) or (AtlasLootCharDB["QuickLooks"][i][1]==nil) then
             getglobal("AtlasLootPanel_Preset"..i):Disable();
@@ -1468,15 +1459,15 @@ AtlasLoot_QueryLootPage()
 Querys all valid items on the current loot page.
 ]]
 function AtlasLoot_QueryLootPage()
-    i=1;
+    local i=1;
     local querytime = 0;
     local now = 0;
     while i<31 do
         now = GetTime();
         if now - querytime > 0.03 then
-            querytime = GetTime();        
-            button = getglobal("AtlasLootItem_"..i);
-            queryitem = button.itemID;
+            querytime = GetTime();
+            local button = getglobal("AtlasLootItem_"..i);
+            local queryitem = button.itemID;
             if (queryitem) and (queryitem ~= nil) and (queryitem ~= "") and (queryitem ~= 0) and (string.sub(queryitem, 1, 1) ~= "s") then
                 GameTooltip:SetHyperlink("item:"..queryitem..":0:0:0:0:0:0:0");
             end

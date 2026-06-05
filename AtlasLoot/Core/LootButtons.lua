@@ -35,7 +35,7 @@ end
 -- Called when a loot item is moused over
 --------------------------------------------------------------------------------
 function AtlasLootItem_OnEnter()
-    local isItem;
+    local isItem, Identifier, DKP, priority;
     AtlasLootTooltip:ClearLines();
     for i=1, 30, 1 do
         if (getglobal("AtlasLootTooltipTextRight"..i) ~= nil) then
@@ -167,7 +167,7 @@ function AtlasLootItem_OnEnter()
                 end
             end
         else
-            spellID = string.sub(this.itemID, 2);
+            local spellID = string.sub(this.itemID, 2);
             AtlasLootTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
             AtlasLootTooltip:ClearLines();
             AtlasLootTooltip:SetHyperlink(AtlasLoot_GetEnchantLink(spellID));
@@ -259,13 +259,13 @@ function AtlasLootItem_OnClick(arg1)
         end
     else
         if IsShiftKeyDown() then
-            spellID = string.sub(this.itemID, 2);
+            local spellID = string.sub(this.itemID, 2);
             ChatEdit_InsertLink(AtlasLoot_GetEnchantLink(spellID));
         elseif(IsAltKeyDown() and (this.itemID ~= 0)) then
             if AtlasLootItemsFrame.refresh[1] == "WishList" then
                 AtlasLoot_DeleteFromWishList(this.itemID);
             else
-                spellName, _, _, _, _, _, _, _, _ = GetSpellInfo(string.sub(this.itemID, 2));
+                local spellName = GetSpellInfo(string.sub(this.itemID, 2));
                 --spellIcon = GetItemIcon(this.dressingroomID);
                 AtlasLoot_ShowWishListDropDown(this.itemID, this.dressingroomID, "=ds="..spellName, "=ds="..AtlasLootItemsFrame.refresh[3], AtlasLootItemsFrame.refreshOri[1].."|"..AtlasLootItemsFrame.refreshOri[2],this);
             end
