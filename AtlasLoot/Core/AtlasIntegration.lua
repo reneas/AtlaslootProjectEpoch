@@ -53,7 +53,7 @@ function AtlasLootBoss_OnClick(name)
         AtlasLootItemsFrame.activeLootPage = nil;
         AtlasLoot_AtlasScrollBar_Update();
     else    
-        local dataSource, lootPage = nil;
+        local dataSource, lootPage;
         --If a loot table is associated with the button, show it.  Note multiple tables need to be checked due to the database structure
         if (AtlasLootBossButtons[zoneID] ~= nil and AtlasLootBossButtons[zoneID][id] ~= nil and AtlasLootBossButtons[zoneID][id] ~= "") then
             if AtlasLoot_IsLootTableAvailable(AtlasLootBossButtons[zoneID][id]) then

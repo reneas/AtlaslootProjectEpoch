@@ -363,10 +363,10 @@ Sorts the Wishlist
 ]]
 function AtlasLoot_WishListSort()
 
-	j=0;
-	P=2;
-	temp={};
-	check=false;
+	local j = 0;
+	local P = 2;
+	local temp = {};
+	local check = false;
 
 	while(P<31) do
 		temp=AtlasLootCharDB["WishList"][P];
@@ -399,8 +399,8 @@ function AtlasLoot_WishListSortCheck(temp1, temp2)
 	elseif temp1[2] == 0 then
 		return true;
 	else
-		prefix1=string.lower(string.sub(temp1[4], 1, 10));
-		prefix2=string.lower(string.sub(temp2[4], 1, 10));
+		local prefix1 = string.lower(string.sub(temp1[4], 1, 10));
+		local prefix2 = string.lower(string.sub(temp2[4], 1, 10));
 		if prefix1 ~= prefix2 then
 			if prefix1 == "|cffff0000" then
 				return false;
@@ -804,7 +804,9 @@ local AddWishlist = "new"
 local curaddicon,curaddname,curtabname,curplayername = "","","",""
 local lastframewidht = 0
 
-local showallwishlists,firstload = false,true
+local showallwishlists = true
+local firstload = true
+local showsharedwishlists = true
 
 local xpos = 0
 local ypos = 0
@@ -833,7 +835,6 @@ StaticPopupDialogs["ATLASLOOT_DELETE_WISHLIST"] = {
 	OnCancel = function ()
 		curtabname = ""
 		curplayername = ""
-		deletwishlistname = ""
 	end,
 	timeout = 0,
 	whileDead = 1,
@@ -856,7 +857,6 @@ StaticPopupDialogs["ATLASLOOT_DELETE_SHARED_WISHLIST"] = {
 	OnCancel = function ()
 		curtabname = ""
 		curplayername = ""
-		deletwishlistname = ""
 	end,
 	timeout = 0,
 	whileDead = 1,

@@ -237,7 +237,7 @@ function AtlasLoot:Search(Text)
 				        	match = match or string.find(string.lower(itemName), searchString);
 				        end
 				        if checkDescriptions and v[5] then
-				        	description = gsub(v[5], "=.-=", ""); -- Strip color codes
+				        	local description = gsub(v[5], "=.-=", ""); -- Strip color codes
 				        	description = AtlasLoot_FixText(description); -- Apply other codes
 				        	description = gsub(description, "|TInterface.-|t", ""); -- Strip texture codes
 				        	match = match or string.find(string.lower(description), searchString);
@@ -250,8 +250,9 @@ function AtlasLoot:Search(Text)
 
 			    if found then
 			        local _, _, quality = string.find(v[4], "=q(%d)=");
+					local lootpage = "Argh!";
 			        if quality then itemName = "=q"..quality.."="..itemName end
-			        if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
+			        if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; end
 			        table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|"..(AtlasLoot_TableNames[dataID] and AtlasLoot_TableNames[dataID][2] or "\"\"") });
 			    end
 			end

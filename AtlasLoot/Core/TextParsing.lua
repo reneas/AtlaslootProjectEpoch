@@ -1274,7 +1274,7 @@ function AtlasLoot_FixText(text)
         end);
     end
 
-    englishFaction, _ = UnitFactionGroup("player")
+    local englishFaction = UnitFactionGroup("player")
     if englishFaction == "Horde" then
         text = gsub(text, "#faction#", "|TInterface\\AddOns\\AtlasLoot\\Images\\Horde:14:14:0:-1|t");
         text = gsub(text, "#honor#", "|TInterface\\PVPFrame\\PVP-Currency-Horde:14:14:0:-1|t");

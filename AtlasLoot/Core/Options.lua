@@ -65,7 +65,6 @@ function AtlasLootOptions_OnLoad()
         AtlasLootOptionsFrameItemSyncTTText:SetText(AL["|cff9d9d9dItemSync Tooltips|r"]);
     end
     AtlasLootOptions_Init();
-    temp=AtlasLoot.db.profile.SafeLinks;
 end
 
 function AtlasLootOptions_SafeLinksToggle()
